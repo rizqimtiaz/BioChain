@@ -73,8 +73,6 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
-  TrialCard.tsx               Trial summary card with invest / sign actions.
-  TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
@@ -165,6 +163,13 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
+<!-- metadata: qx5sa08fa1 -->
+<!-- metadata: 5nksm7jxxw -->
+<!-- metadata: 1ha984hj5o -->
+<!-- metadata: m4phejyvlj -->
+<!-- metadata: 49pnn9iula -->
+<!-- metadata: 5wg30md6wk -->
+<!-- metadata: vait0lwzb9 -->
 ---
 
 ## License
