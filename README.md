@@ -41,6 +41,16 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
+<!-- metadata: caws2zhskt -->
+<!-- metadata: ej92qlwxgd -->
+<!-- metadata: wm2wvi7olj -->
+<!-- metadata: l44vac6bb1 -->
+<!-- metadata: 1bvntbaj6o -->
+<!-- metadata: bu22s82x5p -->
+<!-- metadata: spn9g2fzd3 -->
+<!-- metadata: omfy5ngd83 -->
+<!-- metadata: 5y7b6ask83 -->
+<!-- metadata: r0uog4ty2m -->
 
 # Production build
 npm run build
@@ -68,8 +78,6 @@ app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
-  globals.css                 Sterile design tokens + base styles.
-  explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
