@@ -31,6 +31,7 @@ clinical research as on-chain Intellectual Property NFTs.
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
+
 ## Getting started
 
 ```bash
@@ -161,15 +162,6 @@ the request scope.
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
-<!-- metadata: yxjh4rz0vj -->
-<!-- metadata: uj041k57ef -->
-<!-- metadata: w7zlboww16 -->
-<!-- metadata: w1lz8f70g5 -->
-<!-- metadata: pxqimdt7zt -->
-<!-- metadata: yvb1vuevfq -->
-<!-- metadata: mqa6fyrnk7 -->
-<!-- metadata: kr8ymbcv5i -->
-<!-- metadata: 4fos553zgm -->
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
