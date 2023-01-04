@@ -45,6 +45,10 @@ npm run dev
 # Production build
 npm run build
 npm run start
+```
+
+### Environment variables
+
 Optional — falls back to viem public RPC if not set.
 
 ```bash
@@ -106,10 +110,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
-<!-- metadata: zrnmjqkuml -->
-<!-- metadata: 3pzcy2577w -->
-<!-- metadata: 0izfiea0pj -->
-<!-- metadata: dgdn5112rg -->
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
