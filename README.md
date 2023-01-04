@@ -23,6 +23,13 @@ clinical research as on-chain Intellectual Property NFTs.
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
+<!-- metadata: jxmgf69kzn -->
+<!-- metadata: 0pmwoou2ks -->
+<!-- metadata: 93l3mt93n3 -->
+<!-- metadata: zownsckhuk -->
+<!-- metadata: zr2j6edz5t -->
+<!-- metadata: 86kpyw80gz -->
+<!-- metadata: gxbugi9cvy -->
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
@@ -74,7 +81,6 @@ app/
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
-  TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
