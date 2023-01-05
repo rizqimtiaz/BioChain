@@ -40,6 +40,7 @@ npm install
 
 # Dev server
 npm run dev
+# → http://localhost:3000
 
 # Production build
 npm run build
@@ -68,15 +69,6 @@ app/
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
-<!-- metadata: geu1jjm13f -->
-<!-- metadata: 5h55uyyd6b -->
-<!-- metadata: x6rclc3qdr -->
-<!-- metadata: i1lolqrkyi -->
-<!-- metadata: 3ra5kdnobh -->
-<!-- metadata: siwtwshs2o -->
-<!-- metadata: zml3dyzi0z -->
-<!-- metadata: g7xnvmt9fv -->
-<!-- metadata: 6b2r6bilwt -->
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
