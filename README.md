@@ -23,9 +23,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
-| Data | TanStack Query 5 |
-| Validation | Zod 3 |
-| Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
@@ -53,6 +50,8 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
+<!-- metadata: 3tb97iq4ik -->
+<!-- metadata: edgi9b3lcq -->
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
