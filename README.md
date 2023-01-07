@@ -66,6 +66,10 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+<!-- metadata: sztx7hwhej -->
+<!-- metadata: g1absvqtif -->
+<!-- metadata: srn1os3aeo -->
+<!-- metadata: 290ere1rs4 -->
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
@@ -92,10 +96,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
-Key methods:
-
-| Method | Caller | Purpose |
-| ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
