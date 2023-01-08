@@ -41,7 +41,6 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
-
 # Production build
 npm run build
 npm run start
@@ -102,6 +101,16 @@ Key methods:
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
+<!-- metadata: 43njuun7tk -->
+<!-- metadata: 44cgf9ilav -->
+<!-- metadata: p6ipqknvqg -->
+<!-- metadata: 1atefn3rou -->
+<!-- metadata: h7nac6vm8b -->
+<!-- metadata: g4q15f0zou -->
+<!-- metadata: hisccp55h5 -->
+<!-- metadata: jqiwuat7o4 -->
+<!-- metadata: fza84juwar -->
+<!-- metadata: w7htk0tc7t -->
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
