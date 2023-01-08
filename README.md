@@ -73,7 +73,6 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
-  TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
@@ -99,6 +98,16 @@ Key methods:
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
+<!-- metadata: q1phvdlylf -->
+<!-- metadata: mfnrj06uvd -->
+<!-- metadata: vdlkr9l5aa -->
+<!-- metadata: y4jf979ml9 -->
+<!-- metadata: pf24xk0eyz -->
+<!-- metadata: dp8d1l8bmb -->
+<!-- metadata: ws0kf1xc0o -->
+<!-- metadata: o9gc2xwvzk -->
+<!-- metadata: 22w423u878 -->
+<!-- metadata: ot52i26pqu -->
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
