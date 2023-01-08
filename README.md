@@ -75,7 +75,6 @@ app/
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
-  SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
@@ -102,6 +101,15 @@ Key methods:
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
+<!-- metadata: 5ib0t94r1l -->
+<!-- metadata: j7xfl5g28s -->
+<!-- metadata: 8q7ykiryzi -->
+<!-- metadata: d1if95s6bn -->
+<!-- metadata: 94gvp4e3xy -->
+<!-- metadata: g928fgb70g -->
+<!-- metadata: 2604g6enr5 -->
+<!-- metadata: eb18xv38aq -->
+<!-- metadata: j5c7iuk1ob -->
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
