@@ -85,6 +85,11 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
 ---
+<!-- metadata: ak3j7abmca -->
+<!-- metadata: nh1xzt5n67 -->
+<!-- metadata: y7pzvmlvep -->
+<!-- metadata: 3jko2eelin -->
+<!-- metadata: koc2uw3sey -->
 
 ## Smart-contract surface
 
@@ -154,10 +159,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
-the request scope.
-
----
-
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
