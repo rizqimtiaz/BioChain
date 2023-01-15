@@ -68,6 +68,11 @@ app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
+<!-- metadata: pz8emair4t -->
+<!-- metadata: 3udoem1fhk -->
+<!-- metadata: yli48ywh7w -->
+<!-- metadata: b5au3icb8j -->
+<!-- metadata: pv6igp2lzd -->
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
@@ -79,10 +84,6 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
-lib/bio-utils.ts              Hashing, Zod schemas, formatters.
-
-tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
 
 ---
 
