@@ -55,9 +55,6 @@ Optional — falls back to viem public RPC if not set.
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
-
----
-
 ## Repository layout
 
 ```
@@ -122,6 +119,12 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
+<!-- metadata: 6nz52pofkz -->
+<!-- metadata: hnvezltulg -->
+<!-- metadata: jf7kzb89bt -->
+<!-- metadata: y9ymsibftb -->
+<!-- metadata: veycxxdnbj -->
+<!-- metadata: 5uvtmr97bd -->
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
