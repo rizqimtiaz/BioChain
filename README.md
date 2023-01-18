@@ -76,6 +76,7 @@ components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
+<!-- metadata: ol66ndzvyn -->
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
@@ -160,10 +161,6 @@ the request scope.
 
 ## Design philosophy
 
-The interface is deliberately **sterile and laboratory-grade**: pure white
-surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
-"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
-no rainbow gradients — the only ornament is the data itself.
 
 ---
 
