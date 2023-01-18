@@ -49,16 +49,6 @@ npm run start
 
 ### Environment variables
 
-<!-- metadata: 7at65s8lwb -->
-<!-- metadata: 5ot89zjcni -->
-<!-- metadata: z09mxmz3o5 -->
-<!-- metadata: ne17egsqve -->
-<!-- metadata: z6drut8y18 -->
-<!-- metadata: 06pzo573vv -->
-<!-- metadata: 1q3x7u5sa0 -->
-<!-- metadata: pwjykl1kuy -->
-<!-- metadata: 3yw2it8g4s -->
-<!-- metadata: wupjd8liey -->
 Optional — falls back to viem public RPC if not set.
 
 ```bash
@@ -143,6 +133,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
+
 ```jsonc
 // 200 OK
 {
