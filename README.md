@@ -14,7 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
----
 
 ## Tech stack
 
@@ -162,6 +161,11 @@ the request scope.
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
+<!-- metadata: bem13hqtp9 -->
+<!-- metadata: m7qb2opedn -->
+<!-- metadata: 1udi796ykd -->
+<!-- metadata: 0abgs001i6 -->
+<!-- metadata: 0d4qb6dq4g -->
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
