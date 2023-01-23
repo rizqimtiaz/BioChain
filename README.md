@@ -53,7 +53,6 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
-NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
 ---
@@ -92,6 +91,8 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
+<!-- metadata: xzvu5gnlxt -->
+<!-- metadata: 91d68mvgzn -->
 Key methods:
 
 | Method | Caller | Purpose |
