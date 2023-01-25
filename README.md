@@ -2,10 +2,6 @@
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
-<!-- metadata: qhf88by71s -->
-<!-- metadata: 2y37qoruge -->
-<!-- metadata: j1z2ijoka8 -->
-<!-- metadata: e3nqboyu4u -->
 BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
 
@@ -85,6 +81,10 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
+tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
+```
+
+---
 
 ## Smart-contract surface
 
