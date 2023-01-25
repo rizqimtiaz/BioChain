@@ -82,7 +82,6 @@ store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
 
 ---
 
@@ -150,6 +149,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": 2,
     "source": "wearable"
   }
+<!-- metadata: 3uj9t89e1i -->
+<!-- metadata: k2ss8rntxg -->
+<!-- metadata: 5fhwxnzy0s -->
+<!-- metadata: oklsse6mmg -->
+<!-- metadata: firp0mn0ai -->
+<!-- metadata: rerxqbxs1m -->
+<!-- metadata: k0es6syg55 -->
 }
 ```
 
