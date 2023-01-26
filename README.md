@@ -8,9 +8,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
-  to the underlying IP.
-- **Verifier laboratories** sign IP-NFTs after running validation tests,
-  building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
@@ -73,6 +70,16 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
+<!-- metadata: 96iuro4t5s -->
+<!-- metadata: pocql3f00d -->
+<!-- metadata: z9zp9tvio3 -->
+<!-- metadata: 01861889tk -->
+<!-- metadata: a5u3jzl98q -->
+<!-- metadata: g4k2zimj7n -->
+<!-- metadata: ozzpm2lze4 -->
+<!-- metadata: o3od8dtzio -->
+<!-- metadata: 2db5dj9sft -->
+<!-- metadata: w6drruysnt -->
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
