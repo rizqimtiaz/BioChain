@@ -47,15 +47,6 @@ npm run build
 npm run start
 ```
 
-<!-- metadata: qs6se7c63z -->
-<!-- metadata: nt5qgw52v1 -->
-<!-- metadata: eb6xk1wkny -->
-<!-- metadata: w70oimgflx -->
-<!-- metadata: r52gfq2ma6 -->
-<!-- metadata: 3sqmxkiesz -->
-<!-- metadata: bqhjd54mhr -->
-<!-- metadata: yll14ze3ae -->
-<!-- metadata: l5bjgpngwq -->
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
@@ -169,6 +160,10 @@ the request scope.
 
 ## Design philosophy
 
+The interface is deliberately **sterile and laboratory-grade**: pure white
+surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
+"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
+no rainbow gradients — the only ornament is the data itself.
 
 ---
 
