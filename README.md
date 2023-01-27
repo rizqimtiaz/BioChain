@@ -18,6 +18,8 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Tech stack
 
+| Layer | Technology |
+| ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
@@ -72,15 +74,6 @@ app/
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
-<!-- metadata: 4is63zo2of -->
-<!-- metadata: vuokoun0uk -->
-<!-- metadata: owle3mxqej -->
-<!-- metadata: tj0tkbhy99 -->
-<!-- metadata: 4z2ua59ur3 -->
-<!-- metadata: h8h2n8ztoa -->
-<!-- metadata: vh6r55vpzr -->
-<!-- metadata: zocygt3b0t -->
-<!-- metadata: 973nvapoj1 -->
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
