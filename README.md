@@ -43,10 +43,6 @@ npm run dev
 # → http://localhost:3000
 
 # Production build
-<!-- metadata: 9u8qun2jum -->
-<!-- metadata: du378lpdl1 -->
-<!-- metadata: b6qtvmnh3j -->
-<!-- metadata: r55g6hughl -->
 npm run build
 npm run start
 ```
@@ -107,6 +103,10 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
+| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
+
+Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
