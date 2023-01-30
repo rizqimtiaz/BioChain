@@ -45,8 +45,6 @@ npm run dev
 # Production build
 npm run build
 npm run start
-<!-- metadata: wy8eqtsret -->
-<!-- metadata: xwq4ocbfra -->
 ```
 
 ### Environment variables
@@ -159,6 +157,9 @@ Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
+
+## Design philosophy
+
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
