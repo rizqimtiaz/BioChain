@@ -1,9 +1,3 @@
-<!-- metadata: iwdqgiwzd1 -->
-<!-- metadata: una1uwh6yb -->
-<!-- metadata: otzykcqayw -->
-<!-- metadata: hq7gmr2npy -->
-<!-- metadata: b9x1v57zyx -->
-<!-- metadata: y49gnqsaa9 -->
 # BioChain — Decentralized Clinical Trial Network
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
@@ -93,6 +87,10 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ---
 
 ## Smart-contract surface
+
+`IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
+implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
+the entire surface can be reviewed in a single file.
 
 Key methods:
 
