@@ -104,6 +104,8 @@ Key methods:
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
+
+Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
@@ -115,10 +117,6 @@ SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
-<!-- metadata: wg5iaaujtr -->
-<!-- metadata: fy1273pa60 -->
-<!-- metadata: tkpyt4fzos -->
-<!-- metadata: wjve9i7icv -->
 // Request
 {
   "tokenId": "1",
