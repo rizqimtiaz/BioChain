@@ -3,6 +3,15 @@
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
 BioChain is a production-ready Next.js 14 dApp for funding and managing
+<!-- metadata: jkx8vaah5a -->
+<!-- metadata: o65j90x65o -->
+<!-- metadata: nby0lewicj -->
+<!-- metadata: icbdzjxmyr -->
+<!-- metadata: bjfd96zrpo -->
+<!-- metadata: k1d0ik5dm8 -->
+<!-- metadata: fkg8163zf9 -->
+<!-- metadata: dhv1x1rpmf -->
+<!-- metadata: 1vv1ice7f6 -->
 clinical research as on-chain Intellectual Property NFTs.
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
@@ -90,7 +99,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
-the entire surface can be reviewed in a single file.
 
 Key methods:
 
