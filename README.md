@@ -64,15 +64,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
-<!-- metadata: bd5vbvojry -->
-<!-- metadata: k305wi17e0 -->
-<!-- metadata: 7lnrdjdfbl -->
-<!-- metadata: akao9nvzyl -->
-<!-- metadata: ojcpzc8vty -->
-<!-- metadata: ntee8jdt3q -->
-<!-- metadata: wonb956uho -->
-<!-- metadata: rqsrv6970r -->
-<!-- metadata: 7xw9dg8jwv -->
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
@@ -115,6 +106,9 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
+
+---
 
 ## API: `POST /api/anchor-data`
 
