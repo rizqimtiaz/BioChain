@@ -38,9 +38,6 @@ clinical research as on-chain Intellectual Property NFTs.
 # Install
 npm install
 
-# Dev server
-npm run dev
-# → http://localhost:3000
 
 # Production build
 npm run build
@@ -79,6 +76,8 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
+<!-- metadata: uau92lrhg9 -->
+<!-- metadata: 0edz3hxtsv -->
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
