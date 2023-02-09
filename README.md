@@ -36,6 +36,10 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ```bash
 # Install
+npm install
+
+# Dev server
+npm run dev
 # → http://localhost:3000
 
 # Production build
@@ -162,12 +166,6 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 no rainbow gradients — the only ornament is the data itself.
 
 ---
-<!-- metadata: al0kpnzsvp -->
-<!-- metadata: 9p2i3e34an -->
-<!-- metadata: i13j4t8oce -->
-<!-- metadata: q8c0l6fyml -->
-<!-- metadata: ow36wonvzz -->
-<!-- metadata: edvxmujll4 -->
 
 ## License
 
