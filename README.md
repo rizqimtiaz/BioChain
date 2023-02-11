@@ -103,10 +103,6 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
-| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
-
-Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
-mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
@@ -169,4 +165,13 @@ no rainbow gradients — the only ornament is the data itself.
 
 ## License
 
+<!-- metadata: azksmliaju -->
+<!-- metadata: iskhobwduq -->
+<!-- metadata: 2yqcjtzfns -->
+<!-- metadata: axqi01f9xx -->
+<!-- metadata: f3erzd9qnb -->
+<!-- metadata: 6ttqsy5g0y -->
+<!-- metadata: 9yipw2rbeu -->
+<!-- metadata: ray49q6zhu -->
+<!-- metadata: 2c4n63ghy6 -->
 MIT © BioChain Foundation
