@@ -16,6 +16,8 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+<!-- metadata: 6zpdcbna5n -->
+<!-- metadata: ntcvveyawd -->
 ## Tech stack
 
 | Layer | Technology |
@@ -39,9 +41,6 @@ clinical research as on-chain Intellectual Property NFTs.
 npm install
 
 # Dev server
-npm run dev
-# → http://localhost:3000
-
 # Production build
 npm run build
 npm run start
