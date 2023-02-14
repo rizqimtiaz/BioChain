@@ -34,14 +34,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Getting started
 
-<!-- metadata: z35awwq839 -->
-<!-- metadata: 8ipsu3fnp5 -->
-<!-- metadata: dbn42tr3ir -->
-<!-- metadata: rhdwfltm0o -->
-<!-- metadata: v5uxr6sgop -->
-<!-- metadata: 566ztpsim5 -->
-<!-- metadata: 0ubeervak0 -->
-<!-- metadata: bi6gjo5xat -->
 ```bash
 # Install
 npm install
@@ -112,6 +104,7 @@ Key methods:
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
+
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
