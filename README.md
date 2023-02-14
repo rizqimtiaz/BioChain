@@ -53,8 +53,6 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
-NEXT_PUBLIC_SEPOLIA_RPC=https://...
-```
 
 ---
 
@@ -138,6 +136,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // 200 OK
 {
   "ok": true,
+<!-- metadata: r2osd9ngcu -->
+<!-- metadata: luel4bjqpl -->
+<!-- metadata: oat6hckttq -->
+<!-- metadata: i2jpioj4j0 -->
+<!-- metadata: daarmel0uk -->
+<!-- metadata: lh8hlaz1wr -->
+<!-- metadata: i1jwbbfg7j -->
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
