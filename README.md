@@ -101,11 +101,6 @@ Key methods:
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
-<!-- metadata: vqmqfy39as -->
-<!-- metadata: fyz0ov8bvf -->
-<!-- metadata: g0e3buoetm -->
-<!-- metadata: 5u7zqn7q50 -->
-<!-- metadata: omzjydehfo -->
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
@@ -130,6 +125,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
+    "measurements": [
+      { "code": "8867-4", "value": 72,   "unit": "bpm"    },
+      { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
+    ],
     "deviceId": "biostrap-7"
   }
 }
