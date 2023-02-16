@@ -12,8 +12,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
-  producing an immutable audit trail for regulators.
-
 ---
 
 ## Tech stack
@@ -161,6 +159,14 @@ the request scope.
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
+<!-- metadata: km0phy0x46 -->
+<!-- metadata: 1vekyjlvm5 -->
+<!-- metadata: 7d6tr2fqmj -->
+<!-- metadata: xo6et29vxq -->
+<!-- metadata: xw34im9ks4 -->
+<!-- metadata: egmcmmlqxo -->
+<!-- metadata: 80kwed7ky9 -->
+<!-- metadata: tv5tog3slw -->
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
