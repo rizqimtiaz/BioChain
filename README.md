@@ -63,7 +63,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
-<!-- metadata: pofonwgs10 -->
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
@@ -143,6 +142,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
+    "receiptHash":"0x...",
+    "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
