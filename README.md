@@ -34,6 +34,15 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Getting started
 
+<!-- metadata: c48hoa6aqg -->
+<!-- metadata: kz3ikzlbso -->
+<!-- metadata: lrp25jjvt4 -->
+<!-- metadata: 7uuwfo65es -->
+<!-- metadata: 2mfvqiyala -->
+<!-- metadata: kyti255m03 -->
+<!-- metadata: qxenp4eth8 -->
+<!-- metadata: ugithwzvhc -->
+<!-- metadata: 384xd6jzyu -->
 ```bash
 # Install
 npm install
@@ -63,9 +72,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
-
-app/
-  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
