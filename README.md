@@ -79,16 +79,16 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
+<!-- metadata: fv97ecm5p2 -->
+<!-- metadata: mi0l8u5xip -->
+<!-- metadata: q1lepfvxrv -->
+<!-- metadata: 7ibmd7ljf3 -->
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
 ---
-
-## Smart-contract surface
-
-`IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
