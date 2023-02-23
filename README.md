@@ -14,8 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
----
-
 ## Tech stack
 
 | Layer | Technology |
@@ -116,6 +114,11 @@ Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
+<!-- metadata: 1z4x3bxu64 -->
+<!-- metadata: zgfguswlys -->
+<!-- metadata: upfz9i9bl7 -->
+<!-- metadata: p1rnsdswss -->
+<!-- metadata: eetl8d2q7z -->
 ```jsonc
 // Request
 {
