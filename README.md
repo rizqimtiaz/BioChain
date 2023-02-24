@@ -55,6 +55,14 @@ Optional — falls back to viem public RPC if not set.
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
+<!-- metadata: jo88njwpt2 -->
+<!-- metadata: j815z4agmn -->
+<!-- metadata: rp8pba7w2v -->
+<!-- metadata: a68wxgtiex -->
+<!-- metadata: s58ukr8ll4 -->
+<!-- metadata: d0ot2z6ig2 -->
+<!-- metadata: fadjwrwnx5 -->
+<!-- metadata: 4i893u089f -->
 
 ---
 
@@ -143,9 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
-    "recordedAt": "2026-05-03T...Z",
-    "algorithm":  "SHA-256",
-    "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
