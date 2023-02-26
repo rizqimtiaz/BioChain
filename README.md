@@ -47,6 +47,10 @@ npm run build
 npm run start
 ```
 
+### Environment variables
+
+Optional — falls back to viem public RPC if not set.
+
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
@@ -152,15 +156,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
-<!-- metadata: ikhzqy6v1e -->
-<!-- metadata: xi6x5gx085 -->
-<!-- metadata: huurltp7o2 -->
-<!-- metadata: swo5qfducm -->
-<!-- metadata: 4nsvjn0t74 -->
-<!-- metadata: plzd7999wh -->
-<!-- metadata: vq9ofm3i08 -->
-<!-- metadata: sdd4lolbmt -->
-<!-- metadata: 39bnapjtwk -->
 ---
 
 ## Design philosophy
