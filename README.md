@@ -15,14 +15,6 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
-<!-- metadata: bm36eedh7z -->
-<!-- metadata: c793mijwod -->
-<!-- metadata: pgjq79vl24 -->
-<!-- metadata: trsy3ki3vf -->
-<!-- metadata: bpscy8bgsu -->
-<!-- metadata: dpzlgwjdyv -->
-<!-- metadata: 3vkp25ur6z -->
-<!-- metadata: kx5145a7od -->
 
 ## Tech stack
 
@@ -88,6 +80,9 @@ components/
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
+
+tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
+```
 
 ---
 
