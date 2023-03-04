@@ -41,9 +41,6 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
-
-# Production build
-npm run build
 npm run start
 ```
 
@@ -144,6 +141,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
+<!-- metadata: col19gar83 -->
+<!-- metadata: g4rxn9yodd -->
+<!-- metadata: urmw9c2hze -->
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
