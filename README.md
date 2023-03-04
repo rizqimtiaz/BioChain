@@ -84,13 +84,6 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
-<!-- metadata: vndb5lxbod -->
-<!-- metadata: 18lgook0pk -->
-<!-- metadata: khsezdt2mp -->
-<!-- metadata: fizcnk3tn6 -->
-<!-- metadata: w3c4m6murf -->
-<!-- metadata: oc6782ok5d -->
-<!-- metadata: kf3g8dvmox -->
 ---
 
 ## Smart-contract surface
@@ -109,6 +102,8 @@ Key methods:
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
+| `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
+| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
