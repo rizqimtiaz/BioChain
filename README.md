@@ -82,6 +82,10 @@ store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
+```
+
+---
+
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -110,13 +114,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
-<!-- metadata: 2yob6vq5ze -->
-<!-- metadata: 90t8rd94fz -->
-<!-- metadata: s24t19a8n1 -->
-<!-- metadata: rn1k6tjfpg -->
-<!-- metadata: 3ha724yrim -->
-<!-- metadata: ghjmeo3wld -->
-<!-- metadata: iwijmsblmz -->
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
