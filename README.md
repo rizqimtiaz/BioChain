@@ -58,10 +58,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ---
 
-## Repository layout
-
-```
-contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
 app/
@@ -91,6 +87,16 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
+<!-- metadata: uisyqowvcm -->
+<!-- metadata: f6f8flvhaa -->
+<!-- metadata: 57gf1cpwxj -->
+<!-- metadata: bygvpfv2up -->
+<!-- metadata: txzgasfmh1 -->
+<!-- metadata: 17p670d1na -->
+<!-- metadata: r1k513arje -->
+<!-- metadata: ys0inhinzc -->
+<!-- metadata: 5o0ncj77n2 -->
+<!-- metadata: 3dvqe4b8l3 -->
 
 Key methods:
 
