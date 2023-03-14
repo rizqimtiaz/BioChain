@@ -86,16 +86,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
-<!-- metadata: 23jm31bbnd -->
-<!-- metadata: cdkjjt6myg -->
-<!-- metadata: 1utv9odcba -->
-<!-- metadata: s2ltbfx86f -->
-<!-- metadata: kbyry1iy3y -->
-<!-- metadata: 59w36pusdf -->
-<!-- metadata: 9up8dm27xy -->
-<!-- metadata: k6cvls4cvr -->
-<!-- metadata: 4oi70mmrcs -->
-<!-- metadata: mi7f1v6rtz -->
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -151,6 +141,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
+    "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
