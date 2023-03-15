@@ -133,14 +133,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-<!-- metadata: yjla3o0h9v -->
-<!-- metadata: n1aiqu5mlm -->
-<!-- metadata: g0maxk23z4 -->
-<!-- metadata: 3q2i801wh1 -->
 
 ```jsonc
 // 200 OK
 {
+  "ok": true,
+  "receipt": {
+    "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
