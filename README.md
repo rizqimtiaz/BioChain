@@ -56,6 +56,15 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
+<!-- metadata: p90mda5g4b -->
+<!-- metadata: vrofm9hdwu -->
+<!-- metadata: pctvru1inn -->
+<!-- metadata: ykssul4hdz -->
+<!-- metadata: se10aw54an -->
+<!-- metadata: 9sfjeqyzp2 -->
+<!-- metadata: db9dqlme7a -->
+<!-- metadata: tyydb390u4 -->
+<!-- metadata: 2j8ones5m6 -->
 ---
 
 ## Repository layout
@@ -87,7 +96,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ---
 
 ## Smart-contract surface
-
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
