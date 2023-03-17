@@ -146,10 +146,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
-    "byteLength": 32,
-    "measurements": 2,
-    "source": "wearable"
-  }
 }
 ```
 
@@ -163,6 +159,8 @@ the request scope.
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
+<!-- metadata: k09jb36ed1 -->
+<!-- metadata: 40clcvbii4 -->
 no rainbow gradients — the only ornament is the data itself.
 
 ---
