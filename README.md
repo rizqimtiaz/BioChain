@@ -23,8 +23,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
-<!-- metadata: 1wdddgexr7 -->
-<!-- metadata: smn7qpr5jr -->
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
@@ -38,6 +36,8 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ```bash
 # Install
+npm install
+
 # Dev server
 npm run dev
 # → http://localhost:3000
