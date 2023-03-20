@@ -2,6 +2,12 @@
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
+<!-- metadata: s2uad49y33 -->
+<!-- metadata: 1ac3lg7xys -->
+<!-- metadata: 8sa5pc3lf9 -->
+<!-- metadata: 6oia8bk23m -->
+<!-- metadata: cr5399gre9 -->
+<!-- metadata: qt656rbohj -->
 BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
 
@@ -74,8 +80,6 @@ app/
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
-  TopBar.tsx                  Header (brand, role switcher, wallet).
-  SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
