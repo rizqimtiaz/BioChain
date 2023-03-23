@@ -72,8 +72,6 @@ app/
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
-components/
-  TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
@@ -144,6 +142,16 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
+<!-- metadata: pmc6kahe34 -->
+<!-- metadata: np0dpmiisw -->
+<!-- metadata: v72qyzfwjr -->
+<!-- metadata: fa8kurcn3a -->
+<!-- metadata: n57is29v1c -->
+<!-- metadata: 0n11u8hjgc -->
+<!-- metadata: hqu2h1g1k6 -->
+<!-- metadata: zuhge9rngf -->
+<!-- metadata: 397fttaznz -->
+<!-- metadata: bbi7t4krt8 -->
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
