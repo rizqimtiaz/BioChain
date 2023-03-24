@@ -77,6 +77,7 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
+
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
@@ -152,8 +153,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
-<!-- metadata: jiun3kjwsi -->
-<!-- metadata: m57shkp1hk -->
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
