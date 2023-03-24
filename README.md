@@ -9,8 +9,6 @@ clinical research as on-chain Intellectual Property NFTs.
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
-- **Verifier laboratories** sign IP-NFTs after running validation tests,
-  building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
@@ -25,6 +23,16 @@ clinical research as on-chain Intellectual Property NFTs.
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
+<!-- metadata: anhouzdtk1 -->
+<!-- metadata: cec3znca0f -->
+<!-- metadata: nkhfdubrt4 -->
+<!-- metadata: xxx2dqnhgd -->
+<!-- metadata: o67y2butz4 -->
+<!-- metadata: 34oppxahrw -->
+<!-- metadata: oegfqgkzmj -->
+<!-- metadata: 0z2yban14q -->
+<!-- metadata: voz0e5jzz4 -->
+<!-- metadata: ss1atroel9 -->
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
