@@ -45,6 +45,11 @@ npm run dev
 # Production build
 npm run build
 npm run start
+<!-- metadata: y6itqtueej -->
+<!-- metadata: 3ewqqi2xpw -->
+<!-- metadata: 5gsijndf28 -->
+<!-- metadata: ebti7y1046 -->
+<!-- metadata: v0ofxs5epd -->
 ```
 
 ### Environment variables
@@ -59,10 +64,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ---
 
 ## Repository layout
-
-```
-contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
-                              milestone escrow, data anchoring, peer review.
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
