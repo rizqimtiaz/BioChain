@@ -15,9 +15,6 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
-
-## Tech stack
-
 | Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
@@ -58,6 +55,7 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ---
 
+<!-- metadata: kwonx9lepx -->
 ## Repository layout
 
 ```
