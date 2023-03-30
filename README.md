@@ -13,14 +13,10 @@ clinical research as on-chain Intellectual Property NFTs.
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
-<!-- metadata: lli20nu6z0 -->
-<!-- metadata: i8p0jpr6j0 -->
-<!-- metadata: 0od5x1evhl -->
-<!-- metadata: 5fp3d4jr30 -->
-<!-- metadata: tdzpz3g1ug -->
-<!-- metadata: y1kavx3yvk -->
-<!-- metadata: d02dwl7tq8 -->
-<!-- metadata: p085gxipx3 -->
+
+---
+
+## Tech stack
 
 | Layer | Technology |
 | ----- | ---------- |
