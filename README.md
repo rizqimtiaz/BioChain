@@ -34,10 +34,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Getting started
 
-```bash
-# Install
-npm install
-
 # Dev server
 npm run dev
 # → http://localhost:3000
@@ -96,6 +92,15 @@ Key methods:
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
+<!-- metadata: 4oapacjkbj -->
+<!-- metadata: lpue306f45 -->
+<!-- metadata: blihr14ib5 -->
+<!-- metadata: e6uy980wqp -->
+<!-- metadata: z4y6iwvdf3 -->
+<!-- metadata: 8zfv8bnilk -->
+<!-- metadata: 93j9q1v334 -->
+<!-- metadata: vaogii5htl -->
+<!-- metadata: jexyenwj6k -->
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
