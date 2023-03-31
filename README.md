@@ -28,6 +28,16 @@ clinical research as on-chain Intellectual Property NFTs.
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
+<!-- metadata: 7kcgv8jkgs -->
+<!-- metadata: d7lpbp86dd -->
+<!-- metadata: r980z3cg24 -->
+<!-- metadata: 3ikp1ppdn5 -->
+<!-- metadata: e0htdjey5g -->
+<!-- metadata: hl2zecs0ht -->
+<!-- metadata: 54f8d44cwb -->
+<!-- metadata: edv0nus5fh -->
+<!-- metadata: 58z5ikviyx -->
+<!-- metadata: dzqis9r4ab -->
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
@@ -160,7 +170,6 @@ the request scope.
 
 ## Design philosophy
 
-The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
