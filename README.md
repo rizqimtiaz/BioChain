@@ -29,7 +29,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
-
 ---
 
 ## Getting started
@@ -116,6 +115,9 @@ Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
+<!-- metadata: 2t7rtxkfn5 -->
+<!-- metadata: 1nqjkg17tb -->
+<!-- metadata: ozsat2lazy -->
 ```jsonc
 // Request
 {
