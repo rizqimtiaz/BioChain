@@ -32,6 +32,11 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+<!-- metadata: sm4nk16p2u -->
+<!-- metadata: zqpzqzvdlz -->
+<!-- metadata: czlr4kkrpf -->
+<!-- metadata: ctenezthbj -->
+<!-- metadata: by6at1rj9t -->
 ## Getting started
 
 ```bash
@@ -146,7 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
-    "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
   }
