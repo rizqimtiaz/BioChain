@@ -78,16 +78,6 @@ components/
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
-<!-- metadata: avt53ai41d -->
-<!-- metadata: p4j7oxq00f -->
-<!-- metadata: liuezwmxo4 -->
-<!-- metadata: 5igxpnpl2c -->
-<!-- metadata: wrx9amcxrh -->
-<!-- metadata: sf9rzbdz0x -->
-<!-- metadata: pxm06r1r5z -->
-<!-- metadata: owhahv8b2c -->
-<!-- metadata: 4ieuwypnwm -->
-<!-- metadata: cyoabiaj4a -->
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
@@ -171,6 +161,8 @@ the request scope.
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
+surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
+"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
 ---
