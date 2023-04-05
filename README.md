@@ -67,6 +67,10 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
+<!-- metadata: jchjmrusbg -->
+<!-- metadata: a4vpu65by7 -->
+<!-- metadata: 0gqz1yxfe7 -->
+<!-- metadata: ic0efx3ka2 -->
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
@@ -103,8 +107,6 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
-| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
-
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
