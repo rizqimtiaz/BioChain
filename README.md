@@ -60,9 +60,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ## Repository layout
 
-```
-contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
-                              milestone escrow, data anchoring, peer review.
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
@@ -110,6 +107,14 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
+<!-- metadata: wvwavqhrvs -->
+<!-- metadata: 188m4htyye -->
+<!-- metadata: 9u9bwbrlyn -->
+<!-- metadata: pxaly7xw1a -->
+<!-- metadata: xm1np6dqhc -->
+<!-- metadata: up5sostzku -->
+<!-- metadata: 2npmvozchy -->
+<!-- metadata: nqw393oc3e -->
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
