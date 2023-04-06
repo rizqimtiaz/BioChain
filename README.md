@@ -1,9 +1,5 @@
 # BioChain — Decentralized Clinical Trial Network
 
-<!-- metadata: 2kppu57uol -->
-<!-- metadata: 9qo9v20rd9 -->
-<!-- metadata: 7x5shbp9eo -->
-<!-- metadata: y7ahppd865 -->
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
 BioChain is a production-ready Next.js 14 dApp for funding and managing
@@ -43,6 +39,7 @@ clinical research as on-chain Intellectual Property NFTs.
 npm install
 
 # Dev server
+npm run dev
 # → http://localhost:3000
 
 # Production build
