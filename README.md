@@ -49,12 +49,6 @@ npm run start
 
 ### Environment variables
 
-<!-- metadata: 9ps5gjagrz -->
-<!-- metadata: fzgcru5ml1 -->
-<!-- metadata: wrb6rbweqa -->
-<!-- metadata: 4866yi4lhp -->
-<!-- metadata: xglc21d33l -->
-<!-- metadata: ta5rttt9lo -->
 Optional — falls back to viem public RPC if not set.
 
 ```bash
@@ -98,6 +92,9 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
+Key methods:
+
+| Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
