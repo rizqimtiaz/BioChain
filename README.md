@@ -80,6 +80,16 @@ components/
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
+<!-- metadata: t58064cs4u -->
+<!-- metadata: nign1sf5uv -->
+<!-- metadata: 67aib99qtf -->
+<!-- metadata: dn7qltwxr0 -->
+<!-- metadata: i1p8t915tw -->
+<!-- metadata: cqcecy2f0f -->
+<!-- metadata: dgan5xqins -->
+<!-- metadata: x9clwqxuna -->
+<!-- metadata: z95kucsjmz -->
+<!-- metadata: 20yg875w2w -->
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
@@ -94,9 +104,6 @@ the entire surface can be reviewed in a single file.
 
 Key methods:
 
-| Method | Caller | Purpose |
-| ------ | ------ | ------- |
-| `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
