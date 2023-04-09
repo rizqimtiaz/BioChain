@@ -1,15 +1,5 @@
 # BioChain — Decentralized Clinical Trial Network
 
-<!-- metadata: g63zaneeo7 -->
-<!-- metadata: m4pf6fcj80 -->
-<!-- metadata: 9h7hcruaog -->
-<!-- metadata: 40ejyti97y -->
-<!-- metadata: hg2svfo7fe -->
-<!-- metadata: 1jo2m7bnrt -->
-<!-- metadata: 8ylzww9lv6 -->
-<!-- metadata: 26jv2fqs9k -->
-<!-- metadata: tttg2uiyys -->
-<!-- metadata: 4zz4aj8jha -->
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
 BioChain is a production-ready Next.js 14 dApp for funding and managing
@@ -158,6 +148,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
+    "source": "wearable"
+  }
+}
+```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
