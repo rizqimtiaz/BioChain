@@ -18,6 +18,14 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Tech stack
 
+<!-- metadata: p5ripgneye -->
+<!-- metadata: pbyr2vv4xz -->
+<!-- metadata: arnebf5kul -->
+<!-- metadata: 78z44ltm28 -->
+<!-- metadata: 3bp5opz60n -->
+<!-- metadata: 1imqg7cv8a -->
+<!-- metadata: ocnhjwj15r -->
+<!-- metadata: l36hx7a06n -->
 | Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
@@ -114,9 +122,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
-for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
-
-```jsonc
 // Request
 {
   "tokenId": "1",
