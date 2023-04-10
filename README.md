@@ -131,6 +131,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     ],
     "deviceId": "biostrap-7"
   }
+}
 ```
 
 ```jsonc
@@ -150,11 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
-<!-- metadata: ld6scba3qt -->
-<!-- metadata: 0b1sy7nq4x -->
-<!-- metadata: 6rlo34ta44 -->
-<!-- metadata: li4okc37g6 -->
-<!-- metadata: crqtuge6u6 -->
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
