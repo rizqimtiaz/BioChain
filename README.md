@@ -137,9 +137,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // 200 OK
 {
-  "ok": true,
-  "receipt": {
-    "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
@@ -150,6 +147,15 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": 2,
     "source": "wearable"
   }
+<!-- metadata: kru2wqa6tl -->
+<!-- metadata: fd5etzy9el -->
+<!-- metadata: 6jr7hvwc6p -->
+<!-- metadata: r0utf38o75 -->
+<!-- metadata: zxw78qgzrw -->
+<!-- metadata: 34cn5t6qkm -->
+<!-- metadata: d6kd39m7nw -->
+<!-- metadata: tflnm5qcul -->
+<!-- metadata: thtka4l7lc -->
 }
 ```
 
