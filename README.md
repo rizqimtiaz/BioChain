@@ -70,6 +70,7 @@ app/
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
+  api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
@@ -163,8 +164,6 @@ The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
-<!-- metadata: wa83m5zhfn -->
-<!-- metadata: o69b78s56k -->
 
 ---
 
