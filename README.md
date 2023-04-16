@@ -57,6 +57,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
 ---
+
+## Repository layout
+
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
@@ -83,15 +86,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
-<!-- metadata: cqtqvpcxuz -->
-<!-- metadata: ioxwsm33b3 -->
-<!-- metadata: 82aqy27lyd -->
-<!-- metadata: 7ack7100o1 -->
-<!-- metadata: wkw7r6irmi -->
-<!-- metadata: 4g3j23t4r0 -->
-<!-- metadata: 3k2zmco2i7 -->
-<!-- metadata: 2fscckt3vx -->
-<!-- metadata: 3nlc7d4y5p -->
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
