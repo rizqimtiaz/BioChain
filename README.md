@@ -52,6 +52,10 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
+NEXT_PUBLIC_MAINNET_RPC=https://...
+NEXT_PUBLIC_SEPOLIA_RPC=https://...
+```
+
 ---
 
 ## Repository layout
@@ -99,9 +103,6 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
-<!-- metadata: hq2alge0yn -->
-<!-- metadata: fgkvyb939r -->
-<!-- metadata: mmt2i3q39b -->
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
