@@ -24,6 +24,15 @@ clinical research as on-chain Intellectual Property NFTs.
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
+<!-- metadata: 7bsfut5pm6 -->
+<!-- metadata: ui715mkzvm -->
+<!-- metadata: 41xbcmh3em -->
+<!-- metadata: jxk2p87wwq -->
+<!-- metadata: kr293xfwzw -->
+<!-- metadata: y05lzti9ie -->
+<!-- metadata: cfqd8dddpd -->
+<!-- metadata: 5bj0pdc1gm -->
+<!-- metadata: 44si3pecs4 -->
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
@@ -115,9 +124,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
-
-```jsonc
-// Request
 {
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
