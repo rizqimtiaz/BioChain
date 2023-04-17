@@ -106,6 +106,9 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
+
+---
 
 ## API: `POST /api/anchor-data`
 
@@ -149,12 +152,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-<!-- metadata: m4x78z678c -->
-<!-- metadata: udmxxsha5f -->
-<!-- metadata: x9pd0pqfwc -->
-<!-- metadata: xgoqcayfrs -->
-<!-- metadata: eesh4wptxb -->
-<!-- metadata: kwifyby5xm -->
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
