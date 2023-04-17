@@ -24,7 +24,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
-<!-- metadata: mi92gxfybh -->
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
@@ -82,6 +81,10 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
+tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
+```
+
+---
 
 ## Smart-contract surface
 
