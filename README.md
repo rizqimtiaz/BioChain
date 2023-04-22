@@ -53,6 +53,10 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
+NEXT_PUBLIC_SEPOLIA_RPC=https://...
+```
+
+---
 
 ## Repository layout
 
@@ -72,12 +76,6 @@ components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
-<!-- metadata: 8noxvuew3p -->
-<!-- metadata: 0a4uwl5r56 -->
-<!-- metadata: gvlblr7vjy -->
-<!-- metadata: hjt1upo53z -->
-<!-- metadata: rufqxge7cx -->
-<!-- metadata: bgdeyx3qwc -->
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
