@@ -30,7 +30,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
----
 
 ## Getting started
 
@@ -150,6 +149,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": 2,
     "source": "wearable"
   }
+<!-- metadata: 4roos3tc1p -->
+<!-- metadata: twnn9xnqf4 -->
+<!-- metadata: rno58nqm4g -->
 }
 ```
 
