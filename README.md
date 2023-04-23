@@ -109,15 +109,6 @@ Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
-<!-- metadata: bwsv6opnyb -->
-<!-- metadata: n0y4hbg5dv -->
-<!-- metadata: j4pak3apot -->
-<!-- metadata: znd8i95cjf -->
-<!-- metadata: f5um2sptbq -->
-<!-- metadata: 5woacmbdms -->
-<!-- metadata: tgu42vagmb -->
-<!-- metadata: yoexcqe9ge -->
-<!-- metadata: ac90nc93zc -->
 
 ## API: `POST /api/anchor-data`
 
@@ -136,6 +127,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
+      { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
+    ],
+    "deviceId": "biostrap-7"
   }
 }
 ```
