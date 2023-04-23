@@ -18,6 +18,9 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Tech stack
 
+| Layer | Technology |
+| ----- | ---------- |
+| Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
@@ -154,7 +157,6 @@ Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
-<!-- metadata: 8m5vjfzbnb -->
 
 ## Design philosophy
 
