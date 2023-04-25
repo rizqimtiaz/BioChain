@@ -50,6 +50,9 @@ npm run start
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
+<!-- metadata: 42f3zix7bo -->
+<!-- metadata: gx7yghwafr -->
+<!-- metadata: qn06n31dbn -->
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
@@ -88,8 +91,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ## Smart-contract surface
 
-`IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
-implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
