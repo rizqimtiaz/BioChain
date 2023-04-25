@@ -46,12 +46,12 @@ npm run dev
 npm run build
 npm run start
 ```
+<!-- metadata: 9jrmns7z9n -->
+<!-- metadata: 83rfd28m2l -->
+<!-- metadata: 3fig2jiw1c -->
 
 ### Environment variables
 
-Optional — falls back to viem public RPC if not set.
-
-```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
