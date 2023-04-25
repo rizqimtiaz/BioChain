@@ -93,6 +93,15 @@ implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
+<!-- metadata: kskro8bbky -->
+<!-- metadata: q6gtrgi8b3 -->
+<!-- metadata: xb68b0rha4 -->
+<!-- metadata: xocagy8phs -->
+<!-- metadata: 05avbrkjsb -->
+<!-- metadata: scr69feh55 -->
+<!-- metadata: gw6g2qe7bx -->
+<!-- metadata: c6gsvja2uv -->
+<!-- metadata: 7xwf2anq4c -->
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
@@ -158,10 +167,6 @@ the request scope.
 
 ---
 
-## Design philosophy
-
-The interface is deliberately **sterile and laboratory-grade**: pure white
-surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
