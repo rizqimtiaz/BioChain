@@ -8,6 +8,9 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
+<!-- metadata: g2rr1cbrmh -->
+<!-- metadata: ag3njwwaef -->
+<!-- metadata: p98itz68dw -->
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
@@ -112,8 +115,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ## API: `POST /api/anchor-data`
 
-Takes a clinical-data payload, validates it with Zod, computes a deterministic
-SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
