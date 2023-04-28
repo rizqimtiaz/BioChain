@@ -52,15 +52,6 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
-<!-- metadata: t3937btl1y -->
-<!-- metadata: ej6v0ucslh -->
-<!-- metadata: 0muzgncit0 -->
-<!-- metadata: 77bw8e4qvu -->
-<!-- metadata: c9dl54wilz -->
-<!-- metadata: a66zctvn5d -->
-<!-- metadata: oqvgqxl8hc -->
-<!-- metadata: 8wwb8bi4l2 -->
-<!-- metadata: rr1ppbov5f -->
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
@@ -72,6 +63,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
+
+app/
+  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
