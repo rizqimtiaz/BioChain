@@ -86,14 +86,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
-<!-- metadata: 7t5u8ad9dd -->
-<!-- metadata: npl2n5y07d -->
-<!-- metadata: vkh2ajylwz -->
-<!-- metadata: 3jghd8rlsw -->
-<!-- metadata: s3xcwl9xat -->
-<!-- metadata: lvr6nrnq4z -->
-<!-- metadata: egqiv7516d -->
-<!-- metadata: zr6zm64xmu -->
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -107,6 +99,9 @@ Key methods:
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
+| `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
+| `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
+| `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
