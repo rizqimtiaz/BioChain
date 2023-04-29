@@ -16,6 +16,10 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+## Tech stack
+
+| Layer | Technology |
+| ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
@@ -49,7 +53,6 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
-<!-- metadata: ex0wbr8wnh -->
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
