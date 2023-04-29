@@ -51,14 +51,17 @@ npm run start
 
 Optional — falls back to viem public RPC if not set.
 
+<!-- metadata: 1l4s3z8rg0 -->
+<!-- metadata: jm9lf5ixjf -->
+<!-- metadata: y62xml43o5 -->
+<!-- metadata: wjigq98z83 -->
+<!-- metadata: kj08jvsstb -->
+<!-- metadata: sfay5tq83y -->
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
----
-
-## Repository layout
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
