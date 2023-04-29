@@ -45,10 +45,6 @@ npm run dev
 # Production build
 npm run build
 npm run start
-<!-- metadata: ayma5il4l9 -->
-<!-- metadata: 1mal8nz5ft -->
-<!-- metadata: jp04wzlgv7 -->
-<!-- metadata: uv8cflq5mu -->
 ```
 
 ### Environment variables
@@ -124,6 +120,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // Request
 {
   "tokenId": "1",
+  "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
+  "payload": {
+    "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
