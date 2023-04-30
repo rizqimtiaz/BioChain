@@ -20,10 +20,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 | Layer | Technology |
 | ----- | ---------- |
-| Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
-| State | Zustand (persisted, hydration-safe) |
-| Wallet | wagmi 2 + viem 2 |
-| Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
@@ -48,6 +44,11 @@ npm run start
 ```
 
 ### Environment variables
+<!-- metadata: mrz3otcn0i -->
+<!-- metadata: zi58uq37xr -->
+<!-- metadata: hthcrpj7m6 -->
+<!-- metadata: 16zngqnkuc -->
+<!-- metadata: sd9a3obcql -->
 
 Optional — falls back to viem public RPC if not set.
 
