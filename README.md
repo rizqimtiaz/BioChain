@@ -77,9 +77,6 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
-<!-- metadata: 188w3qov31 -->
-<!-- metadata: s2f1t5yysg -->
-<!-- metadata: hcwpetavyo -->
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
@@ -160,6 +157,7 @@ Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
+
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
