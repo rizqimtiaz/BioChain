@@ -15,11 +15,6 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
-<!-- metadata: speebumgbg -->
-<!-- metadata: qf5qzdr04t -->
-<!-- metadata: nsnb8lt0ph -->
-<!-- metadata: t8gfdwlzr6 -->
-<!-- metadata: 47expt5g16 -->
 
 ## Tech stack
 
@@ -63,6 +58,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ---
 
+## Repository layout
+
+```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
