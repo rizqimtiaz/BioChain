@@ -25,6 +25,9 @@ clinical research as on-chain Intellectual Property NFTs.
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
+| Charts | Recharts 2 |
+| Animation | Framer Motion 11 |
+| Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
@@ -89,13 +92,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
-<!-- metadata: oy5h9tt1by -->
-<!-- metadata: jxgatr4rfl -->
-<!-- metadata: i9sibz6r9z -->
-<!-- metadata: zs52is6kd2 -->
-<!-- metadata: hvrrwfd824 -->
-<!-- metadata: hb8q4tsqxv -->
-<!-- metadata: y3w0bxq8a3 -->
 Key methods:
 
 | Method | Caller | Purpose |
