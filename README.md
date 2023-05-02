@@ -32,6 +32,8 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+## Getting started
+
 ```bash
 # Install
 npm install
@@ -137,11 +139,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 {
   "ok": true,
   "receipt": {
-<!-- metadata: remfa5ef13 -->
-<!-- metadata: 9pzaquoqmz -->
-<!-- metadata: jkzn5ccwgg -->
-<!-- metadata: emmjwdnlp2 -->
-<!-- metadata: mskbwopepc -->
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
