@@ -74,6 +74,9 @@ app/
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
+  TopBar.tsx                  Header (brand, role switcher, wallet).
+  SideRail.tsx                Persistent sidebar navigation.
+  StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
@@ -92,13 +95,6 @@ the entire surface can be reviewed in a single file.
 Key methods:
 
 | Method | Caller | Purpose |
-<!-- metadata: 6nmml1g5dq -->
-<!-- metadata: 8g4l3aier9 -->
-<!-- metadata: yky1g9kp8q -->
-<!-- metadata: 726c0dj009 -->
-<!-- metadata: ioia2pa9gs -->
-<!-- metadata: mrumn6jmh6 -->
-<!-- metadata: mhbe3c2maa -->
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
