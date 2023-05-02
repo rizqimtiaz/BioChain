@@ -77,15 +77,6 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
-<!-- metadata: f3untd12y3 -->
-<!-- metadata: vogtdjemvz -->
-<!-- metadata: vimx98omn7 -->
-<!-- metadata: somc2nziyo -->
-<!-- metadata: gln9cdqchw -->
-<!-- metadata: m4od3d6op3 -->
-<!-- metadata: f9xctyzv2i -->
-<!-- metadata: 4vnsazctop -->
-<!-- metadata: ro51w7012w -->
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
@@ -146,6 +137,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // 200 OK
 {
+  "ok": true,
+  "receipt": {
+    "tokenId": "1",
+    "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
