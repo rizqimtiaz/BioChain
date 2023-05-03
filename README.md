@@ -52,6 +52,11 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
+<!-- metadata: idfguco6av -->
+<!-- metadata: ojckj4tshe -->
+<!-- metadata: ywoy7nzbwh -->
+<!-- metadata: jxm4b5kkny -->
+<!-- metadata: zbgyl75kh6 -->
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
@@ -91,10 +96,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
-
-Key methods:
-
-| Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
