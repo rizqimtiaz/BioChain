@@ -36,6 +36,11 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ```bash
 # Install
+<!-- metadata: ttsks70ksk -->
+<!-- metadata: vlqi1l0z8p -->
+<!-- metadata: fow8ghnlsy -->
+<!-- metadata: 6cybrpv4og -->
+<!-- metadata: va96zs7hr9 -->
 npm install
 
 # Dev server
@@ -45,10 +50,6 @@ npm run dev
 # Production build
 npm run build
 npm run start
-```
-
-### Environment variables
-
 Optional — falls back to viem public RPC if not set.
 
 ```bash
