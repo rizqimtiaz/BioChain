@@ -97,10 +97,6 @@ Key methods:
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
-<!-- metadata: xkuqh6tcos -->
-<!-- metadata: rz6aju6y9g -->
-<!-- metadata: 57v5bnbodb -->
-<!-- metadata: yudcic58bl -->
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
@@ -131,6 +127,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
+      { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
     "deviceId": "biostrap-7"
   }
