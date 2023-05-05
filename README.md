@@ -48,6 +48,7 @@ npm run start
 ```
 
 ### Environment variables
+
 Optional — falls back to viem public RPC if not set.
 
 ```bash
@@ -95,14 +96,6 @@ Key methods:
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
-<!-- metadata: oppmtppx3x -->
-<!-- metadata: 0gp29c0esq -->
-<!-- metadata: l7t3vvsezi -->
-<!-- metadata: 9d7igqbyf7 -->
-<!-- metadata: l3gvz7z7cj -->
-<!-- metadata: mqpd04n9p0 -->
-<!-- metadata: d0d4hy069q -->
-<!-- metadata: ja7x5d3jwn -->
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
