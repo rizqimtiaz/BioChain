@@ -138,8 +138,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // 200 OK
 {
   "ok": true,
-  "receipt": {
-    "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
@@ -154,6 +152,11 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
+<!-- metadata: 22mc8bkmi9 -->
+<!-- metadata: gp4f8mes2w -->
+<!-- metadata: nvht0th36w -->
+<!-- metadata: aoxx3n23hv -->
+<!-- metadata: fwknmr9dfx -->
 the request scope.
 
 ---
