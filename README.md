@@ -1,5 +1,10 @@
 # BioChain — Decentralized Clinical Trial Network
 
+<!-- metadata: d3tlzesbtp -->
+<!-- metadata: 19ulj3z4b5 -->
+<!-- metadata: qjexxa9ikv -->
+<!-- metadata: 13rvb92yga -->
+<!-- metadata: 3bpdcgg5pc -->
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
 BioChain is a production-ready Next.js 14 dApp for funding and managing
@@ -107,8 +112,6 @@ Key methods:
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
-
----
 
 ## API: `POST /api/anchor-data`
 
