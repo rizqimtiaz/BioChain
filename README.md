@@ -11,6 +11,9 @@ clinical research as on-chain Intellectual Property NFTs.
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
+- **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
+  producing an immutable audit trail for regulators.
+
 ---
 
 ## Tech stack
@@ -72,10 +75,6 @@ app/
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
-<!-- metadata: erp1rhvexf -->
-<!-- metadata: kh6ib2zs3u -->
-<!-- metadata: e9rb0otmwy -->
-<!-- metadata: xuk74qkow0 -->
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
