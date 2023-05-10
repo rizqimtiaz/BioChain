@@ -73,6 +73,13 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
+<!-- metadata: m8bj0b1bf1 -->
+<!-- metadata: s5apypvjpg -->
+<!-- metadata: mb3qzm32q1 -->
+<!-- metadata: l0hnm5ovps -->
+<!-- metadata: nfkoe16e76 -->
+<!-- metadata: mufz96a1h5 -->
+<!-- metadata: 2sgw8q3n9q -->
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
@@ -119,7 +126,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // Request
 {
-  "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
