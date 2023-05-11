@@ -34,6 +34,9 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Getting started
 
+```bash
+# Install
+npm install
 
 # Dev server
 npm run dev
@@ -154,7 +157,6 @@ Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
-<!-- metadata: ov1yiyc34x -->
 
 ## Design philosophy
 
