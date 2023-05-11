@@ -17,9 +17,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Tech stack
-<!-- metadata: 8xzy9elpkf -->
-<!-- metadata: ivhxtnadpk -->
-<!-- metadata: eczmvbn21g -->
 
 | Layer | Technology |
 | ----- | ---------- |
@@ -64,6 +61,10 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ## Repository layout
 
 ```
+contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
+                              milestone escrow, data anchoring, peer review.
+
+app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
