@@ -152,12 +152,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-
-Raw clinical data is **never persisted** by the route — only the hash exits
-the request scope.
-
 ---
 
+<!-- metadata: tusphixqix -->
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
