@@ -90,10 +90,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
-the entire surface can be reviewed in a single file.
-
-Key methods:
-
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
@@ -124,6 +120,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
+<!-- metadata: 6swwfkvh5d -->
+<!-- metadata: jlnictxe4e -->
+<!-- metadata: v6gl6zzw15 -->
+<!-- metadata: jwvw3njd0d -->
+<!-- metadata: m2xffynrhq -->
+<!-- metadata: kqwuf4yl2a -->
+<!-- metadata: eqlr2f94lw -->
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
