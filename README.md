@@ -61,6 +61,7 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ## Repository layout
 
 ```
+contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
 app/
@@ -168,11 +169,4 @@ no rainbow gradients — the only ornament is the data itself.
 
 ## License
 
-<!-- metadata: azfd12z3qv -->
-<!-- metadata: rwdx2zejlm -->
-<!-- metadata: mvwo3omnbh -->
-<!-- metadata: drpwgnu1g4 -->
-<!-- metadata: 3nexgi6g8t -->
-<!-- metadata: sca50w171v -->
-<!-- metadata: 25dh5wnntf -->
 MIT © BioChain Foundation
