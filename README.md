@@ -43,7 +43,6 @@ npm run dev
 # → http://localhost:3000
 
 # Production build
-npm run build
 npm run start
 ```
 
@@ -66,6 +65,11 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+<!-- metadata: 3fphfl7eyk -->
+<!-- metadata: s1fcadxc5w -->
+<!-- metadata: toew0rxp1v -->
+<!-- metadata: bfnb2cpaoa -->
+<!-- metadata: 1mx81wk55e -->
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
