@@ -23,7 +23,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
-| Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
@@ -108,6 +107,13 @@ Key methods:
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
+<!-- metadata: cmkgm3erh8 -->
+<!-- metadata: py1g7gr0ft -->
+<!-- metadata: o7p2xsqi07 -->
+<!-- metadata: muv476bw89 -->
+<!-- metadata: rocwz1plbg -->
+<!-- metadata: 3arv2epqri -->
+<!-- metadata: zh35z6k52g -->
 ---
 
 ## API: `POST /api/anchor-data`
