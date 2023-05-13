@@ -43,6 +43,10 @@ npm run dev
 # → http://localhost:3000
 
 # Production build
+<!-- metadata: 46e8bdrtnk -->
+<!-- metadata: 0wnye20tad -->
+<!-- metadata: 6cnhzdv1bm -->
+<!-- metadata: j4fxzapf66 -->
 npm run build
 npm run start
 ```
@@ -105,10 +109,6 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
-Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
-mirrored in `lib/bio-utils.ts::computeTrustScore`.
-
----
 
 ## API: `POST /api/anchor-data`
 
