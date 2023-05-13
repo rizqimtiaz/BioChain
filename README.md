@@ -41,6 +41,10 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
+<!-- metadata: bytx48163m -->
+<!-- metadata: oks2dc81uw -->
+<!-- metadata: ha3se9a9mz -->
+<!-- metadata: oz824gcdsl -->
 
 # Production build
 npm run build
@@ -48,9 +52,6 @@ npm run start
 ```
 
 ### Environment variables
-
-Optional — falls back to viem public RPC if not set.
-
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
