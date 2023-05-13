@@ -29,6 +29,13 @@ clinical research as on-chain Intellectual Property NFTs.
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
+<!-- metadata: vltfxcyjiy -->
+<!-- metadata: dxlqjq8ebn -->
+<!-- metadata: p7rfyree3l -->
+<!-- metadata: nnnv3dgw87 -->
+<!-- metadata: z4mme07qn7 -->
+<!-- metadata: w4l87deojt -->
+<!-- metadata: zydquxhrek -->
 
 ---
 
@@ -104,10 +111,6 @@ Key methods:
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
-
-Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
-mirrored in `lib/bio-utils.ts::computeTrustScore`.
-
 ---
 
 ## API: `POST /api/anchor-data`
