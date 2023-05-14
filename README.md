@@ -60,6 +60,7 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ## Repository layout
 
+```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
@@ -95,13 +96,6 @@ Key methods:
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
-<!-- metadata: y340iu8w6j -->
-<!-- metadata: q7c1rym1ur -->
-<!-- metadata: zkqtts7wmm -->
-<!-- metadata: zdi85cke96 -->
-<!-- metadata: n1mvw7ag21 -->
-<!-- metadata: b3sdpb969u -->
-<!-- metadata: 8k9s95lcpf -->
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
