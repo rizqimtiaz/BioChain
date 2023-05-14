@@ -92,13 +92,9 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
+Key methods:
 
 | Method | Caller | Purpose |
-<!-- metadata: 7iz7rz212b -->
-<!-- metadata: ja05lmcgbg -->
-<!-- metadata: t4n6g4i4l6 -->
-<!-- metadata: o4lr5vek9t -->
-<!-- metadata: 3p53ha65b4 -->
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
