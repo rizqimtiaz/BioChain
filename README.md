@@ -83,6 +83,13 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
+<!-- metadata: vgrxyd9vqv -->
+<!-- metadata: kstvprypic -->
+<!-- metadata: 7cnoh5cwk0 -->
+<!-- metadata: tpqpwcj0k4 -->
+<!-- metadata: 2py75bdhfo -->
+<!-- metadata: j6lixzri0k -->
+<!-- metadata: ml5j1jstjb -->
 
 ---
 
@@ -119,10 +126,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // Request
 {
-  "tokenId": "1",
-  "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
-  "payload": {
-    "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
