@@ -17,6 +17,9 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Tech stack
+
+| Layer | Technology |
+| ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
@@ -166,5 +169,4 @@ no rainbow gradients — the only ornament is the data itself.
 
 ## License
 
-<!-- metadata: fvdoo2pqa7 -->
 MIT © BioChain Foundation
