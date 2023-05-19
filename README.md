@@ -58,8 +58,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ---
 
-## Repository layout
-
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
@@ -166,6 +164,13 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 no rainbow gradients — the only ornament is the data itself.
 
 ---
+<!-- metadata: ospfa3l2z7 -->
+<!-- metadata: axkx0jeoq1 -->
+<!-- metadata: uwbe8vffic -->
+<!-- metadata: pt4qi7eyhz -->
+<!-- metadata: 5wmmhmsbp6 -->
+<!-- metadata: t2el3z6615 -->
+<!-- metadata: 8hg6q9bzwq -->
 
 ## License
 
