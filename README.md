@@ -48,15 +48,9 @@ npm run start
 ```
 
 ### Environment variables
-<!-- metadata: mrj801o97x -->
-<!-- metadata: 9teshap5pk -->
-<!-- metadata: uuqc4041zd -->
-<!-- metadata: qw8bla9iyu -->
-<!-- metadata: pcnblukygf -->
-<!-- metadata: c5vdp1b6lv -->
-<!-- metadata: 2svacw5ess -->
-<!-- metadata: f1odeju6md -->
-<!-- metadata: 54wl28ky6w -->
+
+Optional — falls back to viem public RPC if not set.
+
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
