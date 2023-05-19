@@ -38,6 +38,7 @@ clinical research as on-chain Intellectual Property NFTs.
 # Install
 npm install
 
+# Dev server
 npm run dev
 # → http://localhost:3000
 
@@ -131,13 +132,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "deviceId": "biostrap-7"
   }
 }
-<!-- metadata: 4xbs81g2g3 -->
-<!-- metadata: dfa8zqzgy6 -->
-<!-- metadata: 0s47nzbu1n -->
-<!-- metadata: yd1wi61vlj -->
-<!-- metadata: 8gjmmwvdy7 -->
-<!-- metadata: h1cqsssn0q -->
-<!-- metadata: 927frpy2d9 -->
 ```
 
 ```jsonc
