@@ -14,13 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
-<!-- metadata: ei2tt8wnvd -->
-<!-- metadata: xx1a9nd8lr -->
-<!-- metadata: 0b66z3kaln -->
-<!-- metadata: wh6c3ihd28 -->
-<!-- metadata: un4gxj613p -->
-<!-- metadata: kzzttkrpg6 -->
-<!-- metadata: 9r77wh6902 -->
 ---
 
 ## Tech stack
@@ -84,6 +77,9 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
+
+store/useBioStore.ts          Global Zustand store + selectors.
+lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
