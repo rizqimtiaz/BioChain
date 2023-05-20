@@ -1,5 +1,11 @@
 # BioChain — Decentralized Clinical Trial Network
 
+<!-- metadata: svp17jlxu8 -->
+<!-- metadata: 8qihf4ywe7 -->
+<!-- metadata: 22514pk9n1 -->
+<!-- metadata: 63suy2a0tm -->
+<!-- metadata: rxfixx7oe4 -->
+<!-- metadata: 7cwr00j0nk -->
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
 BioChain is a production-ready Next.js 14 dApp for funding and managing
@@ -115,10 +121,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
-
-```jsonc
-// Request
-{
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
