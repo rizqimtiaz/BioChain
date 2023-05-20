@@ -93,6 +93,14 @@ implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
+<!-- metadata: izty2upp2r -->
+<!-- metadata: 9frozr5lc0 -->
+<!-- metadata: yzvbj7xkzf -->
+<!-- metadata: hta9jrhnss -->
+<!-- metadata: t084m0bj7v -->
+<!-- metadata: k1kktyrjnx -->
+<!-- metadata: pbdu3sjxwd -->
+<!-- metadata: aydlychcpt -->
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
@@ -131,10 +139,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     ],
     "deviceId": "biostrap-7"
   }
-}
-```
-
-```jsonc
 // 200 OK
 {
   "ok": true,
