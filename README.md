@@ -31,12 +31,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
-<!-- metadata: h5dvjo77cw -->
-<!-- metadata: 8kuemt4ra0 -->
-<!-- metadata: ir1c8uh2wr -->
-<!-- metadata: ww9hbauw1u -->
-<!-- metadata: 97hvirztpy -->
-<!-- metadata: eyh4juu1o4 -->
 
 ## Getting started
 
@@ -69,6 +63,10 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
+
+app/
+  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+  page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
