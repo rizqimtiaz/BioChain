@@ -47,8 +47,6 @@ npm run build
 npm run start
 ```
 
-### Environment variables
-
 Optional — falls back to viem public RPC if not set.
 
 ```bash
@@ -86,6 +84,8 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
+<!-- metadata: l3e7dzop6m -->
+<!-- metadata: l398sh83md -->
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
