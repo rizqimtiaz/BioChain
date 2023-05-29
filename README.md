@@ -29,6 +29,11 @@ clinical research as on-chain Intellectual Property NFTs.
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
+<!-- metadata: wehjvkbwdt -->
+<!-- metadata: x6f3b3bjkr -->
+<!-- metadata: kwrcddu5l3 -->
+<!-- metadata: yslzl9zx65 -->
+<!-- metadata: 93vn6q7x6w -->
 
 ---
 
@@ -97,9 +102,6 @@ Key methods:
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
-| `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
-| `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
-| `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
