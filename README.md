@@ -10,6 +10,7 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
+  building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
@@ -61,16 +62,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
-<!-- metadata: page06ua5a -->
-<!-- metadata: lbvj746zd7 -->
-<!-- metadata: mjuqupzrpv -->
-<!-- metadata: w5jnxkxpur -->
-<!-- metadata: thyd6vty83 -->
-<!-- metadata: z8i0tagmgl -->
-<!-- metadata: lev05xb5x6 -->
-<!-- metadata: 2mukxbje88 -->
-<!-- metadata: k0zw73dvvg -->
-<!-- metadata: 4nb8iigr6h -->
                               milestone escrow, data anchoring, peer review.
 
 app/
