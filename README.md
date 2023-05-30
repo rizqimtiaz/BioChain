@@ -6,6 +6,12 @@ BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
+<!-- metadata: b5v2hoksbe -->
+<!-- metadata: bkis19umjv -->
+<!-- metadata: bsofxuxigb -->
+<!-- metadata: jwfszrdguo -->
+<!-- metadata: 5odudg1haf -->
+<!-- metadata: qye1t4i6ea -->
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
@@ -86,9 +92,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
-## Smart-contract surface
-
-`IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
