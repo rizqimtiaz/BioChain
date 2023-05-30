@@ -134,7 +134,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
-```jsonc
 // 200 OK
 {
   "ok": true,
@@ -150,6 +149,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": 2,
     "source": "wearable"
   }
+<!-- metadata: 4unvittnh2 -->
+<!-- metadata: gtxp22rz2o -->
+<!-- metadata: j3ca2vf3tq -->
 }
 ```
 
