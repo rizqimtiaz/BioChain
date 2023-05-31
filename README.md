@@ -57,6 +57,14 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
 ---
+<!-- metadata: 05d0b0dksg -->
+<!-- metadata: t2t0vp2aqa -->
+<!-- metadata: hlt1f53dif -->
+<!-- metadata: xeo1v1q5zt -->
+<!-- metadata: n1pkxertll -->
+<!-- metadata: b9yh0jp8bi -->
+<!-- metadata: cbkjy8vs1q -->
+<!-- metadata: yh18sp51op -->
 
 ## Repository layout
 
@@ -137,8 +145,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // 200 OK
 {
-  "ok": true,
-  "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
