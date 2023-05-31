@@ -8,6 +8,10 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
+<!-- metadata: pqw7o3p88c -->
+<!-- metadata: yats29ntb9 -->
+<!-- metadata: e1ah6ko961 -->
+<!-- metadata: sn5rluc6k0 -->
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
@@ -132,7 +136,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "deviceId": "biostrap-7"
   }
 }
-```
 
 ```jsonc
 // 200 OK
