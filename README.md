@@ -110,15 +110,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
-<!-- metadata: uj7yw3d7co -->
-<!-- metadata: wfhw7zsrrw -->
-<!-- metadata: q8ou0zqmtt -->
-<!-- metadata: bb1v0ugv7m -->
-<!-- metadata: 94y6pwfxnn -->
-<!-- metadata: u6hmtj9t6d -->
-<!-- metadata: oqnws1a5t5 -->
-<!-- metadata: bo6z8e86et -->
-<!-- metadata: ai0wyirbzb -->
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
@@ -146,6 +137,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // 200 OK
 {
+  "ok": true,
+  "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
