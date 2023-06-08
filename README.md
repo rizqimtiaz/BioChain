@@ -43,6 +43,7 @@ npm run dev
 # → http://localhost:3000
 
 # Production build
+npm run build
 npm run start
 ```
 
@@ -126,12 +127,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
-<!-- metadata: k7l5wiiody -->
-<!-- metadata: f2ykoowmso -->
-<!-- metadata: 61ahxdtquw -->
-<!-- metadata: hmlljumotu -->
-<!-- metadata: zr9bfoqnnb -->
-<!-- metadata: otg0x2b8ln -->
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
     "deviceId": "biostrap-7"
