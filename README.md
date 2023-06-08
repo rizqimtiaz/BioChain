@@ -58,6 +58,11 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ---
 
+<!-- metadata: u1cvo9qu0w -->
+<!-- metadata: jn7ti1tzwu -->
+<!-- metadata: g2du024ps7 -->
+<!-- metadata: mv37rl68km -->
+<!-- metadata: i9abs4aoqf -->
 ## Repository layout
 
 ```
@@ -155,10 +160,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
-
----
-
-## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
