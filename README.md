@@ -77,6 +77,10 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
+<!-- metadata: iwmfq4ftff -->
+<!-- metadata: kjppa0gf7j -->
+<!-- metadata: 7ubvgyg9jh -->
+<!-- metadata: 9j9a6vkyeo -->
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
@@ -165,8 +169,5 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
----
-
-## License
 
 MIT © BioChain Foundation
