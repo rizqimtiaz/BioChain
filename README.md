@@ -120,16 +120,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // Request
 {
   "tokenId": "1",
+  "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
+  "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
-<!-- metadata: trg4lt8mbt -->
-<!-- metadata: myvvl5ey1f -->
-<!-- metadata: 9yrqvyrepl -->
-<!-- metadata: vgikhia2om -->
-<!-- metadata: v5e6j4a9gt -->
-<!-- metadata: qlbeyynmx6 -->
-<!-- metadata: 9iwe16ik1v -->
-<!-- metadata: hxhte3zjt3 -->
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
