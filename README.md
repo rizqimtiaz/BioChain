@@ -114,6 +114,9 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
+for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
+
+```jsonc
 // Request
 {
   "tokenId": "1",
@@ -143,11 +146,6 @@ SHA-256 over the canonicalized form, and returns an anchor receipt suitable
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
-<!-- metadata: ofyu09i4it -->
-<!-- metadata: 570hdyiu0p -->
-<!-- metadata: nhzy8npk48 -->
-<!-- metadata: y94oplm0dl -->
-<!-- metadata: k23xxpzwgi -->
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
