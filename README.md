@@ -126,6 +126,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
+      { "code": "8867-4", "value": 72,   "unit": "bpm"    },
+      { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
+    ],
+    "deviceId": "biostrap-7"
   }
 }
 ```
@@ -148,7 +152,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-<!-- metadata: 6x31lt8dzf -->
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
