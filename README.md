@@ -44,15 +44,6 @@ npm run dev
 
 # Production build
 npm run build
-<!-- metadata: ji99n9yywx -->
-<!-- metadata: c4gc4upqbi -->
-<!-- metadata: bz4bgo92eb -->
-<!-- metadata: bevxccfuzt -->
-<!-- metadata: ddesoee0gb -->
-<!-- metadata: nrn5jooxm1 -->
-<!-- metadata: 0xvc2m8020 -->
-<!-- metadata: dgm37l576a -->
-<!-- metadata: zg6v1bh7ke -->
 npm run start
 ```
 
@@ -158,6 +149,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
+  }
+}
+```
+
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
