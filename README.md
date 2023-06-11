@@ -30,6 +30,14 @@ clinical research as on-chain Intellectual Property NFTs.
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
+<!-- metadata: 89f3h39amz -->
+<!-- metadata: oiiqakn6dn -->
+<!-- metadata: soi9wjzqqz -->
+<!-- metadata: joq6nr5dfv -->
+<!-- metadata: zbkqngxm6u -->
+<!-- metadata: edo6zzxrqg -->
+<!-- metadata: xfvfkicll3 -->
+<!-- metadata: qrznikocw5 -->
 ---
 
 ## Getting started
@@ -70,7 +78,6 @@ app/
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
-  api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
