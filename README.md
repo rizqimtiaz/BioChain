@@ -80,8 +80,6 @@ components/
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
-
-tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
 ---
@@ -154,6 +152,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
+<!-- metadata: bg2uft0o42 -->
+<!-- metadata: rzu7a8ikud -->
+<!-- metadata: cexofmcoee -->
+<!-- metadata: 46ecdutyvj -->
+<!-- metadata: yhcbrdfk3z -->
+<!-- metadata: 9op8nbxfz1 -->
+<!-- metadata: ksb2c22nkp -->
 the request scope.
 
 ---
