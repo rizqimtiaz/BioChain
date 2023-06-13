@@ -28,6 +28,7 @@ clinical research as on-chain Intellectual Property NFTs.
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
+| Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
 
@@ -78,7 +79,6 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
-<!-- metadata: muw7m6qmkn -->
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
