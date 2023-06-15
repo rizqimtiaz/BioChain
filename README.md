@@ -84,8 +84,6 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
----
-
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -140,6 +138,15 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "ok": true,
   "receipt": {
     "tokenId": "1",
+<!-- metadata: e6u82ipk5i -->
+<!-- metadata: b2fib4ku65 -->
+<!-- metadata: 6fkox56hph -->
+<!-- metadata: as25d5v196 -->
+<!-- metadata: z9j04bxscx -->
+<!-- metadata: 47je4dxww0 -->
+<!-- metadata: bl85vo6msd -->
+<!-- metadata: z7ycb0waun -->
+<!-- metadata: tm08g3zj9h -->
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
