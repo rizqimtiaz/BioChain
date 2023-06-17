@@ -6,6 +6,14 @@ BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
+<!-- metadata: u5wlhmn4u2 -->
+<!-- metadata: afbja3g8ds -->
+<!-- metadata: 7at7kqdty5 -->
+<!-- metadata: 56eo8q1k9j -->
+<!-- metadata: cyb4wo6xnu -->
+<!-- metadata: jk1eq06g14 -->
+<!-- metadata: bf7mltpbxt -->
+<!-- metadata: sj5ifb0507 -->
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
@@ -62,7 +70,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
-                              milestone escrow, data anchoring, peer review.
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
