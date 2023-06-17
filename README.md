@@ -2,9 +2,6 @@
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
-BioChain is a production-ready Next.js 14 dApp for funding and managing
-clinical research as on-chain Intellectual Property NFTs.
-
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
@@ -64,6 +61,15 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
+<!-- metadata: sy8j35363w -->
+<!-- metadata: xibdowem5u -->
+<!-- metadata: bs1leh3cng -->
+<!-- metadata: e82zw5466k -->
+<!-- metadata: jhl5oqidii -->
+<!-- metadata: ag9wxd0hzp -->
+<!-- metadata: aqra4agxag -->
+<!-- metadata: dhq9hbejf5 -->
+<!-- metadata: 8rfdjqo09v -->
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
