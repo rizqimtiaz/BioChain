@@ -20,10 +20,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 | Layer | Technology |
 | ----- | ---------- |
-<!-- metadata: o2kz0bjoi7 -->
-<!-- metadata: oihdkmbj6s -->
-<!-- metadata: qkjdb5d9x9 -->
-<!-- metadata: uz21a87kr7 -->
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
@@ -108,6 +104,8 @@ Key methods:
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
+
+Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
