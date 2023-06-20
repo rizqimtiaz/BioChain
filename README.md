@@ -56,8 +56,6 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
----
-
 ## Repository layout
 
 ```
@@ -153,6 +151,12 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
+<!-- metadata: fdfhnbjrqv -->
+<!-- metadata: mw3x8jbslo -->
+<!-- metadata: 6r1q9gsxpj -->
+<!-- metadata: 707ukkdo51 -->
+<!-- metadata: j9879s6we4 -->
+<!-- metadata: 1ml2lxtele -->
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
