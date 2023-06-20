@@ -56,14 +56,10 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
+---
+
 ## Repository layout
 
-<!-- metadata: iss40d6p5t -->
-<!-- metadata: zfsh0xz9uv -->
-<!-- metadata: voxaf8cuni -->
-<!-- metadata: 1jomhgky60 -->
-<!-- metadata: 69opfocrfd -->
-<!-- metadata: 3mwj6hcswk -->
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
