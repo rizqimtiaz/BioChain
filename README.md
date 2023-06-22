@@ -151,6 +151,16 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
+<!-- metadata: jjg98vnup6 -->
+<!-- metadata: ew17wh6z15 -->
+<!-- metadata: x0ic6hgzch -->
+<!-- metadata: 2kv0qk6q2t -->
+<!-- metadata: tcj6em1fhk -->
+<!-- metadata: os0k9mh0p3 -->
+<!-- metadata: gh0n7u0lgq -->
+<!-- metadata: b8fz5yk27v -->
+<!-- metadata: m65hueo0er -->
+<!-- metadata: epxcrz7rvn -->
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
@@ -159,10 +169,6 @@ the request scope.
 ---
 
 ## Design philosophy
-
-The interface is deliberately **sterile and laboratory-grade**: pure white
-surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
-"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
 ---
