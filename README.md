@@ -38,6 +38,10 @@ clinical research as on-chain Intellectual Property NFTs.
 # Install
 npm install
 
+# Dev server
+npm run dev
+# → http://localhost:3000
+
 # Production build
 npm run build
 npm run start
@@ -152,7 +156,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
-<!-- metadata: 8lfqnh0xb4 -->
 ---
 
 ## Design philosophy
