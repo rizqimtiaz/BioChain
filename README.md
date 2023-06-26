@@ -1,10 +1,6 @@
 # BioChain — Decentralized Clinical Trial Network
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
-
-BioChain is a production-ready Next.js 14 dApp for funding and managing
-clinical research as on-chain Intellectual Property NFTs.
-
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
@@ -168,5 +164,14 @@ no rainbow gradients — the only ornament is the data itself.
 ---
 
 ## License
+<!-- metadata: 3xjjqq9t1l -->
+<!-- metadata: ohlz4hdcex -->
+<!-- metadata: 9lgzciei4a -->
+<!-- metadata: m1v22acqqr -->
+<!-- metadata: vd9nb6kvxf -->
+<!-- metadata: d9qgu9f68z -->
+<!-- metadata: rnvfucpf7f -->
+<!-- metadata: sxwajbv63w -->
+<!-- metadata: 40o4murw1p -->
 
 MIT © BioChain Foundation
