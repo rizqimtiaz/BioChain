@@ -49,6 +49,7 @@ npm run start
 
 ### Environment variables
 
+Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
@@ -106,10 +107,6 @@ Key methods:
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
-<!-- metadata: 2fy4mn6hhp -->
-<!-- metadata: dr989ydahb -->
-<!-- metadata: yf8xwqqr10 -->
-<!-- metadata: 1mv2y06058 -->
 
 ---
 
