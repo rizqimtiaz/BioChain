@@ -108,13 +108,17 @@ Key methods:
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
----
 
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
+<!-- metadata: 6598ehb69f -->
+<!-- metadata: utzwkw7955 -->
+<!-- metadata: r7zdejpc6z -->
+<!-- metadata: h0h2mjj083 -->
+<!-- metadata: ohkfqhp4fe -->
 
 ```jsonc
 // Request
