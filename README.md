@@ -14,13 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
-<!-- metadata: 9pw0xjxp3d -->
-<!-- metadata: as68k75lme -->
-<!-- metadata: zm0j85v1en -->
-<!-- metadata: 887gva1q0o -->
-<!-- metadata: bvu17iph2e -->
-<!-- metadata: 7m835dx9uq -->
-<!-- metadata: 1ecsr1y1qa -->
 ---
 
 ## Tech stack
@@ -105,6 +98,10 @@ Key methods:
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
+| `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
+| `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
+| `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
+| `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
