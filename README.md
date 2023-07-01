@@ -38,6 +38,10 @@ clinical research as on-chain Intellectual Property NFTs.
 # Install
 npm install
 
+# Dev server
+npm run dev
+# → http://localhost:3000
+
 # Production build
 npm run build
 npm run start
@@ -111,7 +115,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
-<!-- metadata: 9cn6f9r7ap -->
 
 ```jsonc
 // Request
