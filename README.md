@@ -41,6 +41,8 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
+
+# Production build
 npm run build
 npm run start
 ```
@@ -99,15 +101,6 @@ Key methods:
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
-<!-- metadata: qlsxbzrf4w -->
-<!-- metadata: 83e35d5xry -->
-<!-- metadata: ppy64ks17h -->
-<!-- metadata: orfkyy0mx6 -->
-<!-- metadata: 33ahh9oh83 -->
-<!-- metadata: c6nz0mjyg9 -->
-<!-- metadata: x2g64h2dj0 -->
-<!-- metadata: 7qo5sszmxy -->
-<!-- metadata: qi3x6vhey1 -->
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
