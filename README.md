@@ -77,7 +77,6 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
-
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
@@ -168,5 +167,6 @@ no rainbow gradients — the only ornament is the data itself.
 ---
 
 ## License
+<!-- metadata: g74h9udx9y -->
 
 MIT © BioChain Foundation
