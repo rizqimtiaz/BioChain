@@ -50,12 +50,6 @@ npm run start
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
-<!-- metadata: 2ou9ph59ku -->
-<!-- metadata: q3959tnkik -->
-<!-- metadata: 4ul0nlvdqr -->
-<!-- metadata: bw9rbqcr42 -->
-<!-- metadata: fylagd6v2t -->
-<!-- metadata: x22jgutdk0 -->
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
@@ -171,5 +165,8 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
+---
+
+## License
 
 MIT © BioChain Foundation
