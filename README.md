@@ -24,6 +24,8 @@ clinical research as on-chain Intellectual Property NFTs.
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
+| Validation | Zod 3 |
+| Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
@@ -114,7 +116,6 @@ Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
-<!-- metadata: ngb8nq33d6 -->
 ```jsonc
 // Request
 {
