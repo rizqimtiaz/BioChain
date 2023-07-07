@@ -93,6 +93,8 @@ implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
+
+| Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
@@ -163,12 +165,6 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
-<!-- metadata: ab5otfhlvm -->
-<!-- metadata: perjx5jqpd -->
-<!-- metadata: s3m35wmr7m -->
-<!-- metadata: nd89xijuj6 -->
-<!-- metadata: 0qggh5j10h -->
-<!-- metadata: csbd707no2 -->
 ---
 
 ## License
