@@ -35,10 +35,9 @@ clinical research as on-chain Intellectual Property NFTs.
 ## Getting started
 
 ```bash
+<!-- metadata: lthq23ce8h -->
+<!-- metadata: rvt9mrip38 -->
 # Install
-npm install
-
-# Dev server
 npm run dev
 # → http://localhost:3000
 
