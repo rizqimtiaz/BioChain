@@ -122,9 +122,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
-    "participantPseudoId": "p-9b4c2e3a1d",
-    "recordedAt": "2026-05-03T15:00:00.000Z",
-    "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
@@ -132,6 +129,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "deviceId": "biostrap-7"
   }
 }
+<!-- metadata: imr9qg8484 -->
+<!-- metadata: 5yn7uqwqgf -->
+<!-- metadata: iml4uj8a0a -->
+<!-- metadata: e5xgrk7i8q -->
 ```
 
 ```jsonc
