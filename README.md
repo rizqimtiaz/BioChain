@@ -33,6 +33,9 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Getting started
+
+```bash
+# Install
 npm install
 
 # Dev server
@@ -81,7 +84,6 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
-<!-- metadata: xowmzh0vn4 -->
 ---
 
 ## Smart-contract surface
