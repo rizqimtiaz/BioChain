@@ -134,11 +134,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
-<!-- metadata: pbkvoj3gde -->
-<!-- metadata: 35hptzbk4p -->
-<!-- metadata: z7gjbl4cy9 -->
-<!-- metadata: qv0owhj6dn -->
-<!-- metadata: qcx47sss4e -->
 ```jsonc
 // 200 OK
 {
@@ -152,6 +147,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
+    "measurements": 2,
     "source": "wearable"
   }
 }
