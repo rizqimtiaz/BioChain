@@ -110,6 +110,14 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
+<!-- metadata: 1swy61t16x -->
+<!-- metadata: lmxbatpmr7 -->
+<!-- metadata: kpfom1z8xu -->
+<!-- metadata: xg5nsy6olf -->
+<!-- metadata: shcopkbv9c -->
+<!-- metadata: c5a4ibaguw -->
+<!-- metadata: i2hhvhq2m7 -->
+<!-- metadata: ujan83zcnb -->
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
@@ -165,7 +173,6 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
----
 
 ## License
 
