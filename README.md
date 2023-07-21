@@ -146,12 +146,11 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
-    "byteLength": 32,
-    "measurements": 2,
-    "source": "wearable"
-  }
 }
 ```
+<!-- metadata: mjp13bsyrc -->
+<!-- metadata: zqjvcjhiw7 -->
+<!-- metadata: 1twajhlwwz -->
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
