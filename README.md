@@ -83,6 +83,9 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
+
+---
+
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -167,10 +170,3 @@ no rainbow gradients — the only ornament is the data itself.
 ## License
 
 MIT © BioChain Foundation
-<!-- metadata: j2ye6bhud1 -->
-<!-- metadata: jw2r6nk9m2 -->
-<!-- metadata: o0lgxvhexr -->
-<!-- metadata: nm4va4x7t5 -->
-<!-- metadata: 7i39s04mrz -->
-<!-- metadata: 2oi0pedogy -->
-<!-- metadata: jhqu1d6izi -->
