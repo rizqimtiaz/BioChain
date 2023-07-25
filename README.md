@@ -48,6 +48,9 @@ npm run start
 ```
 
 ### Environment variables
+<!-- metadata: 9b3anf8m89 -->
+<!-- metadata: r0hcsyvqaj -->
+<!-- metadata: kl72xclm6y -->
 
 Optional — falls back to viem public RPC if not set.
 
@@ -79,10 +82,6 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
-lib/bio-utils.ts              Hashing, Zod schemas, formatters.
-
-tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
 
 ---
 
