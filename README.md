@@ -78,7 +78,6 @@ components/
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
-store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
@@ -129,6 +128,12 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
+<!-- metadata: f4i91wtl39 -->
+<!-- metadata: 0tcf2s706e -->
+<!-- metadata: n588f5uvdk -->
+<!-- metadata: uut63ucsa8 -->
+<!-- metadata: 5gd9l9s86v -->
+<!-- metadata: 5c8uqv5sqk -->
     "deviceId": "biostrap-7"
   }
 }
