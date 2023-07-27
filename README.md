@@ -44,10 +44,6 @@ npm run dev
 
 # Production build
 npm run build
-npm run start
-```
-
-### Environment variables
 
 Optional — falls back to viem public RPC if not set.
 
@@ -148,6 +144,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
+<!-- metadata: xlnxlvzil3 -->
+<!-- metadata: 27c1jizaxt -->
+<!-- metadata: dm1za9wyiu -->
+<!-- metadata: uu7gmiijz7 -->
+<!-- metadata: 1mrla4378d -->
+<!-- metadata: dbrwwyx1xt -->
+<!-- metadata: 0egu6zd13v -->
     "source": "wearable"
   }
 }
