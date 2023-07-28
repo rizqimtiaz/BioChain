@@ -23,6 +23,13 @@ clinical research as on-chain Intellectual Property NFTs.
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
+<!-- metadata: yhghczdwbq -->
+<!-- metadata: 23cb84lsyp -->
+<!-- metadata: mrhld9u0ob -->
+<!-- metadata: 28gq7lsy0e -->
+<!-- metadata: wx0tk0d1x9 -->
+<!-- metadata: y2nnligswf -->
+<!-- metadata: kru7d3sdgl -->
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
@@ -164,8 +171,6 @@ The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
-
----
 
 ## License
 
