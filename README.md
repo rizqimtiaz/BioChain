@@ -45,10 +45,6 @@ npm run dev
 # Production build
 npm run build
 npm run start
-```
-
-### Environment variables
-
 Optional — falls back to viem public RPC if not set.
 
 ```bash
@@ -102,6 +98,10 @@ Key methods:
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
+<!-- metadata: y77n1gtudy -->
+<!-- metadata: 2nycdfsrfm -->
+<!-- metadata: 97my3uk2rf -->
+<!-- metadata: zl4fxbs2ex -->
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
