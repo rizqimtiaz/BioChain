@@ -100,8 +100,6 @@ Key methods:
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
-| `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
-| `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
@@ -126,6 +124,15 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
+<!-- metadata: s6jtaz8744 -->
+<!-- metadata: cli7tqa7fx -->
+<!-- metadata: n6xhie6huj -->
+<!-- metadata: yg2x8arjdd -->
+<!-- metadata: rhnt19it0e -->
+<!-- metadata: sklwdvlsbu -->
+<!-- metadata: kwe0fwu9g6 -->
+<!-- metadata: erbd2aj6p9 -->
+<!-- metadata: e0fbzf9nda -->
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
