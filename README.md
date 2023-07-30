@@ -72,6 +72,12 @@ app/
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
+<!-- metadata: f189ncqnyy -->
+<!-- metadata: qvn164ckvp -->
+<!-- metadata: 7fbegxeyko -->
+<!-- metadata: 1ctalsubqy -->
+<!-- metadata: hb6c8ivgei -->
+<!-- metadata: d8opia3g1p -->
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
@@ -121,9 +127,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 {
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
-  "payload": {
-    "participantPseudoId": "p-9b4c2e3a1d",
-    "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
