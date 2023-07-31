@@ -151,7 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
-```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
@@ -169,4 +168,8 @@ no rainbow gradients — the only ornament is the data itself.
 
 ## License
 
+<!-- metadata: q8vqyq8j6y -->
+<!-- metadata: d23rcpfeey -->
+<!-- metadata: 3g64goa1mb -->
+<!-- metadata: qpduxu3tdg -->
 MIT © BioChain Foundation
