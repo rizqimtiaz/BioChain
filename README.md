@@ -78,10 +78,6 @@ components/
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
-store/useBioStore.ts          Global Zustand store + selectors.
-lib/bio-utils.ts              Hashing, Zod schemas, formatters.
-
-tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
 ---
@@ -115,6 +111,16 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
+<!-- metadata: 7145zxrnmm -->
+<!-- metadata: 25ioxtm71b -->
+<!-- metadata: szwhy558x9 -->
+<!-- metadata: vaykiw0ipm -->
+<!-- metadata: uj582h2tpc -->
+<!-- metadata: h2mkhwvwfk -->
+<!-- metadata: vnjmwfnrcv -->
+<!-- metadata: gee7ylmjfv -->
+<!-- metadata: g6k7g0390p -->
+<!-- metadata: hgwr2qklha -->
 
 ```jsonc
 // Request
