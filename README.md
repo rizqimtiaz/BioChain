@@ -43,16 +43,6 @@ npm run dev
 # → http://localhost:3000
 
 # Production build
-<!-- metadata: dd2itgz46x -->
-<!-- metadata: lig36h9034 -->
-<!-- metadata: bse1p9eqsr -->
-<!-- metadata: qbpz3o6g5b -->
-<!-- metadata: 2t913ydhtp -->
-<!-- metadata: 6hlee5wvsp -->
-<!-- metadata: kk8dibjvae -->
-<!-- metadata: o1zxafl82w -->
-<!-- metadata: 2m1zn68sbi -->
-<!-- metadata: aide3ak1oy -->
 npm run build
 npm run start
 ```
@@ -104,6 +94,7 @@ the entire surface can be reviewed in a single file.
 
 Key methods:
 
+| Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
