@@ -79,6 +79,10 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
+lib/bio-utils.ts              Hashing, Zod schemas, formatters.
+
+tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
+```
 
 ---
 
@@ -144,10 +148,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
-<!-- metadata: q6uj4wxi8d -->
-<!-- metadata: b1mcf6hk52 -->
-<!-- metadata: z0wsiw8qrb -->
-<!-- metadata: 6nlnrtpxnr -->
     "source": "wearable"
   }
 }
