@@ -60,6 +60,7 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ## Repository layout
 
+```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
@@ -111,14 +112,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ## API: `POST /api/anchor-data`
 
-<!-- metadata: om93lj2hxt -->
-<!-- metadata: 5378ozh2is -->
-<!-- metadata: lc2dw9qk5s -->
-<!-- metadata: wthe4drk1z -->
-<!-- metadata: gztkfofsfs -->
-<!-- metadata: t3dipf5a4l -->
-<!-- metadata: 0k8tgjd9el -->
-<!-- metadata: 7716lgcbjx -->
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
