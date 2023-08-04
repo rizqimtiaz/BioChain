@@ -47,6 +47,7 @@ npm run build
 npm run start
 ```
 
+<!-- metadata: zpb30ut5be -->
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
@@ -143,9 +144,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
-    "recordedAt": "2026-05-03T...Z",
-    "algorithm":  "SHA-256",
-    "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
