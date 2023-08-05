@@ -44,14 +44,6 @@ npm run dev
 
 # Production build
 npm run build
-<!-- metadata: 9x382cn8wa -->
-<!-- metadata: qzx1m7xb5n -->
-<!-- metadata: anfru9z3ck -->
-<!-- metadata: vdxqf09fdi -->
-<!-- metadata: 2s67cla1wt -->
-<!-- metadata: zqj6nfszw0 -->
-<!-- metadata: 54jwqqmoq2 -->
-<!-- metadata: k4f2tgwvzu -->
 npm run start
 ```
 
@@ -169,6 +161,9 @@ the request scope.
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
+surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
+"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
+no rainbow gradients — the only ornament is the data itself.
 
 ---
 
