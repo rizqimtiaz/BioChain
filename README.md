@@ -42,10 +42,14 @@ npm install
 npm run dev
 # → http://localhost:3000
 
-# Production build
-npm run build
-npm run start
-```
+<!-- metadata: r9bzghva6m -->
+<!-- metadata: 72c62hxnqy -->
+<!-- metadata: xuf6iqggzd -->
+<!-- metadata: lvkrsui64h -->
+<!-- metadata: 7g1tvfj0fl -->
+<!-- metadata: 6sdg5tjmya -->
+<!-- metadata: yqgbhc6jj5 -->
+<!-- metadata: j2pd83dn7b -->
 
 ### Environment variables
 
