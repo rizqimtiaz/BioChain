@@ -11,6 +11,11 @@ clinical research as on-chain Intellectual Property NFTs.
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
+<!-- metadata: j81epr28gk -->
+<!-- metadata: 23y717fu9m -->
+<!-- metadata: 6yiuz0qken -->
+<!-- metadata: 59qferj31e -->
+<!-- metadata: s6pnb5dgei -->
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
@@ -55,10 +60,6 @@ Optional — falls back to viem public RPC if not set.
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
-
----
-
-## Repository layout
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
