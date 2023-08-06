@@ -131,11 +131,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     ],
     "deviceId": "biostrap-7"
   }
-<!-- metadata: u73xdbn60h -->
-<!-- metadata: occ8j2yufy -->
-<!-- metadata: 8ztfyoj9p6 -->
-<!-- metadata: iz1rn7ivpg -->
-<!-- metadata: xrjbmmqupo -->
 }
 ```
 
@@ -157,6 +152,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
+
+Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
