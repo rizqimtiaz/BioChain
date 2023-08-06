@@ -24,12 +24,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
-<!-- metadata: 50sj32ni0m -->
-<!-- metadata: w5wp2h0kdx -->
-<!-- metadata: 5qw6njlpnz -->
-<!-- metadata: qh918hx1p3 -->
-<!-- metadata: p49f8pgu5x -->
-<!-- metadata: qni6hxhm7l -->
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
@@ -59,6 +53,10 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
+NEXT_PUBLIC_SEPOLIA_RPC=https://...
+```
+
+---
 
 ## Repository layout
 
