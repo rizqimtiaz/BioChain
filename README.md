@@ -13,9 +13,6 @@ clinical research as on-chain Intellectual Property NFTs.
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
-
----
-
 ## Tech stack
 
 | Layer | Technology |
@@ -82,6 +79,11 @@ store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
+<!-- metadata: 9g9hw0cwn1 -->
+<!-- metadata: n4wk31x3sw -->
+<!-- metadata: 6phqx0r6fv -->
+<!-- metadata: zf40xv878b -->
+<!-- metadata: v0w6jesjwa -->
 ```
 
 ---
