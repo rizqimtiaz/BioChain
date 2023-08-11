@@ -33,7 +33,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Getting started
-
 ```bash
 # Install
 npm install
@@ -92,6 +91,8 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
+<!-- metadata: oa6nose16e -->
+<!-- metadata: kzu84v2ghp -->
 Key methods:
 
 | Method | Caller | Purpose |
