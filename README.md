@@ -101,6 +101,7 @@ Key methods:
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
+| `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
@@ -137,10 +138,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // 200 OK
 {
   "ok": true,
-<!-- metadata: 728tphc5eq -->
-<!-- metadata: e96e4bygt7 -->
-<!-- metadata: nwb41jp0g4 -->
-<!-- metadata: 0h0zyxmhch -->
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
