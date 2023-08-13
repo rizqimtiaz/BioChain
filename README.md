@@ -43,10 +43,6 @@ npm run dev
 # → http://localhost:3000
 
 # Production build
-npm run build
-npm run start
-```
-
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
@@ -132,6 +128,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "deviceId": "biostrap-7"
   }
 }
+<!-- metadata: x4u3vbco7o -->
+<!-- metadata: qc2ds15ntx -->
+<!-- metadata: 0wnan91l3i -->
+<!-- metadata: d5m1ighwva -->
 ```
 
 ```jsonc
