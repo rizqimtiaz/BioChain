@@ -37,6 +37,9 @@ clinical research as on-chain Intellectual Property NFTs.
 ```bash
 # Install
 npm install
+<!-- metadata: x7beoa401m -->
+<!-- metadata: 62lp1vwb96 -->
+<!-- metadata: bvc8r2jhyg -->
 
 # Dev server
 npm run dev
@@ -116,9 +119,6 @@ Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
-```jsonc
-// Request
-{
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
