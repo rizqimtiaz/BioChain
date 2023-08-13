@@ -16,11 +16,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
-<!-- metadata: q188q2kh52 -->
-<!-- metadata: ldvn6ffj9w -->
-<!-- metadata: fuzrozneys -->
-<!-- metadata: snfqlcpbrz -->
-<!-- metadata: 827g24w3ni -->
 ## Tech stack
 
 | Layer | Technology |
@@ -99,6 +94,8 @@ the entire surface can be reviewed in a single file.
 
 Key methods:
 
+| Method | Caller | Purpose |
+| ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
