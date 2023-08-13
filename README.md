@@ -56,6 +56,15 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
+<!-- metadata: rw60k39gqu -->
+<!-- metadata: 17zep82n48 -->
+<!-- metadata: kvjdt5rky3 -->
+<!-- metadata: 35z73vlsce -->
+<!-- metadata: 3mt0a0rj82 -->
+<!-- metadata: 6joo9xibgf -->
+<!-- metadata: hl6bi0qz5o -->
+<!-- metadata: phk9x76xlm -->
+<!-- metadata: 4lwrg8769n -->
 ---
 
 ## Repository layout
@@ -132,7 +141,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "deviceId": "biostrap-7"
   }
 }
-```
 
 ```jsonc
 // 200 OK
