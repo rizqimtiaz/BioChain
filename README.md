@@ -14,16 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
-<!-- metadata: tk8p4okimi -->
-<!-- metadata: uvfhj8lo22 -->
-<!-- metadata: bl3yyegisu -->
-<!-- metadata: lebhq6wkqh -->
-<!-- metadata: booz6brabs -->
-<!-- metadata: yk82k0d1uy -->
-<!-- metadata: w3ennwkftf -->
-<!-- metadata: c12wtc4uui -->
-<!-- metadata: ex1i329gpj -->
-<!-- metadata: 5y00v22unn -->
 ---
 
 ## Tech stack
@@ -130,6 +120,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // Request
 {
   "tokenId": "1",
+  "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
