@@ -65,15 +65,6 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
 app/
-<!-- metadata: 15sfcrq9oy -->
-<!-- metadata: jqtflj0omm -->
-<!-- metadata: p3vt76s87b -->
-<!-- metadata: jy4mn5vsp2 -->
-<!-- metadata: zkzow8xf0u -->
-<!-- metadata: f8k26v6yqx -->
-<!-- metadata: adm20729zq -->
-<!-- metadata: mc7edc3s4d -->
-<!-- metadata: tljgih4mjw -->
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
@@ -88,6 +79,8 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
+lib/bio-utils.ts              Hashing, Zod schemas, formatters.
+
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
