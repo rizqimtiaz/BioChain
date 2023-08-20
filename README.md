@@ -74,6 +74,9 @@ app/
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
+  TopBar.tsx                  Header (brand, role switcher, wallet).
+  SideRail.tsx                Persistent sidebar navigation.
+  StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
@@ -141,10 +144,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
-<!-- metadata: f1ox1uf43i -->
-<!-- metadata: fu3oxdi0qj -->
-<!-- metadata: 09o3uqjv57 -->
-<!-- metadata: h7hf1ye5np -->
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
