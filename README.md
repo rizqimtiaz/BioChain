@@ -117,6 +117,8 @@ SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
+// Request
+{
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
@@ -149,12 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
-<!-- metadata: 8mi9v0f3w5 -->
-<!-- metadata: 3fcvgixnv3 -->
-<!-- metadata: ja6xj71cqj -->
-<!-- metadata: 13y987r3lp -->
-<!-- metadata: yfcw08d0dn -->
-<!-- metadata: xdshhh3d7l -->
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
