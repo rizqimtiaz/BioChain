@@ -19,8 +19,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ## Tech stack
 
 | Layer | Technology |
-| ----- | ---------- |
-| Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
@@ -69,6 +67,10 @@ app/
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
+<!-- metadata: pc0c8nejqd -->
+<!-- metadata: sqiugpmwyo -->
+<!-- metadata: t5o5idchkv -->
+<!-- metadata: 1p9me5ppbc -->
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
