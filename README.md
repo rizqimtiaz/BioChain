@@ -45,6 +45,16 @@ npm run dev
 # Production build
 npm run build
 npm run start
+<!-- metadata: r5jcqv9fd5 -->
+<!-- metadata: xyiaqyz2qb -->
+<!-- metadata: 7tlx87p3n7 -->
+<!-- metadata: pzzbop8r87 -->
+<!-- metadata: hjb6ao9d9j -->
+<!-- metadata: boijwo0nov -->
+<!-- metadata: xcfv0yly9e -->
+<!-- metadata: 39vq1228sr -->
+<!-- metadata: p1jegaqvsq -->
+<!-- metadata: kxei55j8h2 -->
 ```
 
 ### Environment variables
@@ -154,9 +164,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
-the request scope.
-
----
 
 ## Design philosophy
 
