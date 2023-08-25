@@ -127,6 +127,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
+      { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
+    ],
     "deviceId": "biostrap-7"
   }
 }
@@ -167,5 +169,4 @@ no rainbow gradients — the only ornament is the data itself.
 
 ## License
 
-<!-- metadata: hn8p10opaz -->
 MIT © BioChain Foundation
