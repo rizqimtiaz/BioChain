@@ -75,8 +75,6 @@ app/
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
-<!-- metadata: oamacnool4 -->
-<!-- metadata: 4r0jqylaoz -->
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
@@ -153,6 +151,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
+```
+
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
