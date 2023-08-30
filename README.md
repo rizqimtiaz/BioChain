@@ -49,13 +49,11 @@ npm run start
 
 ### Environment variables
 
+Optional — falls back to viem public RPC if not set.
+
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
-<!-- metadata: w7qjl78oz5 -->
-<!-- metadata: 8dekqjhzg2 -->
-<!-- metadata: 1wtfkw92lt -->
-<!-- metadata: ej3vs9plx6 -->
 ```
 
 ---
