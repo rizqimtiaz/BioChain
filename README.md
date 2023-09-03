@@ -45,12 +45,6 @@ npm run dev
 # Production build
 npm run build
 npm run start
-<!-- metadata: foums9ecp1 -->
-<!-- metadata: 3bjcesshjk -->
-<!-- metadata: arnqxuqyqn -->
-<!-- metadata: lgn184kf9g -->
-<!-- metadata: 07fue10bw0 -->
-<!-- metadata: 75kshtv7lp -->
 ```
 
 ### Environment variables
@@ -71,6 +65,7 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
 app/
+  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
