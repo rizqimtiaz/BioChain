@@ -119,9 +119,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // Request
 {
-<!-- metadata: a2pj093lev -->
-<!-- metadata: wa1bb7ldez -->
-<!-- metadata: xurr7gklnu -->
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
@@ -140,6 +137,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // 200 OK
 {
+  "ok": true,
+  "receipt": {
+    "tokenId": "1",
+    "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
