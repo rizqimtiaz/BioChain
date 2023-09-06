@@ -107,10 +107,6 @@ Key methods:
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
-<!-- metadata: ota9ngtlxe -->
-<!-- metadata: e5h21kbs20 -->
-<!-- metadata: 1znbhuw2vk -->
-<!-- metadata: eqn5cn4le9 -->
 
 ---
 
@@ -167,6 +163,10 @@ the request scope.
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
+no rainbow gradients — the only ornament is the data itself.
+
+---
+
 ## License
 
 MIT © BioChain Foundation
