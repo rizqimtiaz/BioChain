@@ -7,6 +7,7 @@ clinical research as on-chain Intellectual Property NFTs.
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
+- **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
@@ -83,15 +84,6 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
-<!-- metadata: 40tipocagx -->
-<!-- metadata: ws605n7lfs -->
-<!-- metadata: 6bi42hn6xr -->
-<!-- metadata: u6pmu5gy9w -->
-<!-- metadata: z3hyumfms1 -->
-<!-- metadata: vya61bryau -->
-<!-- metadata: hqfj8fg2rf -->
-<!-- metadata: j2oli56qsq -->
-<!-- metadata: 7qce7e3vas -->
 ---
 
 ## Smart-contract surface
