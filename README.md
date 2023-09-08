@@ -46,6 +46,12 @@ npm run dev
 npm run build
 npm run start
 ```
+<!-- metadata: quqjflpz55 -->
+<!-- metadata: zn8116gngb -->
+<!-- metadata: 99nefky3bz -->
+<!-- metadata: tc2dqt5tsg -->
+<!-- metadata: 4n3f6hz0ti -->
+<!-- metadata: gdifyu6h8m -->
 
 ### Environment variables
 
@@ -63,10 +69,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
-
-app/
-  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
-  page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
