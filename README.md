@@ -1,15 +1,6 @@
 # BioChain — Decentralized Clinical Trial Network
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
-<!-- metadata: uopwpujeg4 -->
-<!-- metadata: c3bkayx5lj -->
-<!-- metadata: oicz59fmh5 -->
-<!-- metadata: bivl16r4gb -->
-<!-- metadata: fhzcu1giq4 -->
-<!-- metadata: 5y5n8slugp -->
-<!-- metadata: s5q4pqff7a -->
-<!-- metadata: cg43el05z1 -->
-<!-- metadata: 0vnvzs4umv -->
 
 BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
@@ -103,6 +94,9 @@ the entire surface can be reviewed in a single file.
 
 Key methods:
 
+| Method | Caller | Purpose |
+| ------ | ------ | ------- |
+| `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
