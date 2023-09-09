@@ -30,6 +30,10 @@ clinical research as on-chain Intellectual Property NFTs.
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
+---
+
+## Getting started
+
 ```bash
 # Install
 npm install
@@ -107,8 +111,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 ---
 
 ## API: `POST /api/anchor-data`
-<!-- metadata: dubzcxz4lp -->
-<!-- metadata: heh63nexe2 -->
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
