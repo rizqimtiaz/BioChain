@@ -17,16 +17,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Tech stack
-<!-- metadata: b226ug18dm -->
-<!-- metadata: lvxx05eceg -->
-<!-- metadata: ve7db3oi78 -->
-<!-- metadata: 7zeuhnwvz0 -->
-<!-- metadata: xmenh786iw -->
-<!-- metadata: vrfhzd76lr -->
-<!-- metadata: od9aa4djrf -->
-<!-- metadata: gs0wvi6jyu -->
-<!-- metadata: 6aogw7fdf0 -->
-<!-- metadata: 0frjkxyf3l -->
 
 | Layer | Technology |
 | ----- | ---------- |
@@ -113,6 +103,7 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
+| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
