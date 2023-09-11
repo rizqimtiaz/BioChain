@@ -105,6 +105,13 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
+<!-- metadata: 7y7ybypnp0 -->
+<!-- metadata: u5tebuj5jj -->
+<!-- metadata: isz0jnka6i -->
+<!-- metadata: pv2kr4i6k4 -->
+<!-- metadata: 51r8vi17gv -->
+<!-- metadata: uix208ynyv -->
+<!-- metadata: ui1yc6ong4 -->
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
@@ -115,10 +122,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
-
-```jsonc
-// Request
-{
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
