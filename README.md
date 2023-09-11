@@ -117,8 +117,14 @@ SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
-// Request
 {
+<!-- metadata: 0v5kg2qgdk -->
+<!-- metadata: q7pr8e4jnn -->
+<!-- metadata: qwlpvojqk0 -->
+<!-- metadata: e5iaa8yuxa -->
+<!-- metadata: z5p7pd0c0i -->
+<!-- metadata: 2b6ere9a1g -->
+<!-- metadata: 7sdqffzuwb -->
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
