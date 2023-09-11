@@ -68,7 +68,6 @@ app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
-  globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
@@ -131,6 +130,16 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     ],
     "deviceId": "biostrap-7"
   }
+<!-- metadata: xhlhyhmdub -->
+<!-- metadata: korhaehf3m -->
+<!-- metadata: qmak5lhfeu -->
+<!-- metadata: 2q0skev08t -->
+<!-- metadata: yyeuk7gnte -->
+<!-- metadata: 4h5zwoykqy -->
+<!-- metadata: ii1qqnwov6 -->
+<!-- metadata: del1ub6wkt -->
+<!-- metadata: 0mvk2fsam6 -->
+<!-- metadata: 8cbw7oq6s2 -->
 }
 ```
 
