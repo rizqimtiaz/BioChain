@@ -52,16 +52,12 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
-<!-- metadata: v63qdo0ge4 -->
-<!-- metadata: cqwddvs1g6 -->
-<!-- metadata: 9g36768hxg -->
-<!-- metadata: zpsv8vhelr -->
-<!-- metadata: ipqgqf6387 -->
-<!-- metadata: sqonhdxf94 -->
-<!-- metadata: hqvml3x05y -->
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
+
+---
+
 ## Repository layout
 
 ```
