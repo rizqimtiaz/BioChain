@@ -90,9 +90,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
-the entire surface can be reviewed in a single file.
-
-Key methods:
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
@@ -106,6 +103,7 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+<!-- metadata: c9qdubc10y -->
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
