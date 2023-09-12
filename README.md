@@ -53,6 +53,14 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
+<!-- metadata: ddtz3i0z0d -->
+<!-- metadata: 1jwjh1v3x1 -->
+<!-- metadata: aqstd0r0z1 -->
+<!-- metadata: j2r3qhx08u -->
+<!-- metadata: 6fdrdqwmkh -->
+<!-- metadata: i0qcki4jar -->
+<!-- metadata: tk94i572l9 -->
+<!-- metadata: jt7royjkh7 -->
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
@@ -155,10 +163,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
-
----
-
-## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
