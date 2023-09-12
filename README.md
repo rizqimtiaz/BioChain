@@ -15,6 +15,10 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
+
+## Tech stack
+
+| Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
@@ -144,10 +148,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
-<!-- metadata: 5xf5x16zme -->
-<!-- metadata: whzobs0u00 -->
-<!-- metadata: briwfvgsye -->
-<!-- metadata: qlcqdoqoxm -->
     "source": "wearable"
   }
 }
