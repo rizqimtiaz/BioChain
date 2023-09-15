@@ -14,8 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
----
-
 ## Tech stack
 
 | Layer | Technology |
@@ -40,6 +38,11 @@ npm install
 
 # Dev server
 npm run dev
+<!-- metadata: spd69bild7 -->
+<!-- metadata: z3m8nsrosu -->
+<!-- metadata: 7kiozuhc9g -->
+<!-- metadata: t42hj269zl -->
+<!-- metadata: jo3iidvy53 -->
 # → http://localhost:3000
 
 # Production build
