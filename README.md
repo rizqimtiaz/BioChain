@@ -41,6 +41,12 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
+<!-- metadata: a4bek688ii -->
+<!-- metadata: w2xb3lypb1 -->
+<!-- metadata: jx6t7pmxzn -->
+<!-- metadata: wr4y1y19po -->
+<!-- metadata: t0kiybl1rw -->
+<!-- metadata: gs6g1k14mz -->
 
 # Production build
 npm run build
@@ -124,7 +130,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
-    "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
