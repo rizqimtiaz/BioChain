@@ -14,6 +14,8 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
+---
+
 ## Tech stack
 
 | Layer | Technology |
@@ -89,13 +91,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
-<!-- metadata: qg0vbgjoe9 -->
-<!-- metadata: qyihlmgkq1 -->
-<!-- metadata: oavm1ot8ze -->
-<!-- metadata: wlvbrwh3bz -->
-<!-- metadata: kp6ij0yxfr -->
-<!-- metadata: xg3t73bmay -->
-<!-- metadata: 5x6a8fxpmg -->
 
 Key methods:
 
