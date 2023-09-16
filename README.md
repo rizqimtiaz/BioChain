@@ -81,9 +81,6 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
-tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
-
 ---
 
 ## Smart-contract surface
@@ -157,6 +154,13 @@ Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
+<!-- metadata: xubj2m4g5a -->
+<!-- metadata: 1lnqgawiar -->
+<!-- metadata: zmlayramxa -->
+<!-- metadata: omm3tnn18p -->
+<!-- metadata: 8tj9bt4mvu -->
+<!-- metadata: t586q2ln1v -->
+<!-- metadata: yz933pi5ts -->
 
 ## Design philosophy
 
