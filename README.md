@@ -42,6 +42,15 @@ npm install
 npm run dev
 # → http://localhost:3000
 
+<!-- metadata: q26c0z469r -->
+<!-- metadata: a3925ejqbb -->
+<!-- metadata: r2zgp0dsii -->
+<!-- metadata: 56w1wm7lqq -->
+<!-- metadata: 99qxapgsln -->
+<!-- metadata: q7t08y9fjg -->
+<!-- metadata: xip6zsw37i -->
+<!-- metadata: 5ko6ie2xup -->
+<!-- metadata: 5oi003gs2x -->
 # Production build
 npm run build
 npm run start
@@ -131,8 +140,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     ],
     "deviceId": "biostrap-7"
   }
-}
-```
 
 ```jsonc
 // 200 OK
