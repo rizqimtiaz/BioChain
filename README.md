@@ -74,19 +74,10 @@ app/
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
-<!-- metadata: wemk6nuimh -->
-<!-- metadata: e2rcvnvybk -->
-<!-- metadata: 1y9ta0ihzu -->
-<!-- metadata: 16s82o34ic -->
-<!-- metadata: njl6upihwi -->
-<!-- metadata: s8vmltea1k -->
-<!-- metadata: 49ogamevyh -->
-<!-- metadata: tq3gslz4w6 -->
-<!-- metadata: 2ovs597s2g -->
-<!-- metadata: n33vzeuuir -->
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
+
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
