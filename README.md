@@ -116,6 +116,8 @@ Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
+```jsonc
+// Request
 {
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
@@ -136,11 +138,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // 200 OK
 {
   "ok": true,
-<!-- metadata: 85eqo1mbd4 -->
-<!-- metadata: gnhe7f15a5 -->
-<!-- metadata: juv1pbit17 -->
-<!-- metadata: 2zb12janhm -->
-<!-- metadata: toexj8rh9a -->
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
