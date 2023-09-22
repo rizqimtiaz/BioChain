@@ -43,6 +43,11 @@ npm run dev
 # → http://localhost:3000
 
 # Production build
+<!-- metadata: yg3hv6tm6v -->
+<!-- metadata: mld9he8ts3 -->
+<!-- metadata: 502w7lnzyc -->
+<!-- metadata: p4s2a6u7m3 -->
+<!-- metadata: 1ohpyzxa0s -->
 npm run build
 npm run start
 ```
@@ -118,9 +123,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
 // Request
-{
-  "tokenId": "1",
-  "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
