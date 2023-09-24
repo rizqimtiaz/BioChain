@@ -113,6 +113,9 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
+SHA-256 over the canonicalized form, and returns an anchor receipt suitable
+for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
+
 ```jsonc
 // Request
 {
@@ -153,8 +156,6 @@ Takes a clinical-data payload, validates it with Zod, computes a deterministic
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
-<!-- metadata: gol9a8pzdx -->
-<!-- metadata: gz6s2hdin3 -->
 ---
 
 ## Design philosophy
