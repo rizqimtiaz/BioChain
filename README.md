@@ -41,6 +41,13 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
+<!-- metadata: jls2x2nitp -->
+<!-- metadata: 06sro7zxoo -->
+<!-- metadata: m7cif4iez5 -->
+<!-- metadata: afk5pz061b -->
+<!-- metadata: o9nx01m8cn -->
+<!-- metadata: qb3w6m2v99 -->
+<!-- metadata: slo0mu0b10 -->
 
 # Production build
 npm run build
@@ -143,9 +150,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
-    "recordedAt": "2026-05-03T...Z",
-    "algorithm":  "SHA-256",
-    "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
