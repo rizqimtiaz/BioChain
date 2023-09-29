@@ -132,7 +132,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "deviceId": "biostrap-7"
   }
 }
-```
 
 ```jsonc
 // 200 OK
@@ -158,6 +157,13 @@ the request scope.
 
 ---
 
+<!-- metadata: dmq09gcwnh -->
+<!-- metadata: lw5ss7rhgg -->
+<!-- metadata: dc7btlmbo4 -->
+<!-- metadata: lvf7obdg19 -->
+<!-- metadata: k2isu4fpnd -->
+<!-- metadata: rtikgu8bkm -->
+<!-- metadata: ts3ubv0ajg -->
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
