@@ -45,6 +45,11 @@ npm run dev
 # Production build
 npm run build
 npm run start
+<!-- metadata: udihy22hky -->
+<!-- metadata: 4h2ul8p2ql -->
+<!-- metadata: lmoc0izahs -->
+<!-- metadata: 62ou1r5zj4 -->
+<!-- metadata: iu35auqzh5 -->
 ```
 
 ### Environment variables
@@ -90,7 +95,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
-the entire surface can be reviewed in a single file.
 
 Key methods:
 
