@@ -84,6 +84,16 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
+<!-- metadata: otbxwru65b -->
+<!-- metadata: d42selpu77 -->
+<!-- metadata: 5mgocw4s69 -->
+<!-- metadata: t4957odyv9 -->
+<!-- metadata: hx8bpr0ruy -->
+<!-- metadata: mzsjb8mfpx -->
+<!-- metadata: lw2uogmkuc -->
+<!-- metadata: sq1d1zij2l -->
+<!-- metadata: v99srudpas -->
+<!-- metadata: gtgo7694r4 -->
 ---
 
 ## Smart-contract surface
@@ -135,9 +145,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 ```jsonc
-// 200 OK
-{
-  "ok": true,
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
