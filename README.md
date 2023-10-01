@@ -96,6 +96,8 @@ Key methods:
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
+| `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
+| `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
@@ -154,15 +156,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
-<!-- metadata: upv1no0xtw -->
-<!-- metadata: zarfhmcli9 -->
-<!-- metadata: ehdn2wda5l -->
-<!-- metadata: 8xigfqhmku -->
-<!-- metadata: drzx6bqng0 -->
-<!-- metadata: 3ix6rieymr -->
-<!-- metadata: 3495emytzz -->
-<!-- metadata: 9prib2c9hv -->
-<!-- metadata: ojj4zc80ij -->
 ---
 
 ## Design philosophy
