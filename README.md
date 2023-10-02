@@ -78,9 +78,6 @@ components/
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
-<!-- metadata: kzp9tk34sl -->
-<!-- metadata: fe7mt0qpve -->
-<!-- metadata: w6b6mzvfsa -->
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
@@ -114,6 +111,10 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 ---
 
 ## API: `POST /api/anchor-data`
+
+Takes a clinical-data payload, validates it with Zod, computes a deterministic
+SHA-256 over the canonicalized form, and returns an anchor receipt suitable
+for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
 // Request
