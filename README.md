@@ -69,6 +69,8 @@ app/
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
+  explore/page.tsx            Marketplace (filters + Recharts dashboards).
+  api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
@@ -79,15 +81,6 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
-<!-- metadata: mupkr23gii -->
-<!-- metadata: 4fvgurfkyc -->
-<!-- metadata: sll51c9cdq -->
-<!-- metadata: 6tatetu2da -->
-<!-- metadata: h8zqnm5ekf -->
-<!-- metadata: rwcuiqhajx -->
-<!-- metadata: 15yix4q99l -->
-<!-- metadata: f6wvb923uc -->
-<!-- metadata: rnexyd5s3g -->
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
