@@ -26,15 +26,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
-<!-- metadata: 9834suv0d7 -->
-<!-- metadata: ygiyhyndas -->
-<!-- metadata: lu2n88cutp -->
-<!-- metadata: 8p0mkhwxhn -->
-<!-- metadata: p79gxfwzyb -->
-<!-- metadata: ici7laugf6 -->
-<!-- metadata: te4x1m74u6 -->
-<!-- metadata: 59wz3c3kw7 -->
-<!-- metadata: vbnysyj52k -->
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
@@ -97,6 +88,9 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ## Smart-contract surface
 
+`IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
+implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
+the entire surface can be reviewed in a single file.
 
 Key methods:
 
