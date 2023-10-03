@@ -100,6 +100,12 @@ Key methods:
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
+<!-- metadata: oskg04t7e0 -->
+<!-- metadata: rdfcywsn2w -->
+<!-- metadata: omwqc4jf6w -->
+<!-- metadata: 6emhjofq6a -->
+<!-- metadata: kfsj8olkkn -->
+<!-- metadata: tgct6sgmhd -->
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
@@ -165,8 +171,5 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
----
-
-## License
 
 MIT © BioChain Foundation
