@@ -44,6 +44,10 @@ npm run dev
 
 # Production build
 npm run build
+<!-- metadata: 5nu85k4g7h -->
+<!-- metadata: fjiarff4et -->
+<!-- metadata: 1wv0sfq1zu -->
+<!-- metadata: gk5wdlt65q -->
 npm run start
 ```
 
@@ -122,8 +126,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
-    "participantPseudoId": "p-9b4c2e3a1d",
-    "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
