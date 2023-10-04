@@ -11,6 +11,10 @@ clinical research as on-chain Intellectual Property NFTs.
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
+<!-- metadata: n5alcty3pa -->
+<!-- metadata: fplmjjoy2w -->
+<!-- metadata: qt4v7erpku -->
+<!-- metadata: 18ixhmaxot -->
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
@@ -94,7 +98,6 @@ the entire surface can be reviewed in a single file.
 
 Key methods:
 
-| Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
