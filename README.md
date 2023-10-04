@@ -79,13 +79,6 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
-<!-- metadata: csxud5w2di -->
-<!-- metadata: 78b2f4o1gd -->
-<!-- metadata: x3h5fqyqs8 -->
-<!-- metadata: 5js6j76dat -->
-<!-- metadata: cbd843mlmb -->
-<!-- metadata: yboimg3kr7 -->
-<!-- metadata: 4n7slpk7vs -->
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
@@ -159,6 +152,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
+
+Raw clinical data is **never persisted** by the route — only the hash exits
+the request scope.
 
 ---
 
