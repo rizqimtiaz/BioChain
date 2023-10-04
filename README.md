@@ -30,6 +30,16 @@ clinical research as on-chain Intellectual Property NFTs.
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
+<!-- metadata: 0u0gtnztfx -->
+<!-- metadata: k6lrsekkmd -->
+<!-- metadata: ozp905d771 -->
+<!-- metadata: eznm7d9dqe -->
+<!-- metadata: fbsn2lhfkr -->
+<!-- metadata: okxv6hk6hq -->
+<!-- metadata: 8wf0d1aqw1 -->
+<!-- metadata: c60neihj2b -->
+<!-- metadata: ml42tx8p6r -->
+<!-- metadata: i563tj5evt -->
 ---
 
 ## Getting started
@@ -46,8 +56,6 @@ npm run dev
 npm run build
 npm run start
 ```
-
-### Environment variables
 
 Optional — falls back to viem public RPC if not set.
 
