@@ -95,6 +95,8 @@ the entire surface can be reviewed in a single file.
 Key methods:
 
 | Method | Caller | Purpose |
+| ------ | ------ | ------- |
+| `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
@@ -155,15 +157,6 @@ Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
-<!-- metadata: 8tf0kspr68 -->
-<!-- metadata: kkow2vpre7 -->
-<!-- metadata: 1uqbhldr26 -->
-<!-- metadata: wvm31rhsvl -->
-<!-- metadata: t2knnft98z -->
-<!-- metadata: z30r68rsj0 -->
-<!-- metadata: vl2kg7ei6n -->
-<!-- metadata: augizbn7kz -->
-<!-- metadata: cov664v674 -->
 
 ## Design philosophy
 
