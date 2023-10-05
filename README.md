@@ -71,6 +71,9 @@ app/
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
+
+components/
+  TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
@@ -151,12 +154,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
-<!-- metadata: 1ymafu4v3h -->
-<!-- metadata: 3zv520bw91 -->
-<!-- metadata: mxiluwy3ci -->
-<!-- metadata: 6srd7f7bj1 -->
-<!-- metadata: t70j3rrrr9 -->
-<!-- metadata: ikhyk4z5i8 -->
 the request scope.
 
 ---
