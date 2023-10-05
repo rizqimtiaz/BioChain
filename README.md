@@ -57,6 +57,15 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
 ---
+<!-- metadata: cpnx2avapn -->
+<!-- metadata: 01x3eyulnx -->
+<!-- metadata: mic59nrzj8 -->
+<!-- metadata: xj3axwc7ys -->
+<!-- metadata: ctne7set3v -->
+<!-- metadata: ws1qq5tiaa -->
+<!-- metadata: y50cpbh7mc -->
+<!-- metadata: k5swurt3gu -->
+<!-- metadata: 47qhv4bso1 -->
 
 ## Repository layout
 
@@ -129,7 +138,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
-    "deviceId": "biostrap-7"
   }
 }
 ```
