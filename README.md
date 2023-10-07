@@ -72,6 +72,11 @@ app/
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
+<!-- metadata: c3rc3ye3ur -->
+<!-- metadata: swyt186o4z -->
+<!-- metadata: qgvgu44gd3 -->
+<!-- metadata: 0tct20j0de -->
+<!-- metadata: qsyeoa7mgu -->
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
@@ -107,8 +112,6 @@ Key methods:
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
-
----
 
 ## API: `POST /api/anchor-data`
 
