@@ -128,13 +128,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
-<!-- metadata: d18ib0npx9 -->
-<!-- metadata: qokshe7hwl -->
-<!-- metadata: 2hixc4iv9z -->
-<!-- metadata: dq15c69vpi -->
-<!-- metadata: 4z0lgauupg -->
-<!-- metadata: bf51spmlxe -->
-<!-- metadata: xgy9fca9i5 -->
     ],
     "deviceId": "biostrap-7"
   }
@@ -150,6 +143,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
+    "recordedAt": "2026-05-03T...Z",
+    "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
