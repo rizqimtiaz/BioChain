@@ -65,6 +65,10 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
 app/
+<!-- metadata: bhjopldp8t -->
+<!-- metadata: bwzdggz0ah -->
+<!-- metadata: 5yxn6xt6w0 -->
+<!-- metadata: amv0b5vyry -->
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
@@ -133,9 +137,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-
-```jsonc
-// 200 OK
 {
   "ok": true,
   "receipt": {
