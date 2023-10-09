@@ -40,10 +40,6 @@ npm install
 
 # Dev server
 npm run dev
-# → http://localhost:3000
-
-# Production build
-npm run build
 npm run start
 ```
 
@@ -78,6 +74,16 @@ components/
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
+<!-- metadata: rviazsqz7i -->
+<!-- metadata: x5krycfj1r -->
+<!-- metadata: ojzj94quky -->
+<!-- metadata: cred90up81 -->
+<!-- metadata: rxwhkrzkum -->
+<!-- metadata: kb6btmpprf -->
+<!-- metadata: o1k2qev2as -->
+<!-- metadata: v1cd3korfe -->
+<!-- metadata: 3uujb7bulw -->
+<!-- metadata: b1u5uad4d7 -->
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
