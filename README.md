@@ -49,8 +49,6 @@ npm run start
 
 ### Environment variables
 
-Optional — falls back to viem public RPC if not set.
-
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
@@ -63,6 +61,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
+<!-- metadata: hmvqjuy3k1 -->
+<!-- metadata: 6kkvpxyouk -->
+<!-- metadata: yucwecpeuy -->
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
