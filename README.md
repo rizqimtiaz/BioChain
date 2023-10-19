@@ -80,11 +80,6 @@ components/
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
-<!-- metadata: mv20i1clys -->
-<!-- metadata: 21i2z3oh4t -->
-<!-- metadata: bpy9tn0afd -->
-<!-- metadata: ps4mr05fja -->
-<!-- metadata: 1o1pz6hs3c -->
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
@@ -111,6 +106,7 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
