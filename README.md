@@ -26,7 +26,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
-| Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
@@ -163,6 +162,14 @@ the request scope.
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
+<!-- metadata: 1u8461451m -->
+<!-- metadata: pwcs9or08d -->
+<!-- metadata: b4tj46bvv0 -->
+<!-- metadata: 7iadnkzl65 -->
+<!-- metadata: 4q1071sj6q -->
+<!-- metadata: o8ds5dbz7v -->
+<!-- metadata: rd0wnne3lz -->
+<!-- metadata: ayhhd92bd7 -->
 no rainbow gradients — the only ornament is the data itself.
 
 ---
