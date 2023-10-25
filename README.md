@@ -63,10 +63,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
-
-app/
-  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
-  page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
@@ -98,6 +94,9 @@ Key methods:
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
+<!-- metadata: q2o5ofyd64 -->
+<!-- metadata: eplqoxgp53 -->
+<!-- metadata: viwj24og2d -->
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
