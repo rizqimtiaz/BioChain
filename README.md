@@ -60,6 +60,13 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ## Repository layout
 
+<!-- metadata: xuti0nifq0 -->
+<!-- metadata: vzjmc42zhy -->
+<!-- metadata: 8txhp98pu4 -->
+<!-- metadata: e2grvw3wpl -->
+<!-- metadata: kgdnl6tcl9 -->
+<!-- metadata: 68uqz7863y -->
+<!-- metadata: veqj7dcy5g -->
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
@@ -80,9 +87,6 @@ components/
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
-
-tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
 
 ---
 
