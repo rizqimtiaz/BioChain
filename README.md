@@ -10,14 +10,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
-<!-- metadata: 8jvgbq05yp -->
-<!-- metadata: 6v3n09z4gw -->
-<!-- metadata: hkgdstnipy -->
-<!-- metadata: o5787l00t7 -->
-<!-- metadata: wixfx8i7jf -->
-<!-- metadata: 40r61awy6r -->
-<!-- metadata: 5c15xbpyxf -->
-<!-- metadata: z256hf9suz -->
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
@@ -103,6 +95,10 @@ the entire surface can be reviewed in a single file.
 Key methods:
 
 | Method | Caller | Purpose |
+| ------ | ------ | ------- |
+| `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
+| `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
+| `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
