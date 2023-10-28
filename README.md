@@ -109,9 +109,6 @@ Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
-<!-- metadata: c3oyd4o9mj -->
-<!-- metadata: tr8m0jrvry -->
-<!-- metadata: 68cnn3s2si -->
 
 ## API: `POST /api/anchor-data`
 
@@ -145,6 +142,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
+    "receiptHash":"0x...",
+    "recordedAt": "2026-05-03T...Z",
+    "algorithm":  "SHA-256",
+    "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
