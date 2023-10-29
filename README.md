@@ -6,6 +6,12 @@ BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
+<!-- metadata: my76exjzzd -->
+<!-- metadata: kcwnl7d295 -->
+<!-- metadata: irnbgjzho4 -->
+<!-- metadata: o5hqmkhurx -->
+<!-- metadata: 8lskexjysm -->
+<!-- metadata: u0kpy0t9tj -->
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
@@ -80,7 +86,6 @@ components/
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
-
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
