@@ -69,6 +69,10 @@ app/
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
+  explore/page.tsx            Marketplace (filters + Recharts dashboards).
+  api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
+
+components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
@@ -94,12 +98,6 @@ Key methods:
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
-<!-- metadata: 2az4ho3teo -->
-<!-- metadata: 5ailgqgrlr -->
-<!-- metadata: 177sf33i3e -->
-<!-- metadata: l807hqfhe9 -->
-<!-- metadata: jxk4emcqm9 -->
-<!-- metadata: f96uxbwdh3 -->
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
