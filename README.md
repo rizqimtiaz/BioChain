@@ -117,7 +117,6 @@ SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
-// Request
 {
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
@@ -158,6 +157,15 @@ the request scope.
 
 ---
 
+<!-- metadata: l57l46i9m9 -->
+<!-- metadata: p8xuxshvgr -->
+<!-- metadata: n5hhv0tk56 -->
+<!-- metadata: 955cd55tyk -->
+<!-- metadata: 9akuparafl -->
+<!-- metadata: 3ybpfy423e -->
+<!-- metadata: ot8ryhsan9 -->
+<!-- metadata: cla3tioevt -->
+<!-- metadata: adzosz7jpc -->
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
