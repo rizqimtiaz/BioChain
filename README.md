@@ -145,11 +145,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
-    "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
   }
+<!-- metadata: omsf3reajy -->
+<!-- metadata: jmc28cyk0i -->
+<!-- metadata: i5z4vao1fg -->
 }
 ```
 
