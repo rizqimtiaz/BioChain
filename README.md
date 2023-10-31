@@ -31,9 +31,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
-
-## Getting started
-
 ```bash
 # Install
 npm install
@@ -55,6 +52,16 @@ Optional — falls back to viem public RPC if not set.
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
+<!-- metadata: 1ztpeazrpq -->
+<!-- metadata: 3xkz4plq9t -->
+<!-- metadata: fihmla7dlm -->
+<!-- metadata: ubakrdvenv -->
+<!-- metadata: y6o7m084p5 -->
+<!-- metadata: 6c3uzjg8ac -->
+<!-- metadata: o64pmtrhl9 -->
+<!-- metadata: khwc5h4b72 -->
+<!-- metadata: 4wqheyf4gr -->
+<!-- metadata: lthb10ezb7 -->
 
 ---
 
