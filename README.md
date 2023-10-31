@@ -59,6 +59,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ---
 
 ## Repository layout
+<!-- metadata: jgrtqrkz8q -->
+<!-- metadata: o6cggp3iht -->
+<!-- metadata: 82mmwta6po -->
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
@@ -77,9 +80,6 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
-
-store/useBioStore.ts          Global Zustand store + selectors.
-lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
