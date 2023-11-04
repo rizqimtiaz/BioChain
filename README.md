@@ -26,12 +26,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
-<!-- metadata: 36eedqjvl1 -->
-<!-- metadata: k3ro1bj6vx -->
-<!-- metadata: 5uryc3wq0i -->
-<!-- metadata: dbrapr6b7f -->
-<!-- metadata: ka38t0wng8 -->
-<!-- metadata: ndko2r3rsx -->
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
@@ -141,6 +135,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 ```jsonc
+// 200 OK
 {
   "ok": true,
   "receipt": {
