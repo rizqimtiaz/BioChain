@@ -52,6 +52,7 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
+NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
@@ -141,13 +142,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
-<!-- metadata: 87ma246f1n -->
-<!-- metadata: 12dtwl7ivp -->
-<!-- metadata: wnqvq8b5n1 -->
-<!-- metadata: c51rekcx0h -->
-<!-- metadata: xpb0e66ick -->
-<!-- metadata: jxakanx4sz -->
-<!-- metadata: iafykm4t28 -->
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
