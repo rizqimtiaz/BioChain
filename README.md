@@ -51,6 +51,12 @@ npm run start
 
 Optional — falls back to viem public RPC if not set.
 
+<!-- metadata: 90j1lc4wm3 -->
+<!-- metadata: s4yh32lnph -->
+<!-- metadata: iqf2kmd3b4 -->
+<!-- metadata: jz5wawnhgp -->
+<!-- metadata: g95xtcaazf -->
+<!-- metadata: xp02guwxmd -->
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
@@ -109,9 +115,6 @@ Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
-
-## API: `POST /api/anchor-data`
-
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
