@@ -49,10 +49,6 @@ npm run start
 
 ### Environment variables
 
-Optional — falls back to viem public RPC if not set.
-
-```bash
-NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
@@ -111,6 +107,9 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 ---
 
 ## API: `POST /api/anchor-data`
+<!-- metadata: rrjhy2jhdk -->
+<!-- metadata: 5hoad9qih7 -->
+<!-- metadata: f71r53plv2 -->
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
