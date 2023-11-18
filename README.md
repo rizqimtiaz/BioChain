@@ -106,12 +106,6 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
-<!-- metadata: v1lbu2ihjl -->
-<!-- metadata: sl80gzy2xp -->
-<!-- metadata: hsifu4lv4z -->
-<!-- metadata: 502q774af8 -->
-<!-- metadata: jdtwrileie -->
-<!-- metadata: fjxam36pqr -->
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
@@ -148,6 +142,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
+    "receiptHash":"0x...",
+    "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
