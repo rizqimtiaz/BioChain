@@ -26,9 +26,10 @@ clinical research as on-chain Intellectual Property NFTs.
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
-<!-- metadata: m3yv3227qt -->
-<!-- metadata: 5xf0xdzivb -->
-<!-- metadata: i6wgiw9am3 -->
+| Animation | Framer Motion 11 |
+| Icons | Lucide React |
+| Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
+
 ---
 
 ## Getting started
