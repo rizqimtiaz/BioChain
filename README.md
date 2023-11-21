@@ -46,6 +46,7 @@ npm run dev
 npm run build
 npm run start
 ```
+
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
@@ -151,13 +152,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-<!-- metadata: ttsytm8ars -->
-<!-- metadata: 0ktuma4vvz -->
-<!-- metadata: axj4kjftnv -->
-<!-- metadata: g1l00lf8ql -->
-<!-- metadata: uufn89fu0r -->
-<!-- metadata: 2r2cz1luce -->
-<!-- metadata: k7cbreyuts -->
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
