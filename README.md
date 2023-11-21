@@ -99,6 +99,14 @@ Key methods:
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
+<!-- metadata: ycgtxiu3ch -->
+<!-- metadata: ziqgexhg7r -->
+<!-- metadata: g3o1dcv92w -->
+<!-- metadata: pcqrb95aiv -->
+<!-- metadata: vxc2g5txvd -->
+<!-- metadata: pdz7zhxv7v -->
+<!-- metadata: i68554ncie -->
+<!-- metadata: 9qmyqt8cre -->
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
@@ -129,8 +137,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
-    "deviceId": "biostrap-7"
-  }
 }
 ```
 
