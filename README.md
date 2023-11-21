@@ -16,6 +16,8 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+## Tech stack
+
 | Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
@@ -47,13 +49,6 @@ npm run start
 
 ### Environment variables
 
-<!-- metadata: vl9ci4w5yp -->
-<!-- metadata: 9pfsjcw9rp -->
-<!-- metadata: i4f9zp727n -->
-<!-- metadata: vfg2c9fkh6 -->
-<!-- metadata: u7odjxwsfb -->
-<!-- metadata: 0ex606glmi -->
-<!-- metadata: sqkahvl7ec -->
 Optional — falls back to viem public RPC if not set.
 
 ```bash
