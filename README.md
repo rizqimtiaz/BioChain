@@ -28,8 +28,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
-| Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
-
 ---
 
 ## Getting started
@@ -66,6 +64,12 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+<!-- metadata: z8xfgjv7kl -->
+<!-- metadata: 1f7pq8pkj3 -->
+<!-- metadata: 6ip0k1t7m2 -->
+<!-- metadata: kgpyr7zulw -->
+<!-- metadata: y4vbw5kdva -->
+<!-- metadata: a3eb9hjxo8 -->
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
