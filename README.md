@@ -133,9 +133,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-<!-- metadata: t9j5ivq8g0 -->
-<!-- metadata: uav4cn324e -->
-<!-- metadata: 6qhcw4jpv7 -->
 
 ```jsonc
 // 200 OK
@@ -162,6 +159,7 @@ the request scope.
 ---
 
 ## Design philosophy
+
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
