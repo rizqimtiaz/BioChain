@@ -20,16 +20,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 | Layer | Technology |
 | ----- | ---------- |
-<!-- metadata: 7g2ex1th7t -->
-<!-- metadata: ee2mexhomg -->
-<!-- metadata: jyjkymhgnd -->
-<!-- metadata: 66dyvkq0cl -->
-<!-- metadata: wza5xgrxk8 -->
-<!-- metadata: 4q8molisrz -->
-<!-- metadata: eypgmnbd5r -->
-<!-- metadata: phuqvxyfdq -->
-<!-- metadata: 17lxypign5 -->
-<!-- metadata: nr3wbm2wu8 -->
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
@@ -49,6 +39,9 @@ clinical research as on-chain Intellectual Property NFTs.
 npm install
 
 # Dev server
+npm run dev
+# → http://localhost:3000
+
 # Production build
 npm run build
 npm run start
