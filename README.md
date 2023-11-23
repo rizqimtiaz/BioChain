@@ -85,7 +85,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
 ---
-
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -151,6 +150,14 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
+<!-- metadata: 58m8jd07m6 -->
+<!-- metadata: js3ozca8m8 -->
+<!-- metadata: xp0el7jkyf -->
+<!-- metadata: 3oj9z2wxe9 -->
+<!-- metadata: lrpsw43bsg -->
+<!-- metadata: latduxdkwq -->
+<!-- metadata: dc0wlpg2kf -->
+<!-- metadata: v1djroo7ts -->
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
