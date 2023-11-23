@@ -23,6 +23,10 @@ clinical research as on-chain Intellectual Property NFTs.
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
+| Data | TanStack Query 5 |
+| Validation | Zod 3 |
+| Charts | Recharts 2 |
+| Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
@@ -82,11 +86,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
-<!-- metadata: 5nogcp814r -->
-<!-- metadata: ojr2ij7rm1 -->
-<!-- metadata: dq4f1vzqrp -->
-<!-- metadata: m5kcuj88ns -->
-<!-- metadata: 54wz6hghaj -->
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
