@@ -28,6 +28,11 @@ clinical research as on-chain Intellectual Property NFTs.
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
+<!-- metadata: dqbkqrudvg -->
+<!-- metadata: yathic4we3 -->
+<!-- metadata: ghwcfvnxrh -->
+<!-- metadata: vpj9lzpa5v -->
+<!-- metadata: brlefcxiw8 -->
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
@@ -114,7 +119,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
-for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
 // Request
