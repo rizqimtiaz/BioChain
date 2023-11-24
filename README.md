@@ -51,10 +51,6 @@ npm run start
 
 Optional — falls back to viem public RPC if not set.
 
-```bash
-NEXT_PUBLIC_MAINNET_RPC=https://...
-NEXT_PUBLIC_SEPOLIA_RPC=https://...
-```
 
 ---
 
@@ -116,6 +112,14 @@ Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
+<!-- metadata: imhzuuy9q7 -->
+<!-- metadata: zydy61anzx -->
+<!-- metadata: 8cv0t3hhdt -->
+<!-- metadata: ene05oczu5 -->
+<!-- metadata: v4sdkutskm -->
+<!-- metadata: 1icf7id4pt -->
+<!-- metadata: 0feljhc3no -->
+<!-- metadata: ynvck9pr6k -->
 ```jsonc
 // Request
 {
