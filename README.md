@@ -145,6 +145,14 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
+<!-- metadata: 1jw0ti70ic -->
+<!-- metadata: z56v8tzouw -->
+<!-- metadata: 76lwc0awmo -->
+<!-- metadata: 5rmaiha5ln -->
+<!-- metadata: 2w8aq9kp6e -->
+<!-- metadata: nkde2knpto -->
+<!-- metadata: zj6xs65o9k -->
+<!-- metadata: z18tixi378 -->
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
@@ -159,8 +167,6 @@ the request scope.
 ---
 
 ## Design philosophy
-
-The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
