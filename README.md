@@ -90,6 +90,8 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
+the entire surface can be reviewed in a single file.
+
 Key methods:
 
 | Method | Caller | Purpose |
@@ -163,14 +165,6 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
-<!-- metadata: 5flfjpym61 -->
-<!-- metadata: 16syuwxxdp -->
-<!-- metadata: isyrhjfw05 -->
-<!-- metadata: 96i1ilqzag -->
-<!-- metadata: 128fmanl9e -->
-<!-- metadata: f1wnev0vj4 -->
-<!-- metadata: 625b8t2fxp -->
-<!-- metadata: 0qr73sayar -->
 ---
 
 ## License
