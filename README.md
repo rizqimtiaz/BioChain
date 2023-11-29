@@ -132,18 +132,11 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "deviceId": "biostrap-7"
   }
 }
+```
 
 ```jsonc
 // 200 OK
 {
-<!-- metadata: njyx3upphm -->
-<!-- metadata: 819xtd27s4 -->
-<!-- metadata: qdiju0gk6j -->
-<!-- metadata: lr9twmpmml -->
-<!-- metadata: 95lhh8o2fg -->
-<!-- metadata: prq7u0c8ih -->
-<!-- metadata: 7k7ladfkx3 -->
-<!-- metadata: uph83xz8ka -->
   "ok": true,
   "receipt": {
     "tokenId": "1",
