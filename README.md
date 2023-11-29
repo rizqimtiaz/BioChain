@@ -17,6 +17,8 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Tech stack
+<!-- metadata: ivw8sgadsn -->
+<!-- metadata: ctfv5x083s -->
 
 | Layer | Technology |
 | ----- | ---------- |
@@ -126,9 +128,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
-      { "code": "8867-4", "value": 72,   "unit": "bpm"    },
-      { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
-    ],
     "deviceId": "biostrap-7"
   }
 }
