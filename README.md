@@ -51,6 +51,9 @@ npm run start
 
 Optional — falls back to viem public RPC if not set.
 
+```bash
+NEXT_PUBLIC_MAINNET_RPC=https://...
+NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
 ---
@@ -121,14 +124,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
-<!-- metadata: 3yyg2iposm -->
-<!-- metadata: 6g05zejk6w -->
-<!-- metadata: nxayx1yda1 -->
-<!-- metadata: fx74v53r5e -->
-<!-- metadata: 6ugoxegbng -->
-<!-- metadata: qghwaqmkc0 -->
-<!-- metadata: z9703stsph -->
-<!-- metadata: ko59semzni -->
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
