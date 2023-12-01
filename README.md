@@ -17,6 +17,8 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Tech stack
+
+| Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
@@ -136,15 +138,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // 200 OK
 {
   "ok": true,
-<!-- metadata: 5q9ipahent -->
-<!-- metadata: 7la61mnb8k -->
-<!-- metadata: uiw6tkql31 -->
-<!-- metadata: jtk22cdb24 -->
-<!-- metadata: smr87vbci7 -->
-<!-- metadata: tuks3qkrps -->
-<!-- metadata: rz8ostbhya -->
-<!-- metadata: iwbohe73jv -->
-<!-- metadata: spo3rurstx -->
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
