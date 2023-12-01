@@ -110,6 +110,8 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
+## API: `POST /api/anchor-data`
+
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
@@ -160,16 +162,6 @@ the request scope.
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
-<!-- metadata: khnpznuz7j -->
-<!-- metadata: 1ufd95u1n3 -->
-<!-- metadata: b6ml5rgudu -->
-<!-- metadata: leludef8pm -->
-<!-- metadata: j3grnx773h -->
-<!-- metadata: sr45zc4fda -->
-<!-- metadata: q0a5hmajh5 -->
-<!-- metadata: aumryizfmc -->
-<!-- metadata: p6lqdyccol -->
-<!-- metadata: x54ja7s2e5 -->
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
