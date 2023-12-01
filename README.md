@@ -76,16 +76,6 @@ components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
-<!-- metadata: bznbzlsaje -->
-<!-- metadata: 672eaebb82 -->
-<!-- metadata: 0m0g549g6j -->
-<!-- metadata: 5wt4evpmzs -->
-<!-- metadata: 5lyx2948bf -->
-<!-- metadata: aww2p58p8l -->
-<!-- metadata: xlppak0pwm -->
-<!-- metadata: rjwc4o96u1 -->
-<!-- metadata: 49eeumfgeu -->
-<!-- metadata: r269ysk1os -->
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
@@ -137,6 +127,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
+      { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
+    ],
     "deviceId": "biostrap-7"
   }
 }
