@@ -34,6 +34,10 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Getting started
 
+```bash
+# Install
+npm install
+
 # Dev server
 npm run dev
 # → http://localhost:3000
@@ -73,7 +77,6 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
-<!-- metadata: 2oxptysh4w -->
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
