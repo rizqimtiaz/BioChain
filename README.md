@@ -14,16 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
-<!-- metadata: iezhr4rwwc -->
-<!-- metadata: oubzg7hf2u -->
-<!-- metadata: 8urz6uu6l1 -->
-<!-- metadata: 17uxn5snag -->
-<!-- metadata: gx4sbvm647 -->
-<!-- metadata: w9sm1q2qm3 -->
-<!-- metadata: 89r2dn85jd -->
-<!-- metadata: 0665k1cnd7 -->
-<!-- metadata: ifxaboz0wr -->
-<!-- metadata: kunipi5a84 -->
 ---
 
 ## Tech stack
@@ -113,6 +103,7 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
+| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
