@@ -123,14 +123,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
-<!-- metadata: j1k8nnqzl3 -->
-<!-- metadata: hsrju5vqa9 -->
-<!-- metadata: j6euqd9w8u -->
-<!-- metadata: yu1dudc0hf -->
-<!-- metadata: kqq2h6e05z -->
-<!-- metadata: xvxqw254v3 -->
-<!-- metadata: tnaq85esk1 -->
-<!-- metadata: kw5uw3da3o -->
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
@@ -149,6 +141,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
+    "dataHash":   "0x9c1d3a5e...",
+    "receiptHash":"0x...",
+    "recordedAt": "2026-05-03T...Z",
+    "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
