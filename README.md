@@ -63,6 +63,10 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
+
+app/
+  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+  page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
@@ -89,14 +93,6 @@ implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
-<!-- metadata: q6pr04tztt -->
-<!-- metadata: 710t4k0os8 -->
-<!-- metadata: uh8iofmtoz -->
-<!-- metadata: 0k6ejmw585 -->
-<!-- metadata: 64m6zv2dgb -->
-<!-- metadata: wtp05wup39 -->
-<!-- metadata: 183nphsyip -->
-<!-- metadata: gpkxdgh1dv -->
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
