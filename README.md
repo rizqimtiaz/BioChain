@@ -41,8 +41,6 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
-
-# Production build
 npm run build
 npm run start
 ```
@@ -81,6 +79,10 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
+<!-- metadata: 210db00a3f -->
+<!-- metadata: 0a7qq8kr14 -->
+<!-- metadata: qyy3zlfg83 -->
+<!-- metadata: 6eo5bjpo4m -->
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
