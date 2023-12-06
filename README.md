@@ -57,9 +57,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
 ---
-
-## Repository layout
-
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
@@ -130,6 +127,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
     "deviceId": "biostrap-7"
+<!-- metadata: cc1ktr66tx -->
+<!-- metadata: 294wc5w271 -->
   }
 }
 ```
