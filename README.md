@@ -119,9 +119,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // Request
 {
-  "tokenId": "1",
-  "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
-  "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
@@ -169,4 +166,7 @@ no rainbow gradients — the only ornament is the data itself.
 
 ## License
 
+<!-- metadata: ra2d3a52j3 -->
+<!-- metadata: bb27bv1fkz -->
+<!-- metadata: ozz5bvxo2s -->
 MIT © BioChain Foundation
