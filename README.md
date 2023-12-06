@@ -49,6 +49,8 @@ npm run start
 
 ### Environment variables
 
+Optional — falls back to viem public RPC if not set.
+
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
@@ -121,13 +123,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
-<!-- metadata: 8gjoocincs -->
-<!-- metadata: 3hu1fnnhnr -->
-<!-- metadata: huv1whajgy -->
-<!-- metadata: p8k8dw5qz1 -->
-<!-- metadata: b85c5zzen8 -->
-<!-- metadata: oa1wj06zcr -->
-<!-- metadata: cplv8kd6iw -->
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
