@@ -94,6 +94,7 @@ the entire surface can be reviewed in a single file.
 
 Key methods:
 
+<!-- metadata: dywynr4605 -->
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
@@ -141,9 +142,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
-    "dataHash":   "0x9c1d3a5e...",
-    "receiptHash":"0x...",
-    "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
