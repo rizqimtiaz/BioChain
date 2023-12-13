@@ -9,6 +9,10 @@ clinical research as on-chain Intellectual Property NFTs.
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
+- **Verifier laboratories** sign IP-NFTs after running validation tests,
+  building a decentralized peer-review trust score.
+- **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
+  producing an immutable audit trail for regulators.
 
 ---
 
@@ -87,10 +91,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
-<!-- metadata: 2do40m8icy -->
-<!-- metadata: l6bocdu606 -->
-<!-- metadata: 9vy4uotzvm -->
-<!-- metadata: w2adm6vebe -->
 
 Key methods:
 
