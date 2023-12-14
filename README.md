@@ -48,9 +48,6 @@ npm run start
 ```
 
 ### Environment variables
-<!-- metadata: 83rxusthpc -->
-<!-- metadata: emmadlj855 -->
-<!-- metadata: sx2x26n2vl -->
 
 Optional — falls back to viem public RPC if not set.
 
@@ -80,6 +77,9 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
+
+store/useBioStore.ts          Global Zustand store + selectors.
+lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
