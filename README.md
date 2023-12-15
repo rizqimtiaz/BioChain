@@ -41,6 +41,9 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
+<!-- metadata: kegqoke30r -->
+<!-- metadata: ral6zm0eih -->
+<!-- metadata: ftvzw042rj -->
 
 # Production build
 npm run build
@@ -109,8 +112,6 @@ Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
-
-## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
