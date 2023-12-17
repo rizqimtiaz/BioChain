@@ -11,8 +11,6 @@ clinical research as on-chain Intellectual Property NFTs.
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
-- **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
-  producing an immutable audit trail for regulators.
 
 ---
 
@@ -48,6 +46,15 @@ npm run start
 ```
 
 ### Environment variables
+<!-- metadata: taxmmerjnl -->
+<!-- metadata: 4agvjw8mk9 -->
+<!-- metadata: ykeu2we1tw -->
+<!-- metadata: n0ax39hq5s -->
+<!-- metadata: y43r9km4r3 -->
+<!-- metadata: piw8ea5k1o -->
+<!-- metadata: vzpq9df0de -->
+<!-- metadata: 4xgcrpsita -->
+<!-- metadata: h1npqp6bjf -->
 
 Optional — falls back to viem public RPC if not set.
 
