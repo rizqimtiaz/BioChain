@@ -123,7 +123,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
-    "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
@@ -158,6 +157,14 @@ the request scope.
 
 ---
 
+<!-- metadata: 058fawvqus -->
+<!-- metadata: td6v2edysg -->
+<!-- metadata: 7fovxr06c6 -->
+<!-- metadata: arshm5tgd8 -->
+<!-- metadata: fd1qnqhnkv -->
+<!-- metadata: k76cxxrs79 -->
+<!-- metadata: rqs1j8cn8k -->
+<!-- metadata: fwewd793cr -->
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
