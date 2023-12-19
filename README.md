@@ -14,6 +14,9 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
+---
+
+## Tech stack
 
 | Layer | Technology |
 | ----- | ---------- |
@@ -90,11 +93,6 @@ implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
-<!-- metadata: aq4xw4c2mm -->
-<!-- metadata: wyrx9ysfzo -->
-<!-- metadata: fe0s3n7gh0 -->
-<!-- metadata: 1de9fzba0p -->
-<!-- metadata: l95ylajxpg -->
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
