@@ -40,6 +40,8 @@ npm install
 
 # Dev server
 npm run dev
+# → http://localhost:3000
+
 # Production build
 npm run build
 npm run start
@@ -106,13 +108,6 @@ Key methods:
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
-<!-- metadata: p9g37t8b87 -->
-<!-- metadata: nw6n39up88 -->
-<!-- metadata: sjxcqazw8k -->
-<!-- metadata: utim9ayi7b -->
-<!-- metadata: h3ngh7tv2b -->
-<!-- metadata: x69tey7bxo -->
-<!-- metadata: ask9wlwope -->
 ---
 
 ## API: `POST /api/anchor-data`
