@@ -93,7 +93,6 @@ implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
-<!-- metadata: 20pzzv1xxg -->
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
@@ -160,6 +159,10 @@ the request scope.
 ---
 
 ## Design philosophy
+
+The interface is deliberately **sterile and laboratory-grade**: pure white
+surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
+"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
 ---
