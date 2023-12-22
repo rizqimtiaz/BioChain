@@ -50,6 +50,7 @@ npm run start
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
+<!-- metadata: cnpyj29f0m -->
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
@@ -73,7 +74,6 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
-  TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
