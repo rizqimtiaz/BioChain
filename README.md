@@ -68,6 +68,10 @@ app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
+  globals.css                 Sterile design tokens + base styles.
+  explore/page.tsx            Marketplace (filters + Recharts dashboards).
+  api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
+
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
@@ -137,10 +141,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
-<!-- metadata: 3bmvcdm5jv -->
-<!-- metadata: evvoqj3vpi -->
-<!-- metadata: q5f3hemrvj -->
-<!-- metadata: t0tzf3wj2u -->
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
