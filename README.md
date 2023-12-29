@@ -40,13 +40,6 @@ npm install
 
 # Dev server
 npm run dev
-<!-- metadata: c54gjicu88 -->
-<!-- metadata: 58erywkja5 -->
-<!-- metadata: ox8n19fmnd -->
-<!-- metadata: bwvq4et9yr -->
-<!-- metadata: de7pfvm23m -->
-<!-- metadata: 48l0bdhu8o -->
-<!-- metadata: znct1dab6b -->
 # → http://localhost:3000
 
 # Production build
@@ -124,6 +117,7 @@ SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
+// Request
 {
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
