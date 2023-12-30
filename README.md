@@ -128,15 +128,15 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
+    ],
+    "deviceId": "biostrap-7"
+  }
 }
 ```
 
 ```jsonc
 // 200 OK
 {
-<!-- metadata: 4a3dgh9zto -->
-<!-- metadata: w0gigjsn2v -->
-<!-- metadata: kvikn8esak -->
   "ok": true,
   "receipt": {
     "tokenId": "1",
