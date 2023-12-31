@@ -58,6 +58,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ---
 
+## Repository layout
+
+```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
@@ -73,12 +76,6 @@ components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
-<!-- metadata: acyxbu3kif -->
-<!-- metadata: utit6aixsk -->
-<!-- metadata: 4uweuv8dg6 -->
-<!-- metadata: 67s2vi2iuo -->
-<!-- metadata: u9eq0u302j -->
-<!-- metadata: msc4ix7u6w -->
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
