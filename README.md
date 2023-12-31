@@ -104,6 +104,10 @@ Key methods:
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
+
+Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
+
 ---
 
 ## API: `POST /api/anchor-data`
@@ -120,15 +124,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
-<!-- metadata: jv1r4s2njx -->
-<!-- metadata: 2c4nsmtzv9 -->
-<!-- metadata: 9ltjd1gqe4 -->
-<!-- metadata: emy07o6t4r -->
-<!-- metadata: r18ddbr9uw -->
-<!-- metadata: njfpq06hoi -->
-<!-- metadata: 69mknxgto8 -->
-<!-- metadata: 1fvwq1xetc -->
-<!-- metadata: ntej3ji6dq -->
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
