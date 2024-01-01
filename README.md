@@ -105,6 +105,9 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
+<!-- metadata: dnb6cy0ttl -->
+<!-- metadata: moqk4x323a -->
+<!-- metadata: 215750tgv7 -->
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
@@ -133,10 +136,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-
-```jsonc
-// 200 OK
-{
   "ok": true,
   "receipt": {
     "tokenId": "1",
