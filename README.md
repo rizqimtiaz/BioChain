@@ -102,15 +102,6 @@ Key methods:
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
-<!-- meta tracking: 97510 -->
-<!-- meta tracking: 66369 -->
-<!-- meta tracking: 48785 -->
-<!-- meta tracking: 71640 -->
-<!-- meta tracking: 83834 -->
-<!-- meta tracking: 60305 -->
-<!-- meta tracking: 32329 -->
-<!-- meta tracking: 73863 -->
-<!-- meta tracking: 27725 -->
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
@@ -138,6 +129,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
+    "deviceId": "biostrap-7"
+  }
+}
+```
 
 ```jsonc
 // 200 OK
