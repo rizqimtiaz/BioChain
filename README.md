@@ -15,6 +15,7 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
+
 ## Tech stack
 
 | Layer | Technology |
@@ -93,15 +94,6 @@ the entire surface can be reviewed in a single file.
 
 Key methods:
 
-<!-- meta tracking: 28094 -->
-<!-- meta tracking: 45814 -->
-<!-- meta tracking: 68558 -->
-<!-- meta tracking: 43066 -->
-<!-- meta tracking: 29748 -->
-<!-- meta tracking: 86444 -->
-<!-- meta tracking: 16225 -->
-<!-- meta tracking: 43697 -->
-<!-- meta tracking: 93709 -->
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
