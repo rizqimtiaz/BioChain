@@ -1,0 +1,107 @@
+# ──────────────────────────────────────────────────────────────
+# BioChain – Git Ignore
+# ──────────────────────────────────────────────────────────────
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnpm-store/
+
+# Build output
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts.bak
+
+# Production / runtime
+.vercel/
+.cache/
+.parcel-cache/
+.turbo/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Environment / secrets (NEVER commit private keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.pem
+*.key
+secrets.json
+wallet.json
+private-key.txt
+mnemonic.txt
+
+# Smart contract artifacts
+artifacts/
+cache/
+typechain/
+typechain-types/
+deployments/localhost/
+deployments/hardhat/
+broadcast/
+out-svm/
+foundry.toml.bak
+
+# IDE / Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+.stylelintcache
+.node_repl_history
+.npm/
+.pnpm-debug.log
+
+# Local data dumps (encrypted clinical data should NEVER be committed)
+data/raw/
+data/uploads/
+data/exports/
+*.csv.local
+*.json.local
+patient-data/
+trial-snapshots/

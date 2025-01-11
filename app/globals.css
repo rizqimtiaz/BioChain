@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * BioChain – Global styles
+ * Sterile, high-contrast, laboratory-grade.
+ * ──────────────────────────────────────────────────────────────────────── */
+
+@layer base {
+  :root {
+    --color-canvas: 255 255 255;
+    --color-ink: 15 23 42;
+    --color-trust: 30 64 175;
+    --color-grid-line: 226 232 240;
+
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings:
+      "cv02" on,
+      "cv03" on,
+      "cv04" on,
+      "ss01" on;
+  }
+
+  body {
+    @apply bg-canvas-subtle text-slate-900 font-sans antialiased;
+    background-image:
+      linear-gradient(
+        to right,
+        rgba(15, 23, 42, 0.025) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(15, 23, 42, 0.025) 1px,
+        transparent 1px
+      );
+    background-size: 40px 40px;
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background-color: rgba(30, 64, 175, 0.18);
+    color: #0f172a;
+  }
+
+  /* Crisp tabular numerals everywhere they show up. */
+  .tabular-nums,
+  table,
+  code,
+  pre {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Subtle scrollbars (laboratory equipment, not flashy gaming gear). */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border: 2px solid #f1f5f9;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+@layer components {
+  .surface {
+    @apply rounded-clinical border border-slate-200 bg-canvas shadow-clinical;
+  }
+
+  .surface-inset {
+    @apply rounded-clinical border border-slate-200 bg-canvas-subtle;
+  }
+
+  .clinical-pill {
+    @apply inline-flex items-center gap-1 rounded-sharp px-2 py-0.5 text-2xs font-semibold uppercase tracking-clinical ring-1;
+  }
+
+  .data-label {
+    @apply text-2xs font-semibold uppercase tracking-clinical text-slate-500;
+  }
+
+  .data-value {
+    @apply font-mono text-sm tabular-nums text-slate-900;
+  }
+
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-trust-800 focus-visible:ring-offset-2 focus-visible:ring-offset-canvas;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-clinical bg-trust-800 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-trust-900 focus-ring disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-clinical border border-slate-300 bg-canvas px-4 py-2 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 focus-ring;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
