@@ -81,12 +81,10 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
-<!-- meta tracking: 89534 -->
-<!-- meta tracking: 86087 -->
-<!-- meta tracking: 69923 -->
-<!-- meta tracking: 45572 -->
-<!-- meta tracking: 39046 -->
-<!-- meta tracking: 48610 -->
+tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
+```
+
+---
 
 ## Smart-contract surface
 
