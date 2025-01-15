@@ -9,6 +9,10 @@ clinical research as on-chain Intellectual Property NFTs.
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
+- **Verifier laboratories** sign IP-NFTs after running validation tests,
+  building a decentralized peer-review trust score.
+- **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
+  producing an immutable audit trail for regulators.
 
 ---
 
@@ -138,13 +142,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
-<!-- meta tracking: 95807 -->
-<!-- meta tracking: 82018 -->
-<!-- meta tracking: 49994 -->
-<!-- meta tracking: 49115 -->
-<!-- meta tracking: 23789 -->
-<!-- meta tracking: 87855 -->
-<!-- meta tracking: 58001 -->
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
