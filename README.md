@@ -56,8 +56,6 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
----
-
 ## Repository layout
 
 ```
@@ -122,6 +120,12 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
+<!-- meta tracking: 32558 -->
+<!-- meta tracking: 98196 -->
+<!-- meta tracking: 47606 -->
+<!-- meta tracking: 88001 -->
+<!-- meta tracking: 20220 -->
+<!-- meta tracking: 35713 -->
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
