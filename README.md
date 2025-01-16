@@ -54,6 +54,9 @@ Optional — falls back to viem public RPC if not set.
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
+```
+
+---
 
 ## Repository layout
 
@@ -166,8 +169,4 @@ no rainbow gradients — the only ornament is the data itself.
 
 ## License
 
-<!-- meta tracking: 69818 -->
-<!-- meta tracking: 51770 -->
-<!-- meta tracking: 40539 -->
-<!-- meta tracking: 46552 -->
 MIT © BioChain Foundation
