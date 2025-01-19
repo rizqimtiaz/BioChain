@@ -104,13 +104,6 @@ Key methods:
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
-<!-- meta tracking: 41935 -->
-<!-- meta tracking: 64951 -->
-<!-- meta tracking: 95515 -->
-<!-- meta tracking: 28838 -->
-<!-- meta tracking: 94678 -->
-<!-- meta tracking: 32435 -->
-<!-- meta tracking: 23753 -->
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
@@ -158,6 +151,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
+```
+
+Raw clinical data is **never persisted** by the route — only the hash exits
+the request scope.
 
 ---
 
