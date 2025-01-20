@@ -12,6 +12,10 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
+  producing an immutable audit trail for regulators.
+
+---
+
 ## Tech stack
 
 | Layer | Technology |
@@ -68,13 +72,6 @@ app/
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
-<!-- meta tracking: 72410 -->
-<!-- meta tracking: 68010 -->
-<!-- meta tracking: 76550 -->
-<!-- meta tracking: 48956 -->
-<!-- meta tracking: 58903 -->
-<!-- meta tracking: 79721 -->
-<!-- meta tracking: 80406 -->
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
