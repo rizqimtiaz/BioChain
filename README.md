@@ -25,6 +25,10 @@ clinical research as on-chain Intellectual Property NFTs.
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
+<!-- meta tracking: 64223 -->
+<!-- meta tracking: 54117 -->
+<!-- meta tracking: 30234 -->
+<!-- meta tracking: 84323 -->
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
@@ -46,9 +50,6 @@ npm run dev
 npm run build
 npm run start
 ```
-
-### Environment variables
-
 Optional — falls back to viem public RPC if not set.
 
 ```bash
