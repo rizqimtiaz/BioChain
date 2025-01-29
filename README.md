@@ -23,12 +23,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
-<!-- meta tracking: 78193 -->
-<!-- meta tracking: 70868 -->
-<!-- meta tracking: 82154 -->
-<!-- meta tracking: 18013 -->
-<!-- meta tracking: 80173 -->
-<!-- meta tracking: 26793 -->
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
@@ -71,6 +65,8 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
 app/
+  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+  page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
