@@ -30,6 +30,8 @@ clinical research as on-chain Intellectual Property NFTs.
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
+---
+
 ## Getting started
 
 ```bash
@@ -72,7 +74,6 @@ app/
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
-<!-- meta tracking: 78846 -->
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
