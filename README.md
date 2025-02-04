@@ -117,6 +117,14 @@ SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
+<!-- meta tracking: 95916 -->
+<!-- meta tracking: 45003 -->
+<!-- meta tracking: 91274 -->
+<!-- meta tracking: 31239 -->
+<!-- meta tracking: 11044 -->
+<!-- meta tracking: 78869 -->
+<!-- meta tracking: 10559 -->
+<!-- meta tracking: 82358 -->
 // Request
 {
   "tokenId": "1",
@@ -134,8 +142,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
-```jsonc
-// 200 OK
 {
   "ok": true,
   "receipt": {
