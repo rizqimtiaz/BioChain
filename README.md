@@ -47,11 +47,6 @@ npm run build
 npm run start
 ```
 
-<!-- meta tracking: 63396 -->
-<!-- meta tracking: 79610 -->
-<!-- meta tracking: 31895 -->
-<!-- meta tracking: 94567 -->
-<!-- meta tracking: 88719 -->
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
@@ -67,6 +62,7 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
+                              milestone escrow, data anchoring, peer review.
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
