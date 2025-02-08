@@ -38,10 +38,6 @@ clinical research as on-chain Intellectual Property NFTs.
 # Install
 npm install
 
-# Dev server
-npm run dev
-# → http://localhost:3000
-
 # Production build
 npm run build
 npm run start
@@ -105,6 +101,7 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
+<!-- meta tracking: 83333 -->
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
