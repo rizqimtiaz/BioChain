@@ -23,16 +23,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
-<!-- meta tracking: 67284 -->
-<!-- meta tracking: 61833 -->
-<!-- meta tracking: 86204 -->
-<!-- meta tracking: 97609 -->
-<!-- meta tracking: 42847 -->
-<!-- meta tracking: 84052 -->
-<!-- meta tracking: 57381 -->
-<!-- meta tracking: 58606 -->
-<!-- meta tracking: 75060 -->
-<!-- meta tracking: 37491 -->
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
@@ -166,6 +156,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
+---
+
+## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
