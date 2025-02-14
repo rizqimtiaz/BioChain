@@ -67,17 +67,10 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
+  providers.tsx               Wagmi + TanStack Query providers.
+  globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
-<!-- meta tracking: 11003 -->
-<!-- meta tracking: 26738 -->
-<!-- meta tracking: 81937 -->
-<!-- meta tracking: 93899 -->
-<!-- meta tracking: 33547 -->
-<!-- meta tracking: 19246 -->
-<!-- meta tracking: 92635 -->
-<!-- meta tracking: 63792 -->
-<!-- meta tracking: 99718 -->
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
