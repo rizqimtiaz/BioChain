@@ -52,8 +52,6 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
-NEXT_PUBLIC_MAINNET_RPC=https://...
-NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
 ---
@@ -84,6 +82,13 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
+<!-- meta tracking: 79098 -->
+<!-- meta tracking: 58516 -->
+<!-- meta tracking: 41589 -->
+<!-- meta tracking: 50440 -->
+<!-- meta tracking: 66231 -->
+<!-- meta tracking: 24874 -->
+<!-- meta tracking: 83411 -->
 ---
 
 ## Smart-contract surface
