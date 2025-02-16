@@ -32,6 +32,7 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+## Getting started
 
 ```bash
 # Install
@@ -99,14 +100,6 @@ Key methods:
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
-<!-- meta tracking: 58358 -->
-<!-- meta tracking: 23970 -->
-<!-- meta tracking: 43495 -->
-<!-- meta tracking: 20978 -->
-<!-- meta tracking: 38888 -->
-<!-- meta tracking: 35776 -->
-<!-- meta tracking: 67331 -->
-<!-- meta tracking: 63540 -->
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
