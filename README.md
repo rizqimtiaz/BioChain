@@ -15,6 +15,7 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
+
 ## Tech stack
 
 | Layer | Technology |
@@ -84,8 +85,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
 ---
-<!-- meta tracking: 21533 -->
-<!-- meta tracking: 39548 -->
 
 ## Smart-contract surface
 
