@@ -30,10 +30,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
----
-
-## Getting started
-
 ```bash
 # Install
 npm install
@@ -134,6 +130,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
+<!-- meta tracking: 93899 -->
+<!-- meta tracking: 86402 -->
+<!-- meta tracking: 13409 -->
+<!-- meta tracking: 76246 -->
 ```jsonc
 // 200 OK
 {
