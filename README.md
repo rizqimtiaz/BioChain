@@ -55,6 +55,14 @@ Optional — falls back to viem public RPC if not set.
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
+<!-- meta tracking: 75246 -->
+<!-- meta tracking: 67296 -->
+<!-- meta tracking: 61336 -->
+<!-- meta tracking: 73133 -->
+<!-- meta tracking: 31797 -->
+<!-- meta tracking: 15896 -->
+<!-- meta tracking: 70260 -->
+<!-- meta tracking: 96589 -->
 
 ---
 
@@ -123,7 +131,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
-    "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
