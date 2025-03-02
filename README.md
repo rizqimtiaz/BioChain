@@ -72,8 +72,6 @@ app/
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
-components/
-  TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
@@ -167,6 +165,9 @@ no rainbow gradients — the only ornament is the data itself.
 
 ---
 
+<!-- meta tracking: 82453 -->
+<!-- meta tracking: 57380 -->
+<!-- meta tracking: 14259 -->
 ## License
 
 MIT © BioChain Foundation
