@@ -66,13 +66,6 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
-<!-- meta tracking: 13412 -->
-<!-- meta tracking: 22172 -->
-<!-- meta tracking: 80536 -->
-<!-- meta tracking: 50467 -->
-<!-- meta tracking: 57098 -->
-<!-- meta tracking: 99540 -->
-<!-- meta tracking: 64729 -->
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
@@ -121,6 +114,9 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
+for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
+
+```jsonc
 // Request
 {
   "tokenId": "1",
