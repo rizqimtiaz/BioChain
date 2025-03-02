@@ -95,6 +95,8 @@ the entire surface can be reviewed in a single file.
 Key methods:
 
 | Method | Caller | Purpose |
+| ------ | ------ | ------- |
+| `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
@@ -149,16 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
-<!-- meta tracking: 86297 -->
-<!-- meta tracking: 13463 -->
-<!-- meta tracking: 38316 -->
-<!-- meta tracking: 26881 -->
-<!-- meta tracking: 64518 -->
-<!-- meta tracking: 69691 -->
-<!-- meta tracking: 82348 -->
-<!-- meta tracking: 25253 -->
-<!-- meta tracking: 83693 -->
-<!-- meta tracking: 76006 -->
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
