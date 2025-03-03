@@ -85,16 +85,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
 ---
-<!-- meta tracking: 56283 -->
-<!-- meta tracking: 15768 -->
-<!-- meta tracking: 34193 -->
-<!-- meta tracking: 31592 -->
-<!-- meta tracking: 79231 -->
-<!-- meta tracking: 41734 -->
-<!-- meta tracking: 57674 -->
-<!-- meta tracking: 37536 -->
-<!-- meta tracking: 40299 -->
-<!-- meta tracking: 89801 -->
 
 ## Smart-contract surface
 
@@ -145,6 +135,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 ```jsonc
+// 200 OK
+{
+  "ok": true,
+  "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
