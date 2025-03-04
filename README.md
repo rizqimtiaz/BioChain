@@ -58,7 +58,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ---
 
-## Repository layout
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
@@ -83,6 +82,7 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
+<!-- meta tracking: 82464 -->
 
 ---
 
