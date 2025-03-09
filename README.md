@@ -2,15 +2,6 @@
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
-<!-- meta tracking: 65157 -->
-<!-- meta tracking: 19404 -->
-<!-- meta tracking: 12399 -->
-<!-- meta tracking: 15832 -->
-<!-- meta tracking: 67858 -->
-<!-- meta tracking: 25815 -->
-<!-- meta tracking: 21180 -->
-<!-- meta tracking: 13891 -->
-<!-- meta tracking: 43125 -->
 BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
 
@@ -115,6 +106,10 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
+
+---
+
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
