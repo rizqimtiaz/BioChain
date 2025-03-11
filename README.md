@@ -111,15 +111,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 ---
 
 ## API: `POST /api/anchor-data`
-<!-- meta tracking: 27371 -->
-<!-- meta tracking: 81077 -->
-<!-- meta tracking: 31582 -->
-<!-- meta tracking: 13837 -->
-<!-- meta tracking: 59393 -->
-<!-- meta tracking: 90358 -->
-<!-- meta tracking: 86889 -->
-<!-- meta tracking: 25446 -->
-<!-- meta tracking: 29804 -->
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
@@ -153,6 +144,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
+    "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
