@@ -18,13 +18,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Tech stack
 
-<!-- meta tracking: 49109 -->
-<!-- meta tracking: 31937 -->
-<!-- meta tracking: 41843 -->
-<!-- meta tracking: 43318 -->
-<!-- meta tracking: 69977 -->
-<!-- meta tracking: 87607 -->
-<!-- meta tracking: 91000 -->
 | Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
@@ -39,6 +32,10 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+## Getting started
+
+```bash
+# Install
 npm install
 
 # Dev server
