@@ -58,11 +58,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ---
 
-<!-- meta tracking: 19806 -->
-<!-- meta tracking: 47341 -->
-<!-- meta tracking: 71397 -->
-<!-- meta tracking: 66078 -->
-<!-- meta tracking: 37721 -->
 ## Repository layout
 
 ```
@@ -74,6 +69,7 @@ app/
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
+  explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
