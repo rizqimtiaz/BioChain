@@ -116,12 +116,6 @@ Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
-<!-- meta tracking: 89726 -->
-<!-- meta tracking: 59784 -->
-<!-- meta tracking: 19323 -->
-<!-- meta tracking: 16848 -->
-<!-- meta tracking: 94681 -->
-<!-- meta tracking: 45896 -->
 ```jsonc
 // Request
 {
@@ -168,6 +162,8 @@ the request scope.
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
+"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
+no rainbow gradients — the only ornament is the data itself.
 
 ---
 
