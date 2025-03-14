@@ -161,7 +161,6 @@ the request scope.
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
-surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
@@ -169,4 +168,10 @@ no rainbow gradients — the only ornament is the data itself.
 
 ## License
 
+<!-- meta tracking: 57214 -->
+<!-- meta tracking: 45699 -->
+<!-- meta tracking: 80276 -->
+<!-- meta tracking: 22150 -->
+<!-- meta tracking: 51556 -->
+<!-- meta tracking: 72656 -->
 MIT © BioChain Foundation
