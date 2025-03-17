@@ -40,6 +40,15 @@ npm install
 
 # Dev server
 npm run dev
+<!-- meta tracking: 14599 -->
+<!-- meta tracking: 25003 -->
+<!-- meta tracking: 98648 -->
+<!-- meta tracking: 52931 -->
+<!-- meta tracking: 62715 -->
+<!-- meta tracking: 67618 -->
+<!-- meta tracking: 20705 -->
+<!-- meta tracking: 99836 -->
+<!-- meta tracking: 94310 -->
 # → http://localhost:3000
 
 # Production build
@@ -146,8 +155,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
-    "byteLength": 32,
-    "measurements": 2,
     "source": "wearable"
   }
 }
