@@ -25,6 +25,12 @@ clinical research as on-chain Intellectual Property NFTs.
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
+<!-- meta tracking: 81508 -->
+<!-- meta tracking: 67274 -->
+<!-- meta tracking: 60025 -->
+<!-- meta tracking: 17185 -->
+<!-- meta tracking: 81614 -->
+<!-- meta tracking: 41343 -->
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
@@ -161,10 +167,6 @@ the request scope.
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
-surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
-"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
-no rainbow gradients — the only ornament is the data itself.
-
 ---
 
 ## License
