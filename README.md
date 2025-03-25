@@ -45,6 +45,9 @@ npm run dev
 # Production build
 npm run build
 npm run start
+<!-- meta tracking: 67193 -->
+<!-- meta tracking: 39668 -->
+<!-- meta tracking: 20890 -->
 ```
 
 ### Environment variables
@@ -128,9 +131,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
-    ],
-    "deviceId": "biostrap-7"
-  }
 }
 ```
 
