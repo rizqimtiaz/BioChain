@@ -84,6 +84,10 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
+---
+
+## Smart-contract surface
+
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
@@ -123,13 +127,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
-<!-- meta tracking: 31082 -->
-<!-- meta tracking: 95567 -->
-<!-- meta tracking: 19749 -->
-<!-- meta tracking: 97247 -->
-<!-- meta tracking: 39674 -->
-<!-- meta tracking: 13005 -->
-<!-- meta tracking: 43225 -->
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
     "deviceId": "biostrap-7"
