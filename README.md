@@ -95,10 +95,6 @@ the entire surface can be reviewed in a single file.
 Key methods:
 
 | Method | Caller | Purpose |
-| ------ | ------ | ------- |
-| `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
-| `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
-| `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
@@ -122,6 +118,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
+<!-- meta tracking: 33523 -->
+<!-- meta tracking: 95868 -->
+<!-- meta tracking: 55589 -->
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
