@@ -44,16 +44,6 @@ npm run dev
 
 # Production build
 npm run build
-<!-- meta tracking: 23764 -->
-<!-- meta tracking: 13358 -->
-<!-- meta tracking: 82197 -->
-<!-- meta tracking: 95811 -->
-<!-- meta tracking: 91417 -->
-<!-- meta tracking: 94003 -->
-<!-- meta tracking: 25743 -->
-<!-- meta tracking: 72792 -->
-<!-- meta tracking: 24657 -->
-<!-- meta tracking: 91751 -->
 npm run start
 ```
 
@@ -115,6 +105,8 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
+Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
