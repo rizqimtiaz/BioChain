@@ -1,3 +1,4 @@
+<!-- meta tracking: 18291 -->
 # BioChain — Decentralized Clinical Trial Network
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
@@ -51,7 +52,6 @@ npm run start
 
 Optional — falls back to viem public RPC if not set.
 
-```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
