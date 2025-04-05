@@ -108,6 +108,7 @@ Key methods:
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
+---
 
 ## API: `POST /api/anchor-data`
 
@@ -160,13 +161,6 @@ the request scope.
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
-<!-- meta tracking: 87315 -->
-<!-- meta tracking: 21949 -->
-<!-- meta tracking: 19389 -->
-<!-- meta tracking: 50650 -->
-<!-- meta tracking: 41326 -->
-<!-- meta tracking: 21860 -->
-<!-- meta tracking: 68247 -->
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
