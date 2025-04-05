@@ -43,16 +43,12 @@ npm run dev
 # → http://localhost:3000
 
 # Production build
+npm run build
 npm run start
 ```
 
 ### Environment variables
 
-<!-- meta tracking: 38755 -->
-<!-- meta tracking: 16807 -->
-<!-- meta tracking: 70273 -->
-<!-- meta tracking: 74388 -->
-<!-- meta tracking: 35910 -->
 Optional — falls back to viem public RPC if not set.
 
 ```bash
