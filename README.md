@@ -15,6 +15,8 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
+<!-- meta tracking: 20678 -->
+<!-- meta tracking: 41171 -->
 
 ## Tech stack
 
@@ -152,9 +154,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-
-Raw clinical data is **never persisted** by the route — only the hash exits
-the request scope.
 
 ---
 
