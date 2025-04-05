@@ -53,11 +53,6 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
-<!-- meta tracking: 41485 -->
-<!-- meta tracking: 97516 -->
-<!-- meta tracking: 90737 -->
-<!-- meta tracking: 27566 -->
-<!-- meta tracking: 15054 -->
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
@@ -109,6 +104,8 @@ Key methods:
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
+
+Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
