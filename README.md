@@ -7,14 +7,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
-<!-- meta tracking: 84953 -->
-<!-- meta tracking: 52236 -->
-<!-- meta tracking: 29259 -->
-<!-- meta tracking: 20417 -->
-<!-- meta tracking: 82512 -->
-<!-- meta tracking: 28313 -->
-<!-- meta tracking: 40635 -->
-<!-- meta tracking: 72809 -->
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
@@ -30,6 +22,10 @@ clinical research as on-chain Intellectual Property NFTs.
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
+| Wallet | wagmi 2 + viem 2 |
+| Data | TanStack Query 5 |
+| Validation | Zod 3 |
+| Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
