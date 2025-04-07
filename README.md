@@ -59,14 +59,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ---
 
 ## Repository layout
-<!-- meta tracking: 77056 -->
-<!-- meta tracking: 85200 -->
-<!-- meta tracking: 43456 -->
-<!-- meta tracking: 55039 -->
-<!-- meta tracking: 75019 -->
-<!-- meta tracking: 76988 -->
-<!-- meta tracking: 68970 -->
-<!-- meta tracking: 98310 -->
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
@@ -156,6 +148,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
+    "source": "wearable"
+  }
+}
+```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
