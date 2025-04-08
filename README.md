@@ -21,7 +21,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
-| State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
@@ -47,6 +46,12 @@ npm run build
 npm run start
 ```
 
+<!-- meta tracking: 65609 -->
+<!-- meta tracking: 18856 -->
+<!-- meta tracking: 86831 -->
+<!-- meta tracking: 80448 -->
+<!-- meta tracking: 69308 -->
+<!-- meta tracking: 41381 -->
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
