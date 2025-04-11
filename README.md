@@ -72,7 +72,6 @@ app/
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
-components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
@@ -152,6 +151,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
+<!-- meta tracking: 95682 -->
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
