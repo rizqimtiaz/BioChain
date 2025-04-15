@@ -46,6 +46,9 @@ npm run dev
 npm run build
 npm run start
 ```
+
+### Environment variables
+
 Optional — falls back to viem public RPC if not set.
 
 ```bash
@@ -56,15 +59,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ---
 
 ## Repository layout
-<!-- meta tracking: 38224 -->
-<!-- meta tracking: 11029 -->
-<!-- meta tracking: 54031 -->
-<!-- meta tracking: 59843 -->
-<!-- meta tracking: 88578 -->
-<!-- meta tracking: 81882 -->
-<!-- meta tracking: 86654 -->
-<!-- meta tracking: 33559 -->
-<!-- meta tracking: 99379 -->
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
