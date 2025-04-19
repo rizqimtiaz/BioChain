@@ -15,7 +15,6 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
-
 ## Tech stack
 
 | Layer | Technology |
@@ -46,6 +45,15 @@ npm run dev
 npm run build
 npm run start
 ```
+<!-- meta tracking: 70835 -->
+<!-- meta tracking: 66115 -->
+<!-- meta tracking: 17136 -->
+<!-- meta tracking: 87040 -->
+<!-- meta tracking: 92078 -->
+<!-- meta tracking: 89857 -->
+<!-- meta tracking: 55549 -->
+<!-- meta tracking: 94275 -->
+<!-- meta tracking: 26147 -->
 
 ### Environment variables
 
