@@ -16,15 +16,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
-<!-- meta tracking: 13763 -->
-<!-- meta tracking: 31496 -->
-<!-- meta tracking: 64055 -->
-<!-- meta tracking: 27278 -->
-<!-- meta tracking: 47252 -->
-<!-- meta tracking: 95767 -->
-<!-- meta tracking: 76476 -->
-<!-- meta tracking: 93067 -->
-<!-- meta tracking: 28504 -->
 ## Tech stack
 
 | Layer | Technology |
@@ -142,6 +133,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
+
+```jsonc
+// 200 OK
+{
   "ok": true,
   "receipt": {
     "tokenId": "1",
