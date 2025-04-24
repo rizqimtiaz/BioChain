@@ -121,6 +121,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 {
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
+<!-- meta tracking: 60590 -->
+<!-- meta tracking: 58267 -->
+<!-- meta tracking: 39460 -->
+<!-- meta tracking: 24985 -->
+<!-- meta tracking: 16962 -->
+<!-- meta tracking: 98311 -->
+<!-- meta tracking: 57167 -->
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
@@ -164,9 +171,6 @@ The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
-
----
-
 ## License
 
 MIT © BioChain Foundation
