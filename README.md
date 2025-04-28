@@ -87,6 +87,8 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ---
 
 ## Smart-contract surface
+<!-- meta tracking: 38452 -->
+<!-- meta tracking: 66046 -->
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
@@ -112,8 +114,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ## API: `POST /api/anchor-data`
 
-Takes a clinical-data payload, validates it with Zod, computes a deterministic
-SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
