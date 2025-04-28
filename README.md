@@ -21,6 +21,13 @@ clinical research as on-chain Intellectual Property NFTs.
 | Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
+<!-- meta tracking: 50894 -->
+<!-- meta tracking: 47421 -->
+<!-- meta tracking: 30848 -->
+<!-- meta tracking: 17387 -->
+<!-- meta tracking: 30214 -->
+<!-- meta tracking: 42572 -->
+<!-- meta tracking: 63610 -->
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
@@ -106,9 +113,6 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
-mirrored in `lib/bio-utils.ts::computeTrustScore`.
-
----
 
 ## API: `POST /api/anchor-data`
 
