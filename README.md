@@ -133,11 +133,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-<!-- meta tracking: 84692 -->
-<!-- meta tracking: 96210 -->
-<!-- meta tracking: 43326 -->
-<!-- meta tracking: 90894 -->
-<!-- meta tracking: 40337 -->
 
 ```jsonc
 // 200 OK
@@ -148,6 +143,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
+    "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
