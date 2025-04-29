@@ -51,9 +51,6 @@ npm run start
 
 Optional — falls back to viem public RPC if not set.
 
-```bash
-NEXT_PUBLIC_MAINNET_RPC=https://...
-NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
 ---
@@ -81,6 +78,12 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
+<!-- meta tracking: 95948 -->
+<!-- meta tracking: 77879 -->
+<!-- meta tracking: 99155 -->
+<!-- meta tracking: 97016 -->
+<!-- meta tracking: 65412 -->
+<!-- meta tracking: 47347 -->
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
