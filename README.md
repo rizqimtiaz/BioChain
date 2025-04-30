@@ -52,10 +52,6 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
-NEXT_PUBLIC_MAINNET_RPC=https://...
-NEXT_PUBLIC_SEPOLIA_RPC=https://...
-```
-
 ---
 
 ## Repository layout
@@ -69,6 +65,9 @@ app/
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
+<!-- meta tracking: 77348 -->
+<!-- meta tracking: 82455 -->
+<!-- meta tracking: 23376 -->
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
