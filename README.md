@@ -61,12 +61,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ## Repository layout
 
 ```
-<!-- meta tracking: 29684 -->
-<!-- meta tracking: 29945 -->
-<!-- meta tracking: 63013 -->
-<!-- meta tracking: 15593 -->
-<!-- meta tracking: 35616 -->
-<!-- meta tracking: 44010 -->
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
@@ -80,6 +74,7 @@ app/
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
+  TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
