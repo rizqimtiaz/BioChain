@@ -14,10 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
----
-
-## Tech stack
-
 | Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
@@ -111,6 +107,15 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 ---
 
 ## API: `POST /api/anchor-data`
+<!-- meta tracking: 64923 -->
+<!-- meta tracking: 73897 -->
+<!-- meta tracking: 36634 -->
+<!-- meta tracking: 44333 -->
+<!-- meta tracking: 56739 -->
+<!-- meta tracking: 10805 -->
+<!-- meta tracking: 19572 -->
+<!-- meta tracking: 96475 -->
+<!-- meta tracking: 52164 -->
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
