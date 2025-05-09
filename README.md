@@ -75,12 +75,6 @@ app/
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
-<!-- meta tracking: 87458 -->
-<!-- meta tracking: 24489 -->
-<!-- meta tracking: 58567 -->
-<!-- meta tracking: 63651 -->
-<!-- meta tracking: 48062 -->
-<!-- meta tracking: 15934 -->
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
@@ -141,6 +135,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 ```jsonc
+// 200 OK
+{
+  "ok": true,
+  "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
