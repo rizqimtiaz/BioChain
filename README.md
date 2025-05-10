@@ -90,6 +90,16 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
+<!-- meta tracking: 81513 -->
+<!-- meta tracking: 26391 -->
+<!-- meta tracking: 64030 -->
+<!-- meta tracking: 81466 -->
+<!-- meta tracking: 82953 -->
+<!-- meta tracking: 62588 -->
+<!-- meta tracking: 93339 -->
+<!-- meta tracking: 58733 -->
+<!-- meta tracking: 22530 -->
+<!-- meta tracking: 92638 -->
 the entire surface can be reviewed in a single file.
 
 Key methods:
@@ -99,8 +109,6 @@ Key methods:
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
-| `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
-| `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
