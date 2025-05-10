@@ -39,10 +39,6 @@ clinical research as on-chain Intellectual Property NFTs.
 npm install
 
 # Dev server
-<!-- meta tracking: 19807 -->
-<!-- meta tracking: 25369 -->
-<!-- meta tracking: 36243 -->
-<!-- meta tracking: 63494 -->
 npm run dev
 # → http://localhost:3000
 
@@ -87,6 +83,8 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
+
+---
 
 ## Smart-contract surface
 
