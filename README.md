@@ -19,8 +19,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ## Tech stack
 
 | Layer | Technology |
-| ----- | ---------- |
-| Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
@@ -81,6 +79,7 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
+<!-- meta tracking: 92759 -->
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
