@@ -6,6 +6,7 @@ BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
+  schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
@@ -33,15 +34,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Getting started
 
-<!-- meta tracking: 85175 -->
-<!-- meta tracking: 44857 -->
-<!-- meta tracking: 42859 -->
-<!-- meta tracking: 46315 -->
-<!-- meta tracking: 19828 -->
-<!-- meta tracking: 90879 -->
-<!-- meta tracking: 12077 -->
-<!-- meta tracking: 20613 -->
-<!-- meta tracking: 71416 -->
 ```bash
 # Install
 npm install
