@@ -1,5 +1,9 @@
 # BioChain — Decentralized Clinical Trial Network
 
+<!-- meta tracking: 88873 -->
+<!-- meta tracking: 96407 -->
+<!-- meta tracking: 90787 -->
+<!-- meta tracking: 77100 -->
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
 BioChain is a production-ready Next.js 14 dApp for funding and managing
@@ -52,7 +56,6 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
-NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
