@@ -10,6 +10,11 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
+<!-- meta tracking: 46144 -->
+<!-- meta tracking: 93593 -->
+<!-- meta tracking: 51966 -->
+<!-- meta tracking: 24011 -->
+<!-- meta tracking: 43767 -->
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
@@ -75,9 +80,6 @@ app/
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
-  SideRail.tsx                Persistent sidebar navigation.
-  StatusFooter.tsx            Live block / gas / RPC status.
-
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
