@@ -11,6 +11,8 @@ clinical research as on-chain Intellectual Property NFTs.
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
+- **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
+  producing an immutable audit trail for regulators.
 
 ---
 
@@ -103,16 +105,6 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
-<!-- meta tracking: 29486 -->
-<!-- meta tracking: 99287 -->
-<!-- meta tracking: 41057 -->
-<!-- meta tracking: 94786 -->
-<!-- meta tracking: 85814 -->
-<!-- meta tracking: 53531 -->
-<!-- meta tracking: 86373 -->
-<!-- meta tracking: 54829 -->
-<!-- meta tracking: 86786 -->
-<!-- meta tracking: 63962 -->
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
