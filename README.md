@@ -23,19 +23,13 @@ clinical research as on-chain Intellectual Property NFTs.
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
+| Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
-<!-- meta tracking: 65809 -->
-<!-- meta tracking: 76696 -->
-<!-- meta tracking: 37274 -->
-<!-- meta tracking: 83331 -->
-<!-- meta tracking: 21189 -->
-<!-- meta tracking: 34979 -->
-<!-- meta tracking: 61069 -->
 ---
 
 ## Getting started
