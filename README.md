@@ -136,6 +136,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
 // 200 OK
+{
+  "ok": true,
+  "receipt": {
+    "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
@@ -147,15 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
-<!-- meta tracking: 85135 -->
-<!-- meta tracking: 56352 -->
-<!-- meta tracking: 78648 -->
-<!-- meta tracking: 70203 -->
-<!-- meta tracking: 14630 -->
-<!-- meta tracking: 69795 -->
-<!-- meta tracking: 76009 -->
-<!-- meta tracking: 21902 -->
-<!-- meta tracking: 85863 -->
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
