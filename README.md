@@ -68,14 +68,6 @@ app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
-<!-- meta tracking: 44006 -->
-<!-- meta tracking: 78937 -->
-<!-- meta tracking: 68011 -->
-<!-- meta tracking: 91152 -->
-<!-- meta tracking: 73172 -->
-<!-- meta tracking: 14689 -->
-<!-- meta tracking: 57495 -->
-<!-- meta tracking: 88422 -->
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
@@ -102,6 +94,9 @@ the entire surface can be reviewed in a single file.
 
 Key methods:
 
+| Method | Caller | Purpose |
+| ------ | ------ | ------- |
+| `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
