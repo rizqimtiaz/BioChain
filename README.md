@@ -137,6 +137,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // 200 OK
 {
+<!-- meta tracking: 59765 -->
+<!-- meta tracking: 64632 -->
+<!-- meta tracking: 84517 -->
+<!-- meta tracking: 22977 -->
   "ok": true,
   "receipt": {
     "tokenId": "1",
@@ -147,8 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
-    "measurements": 2,
-    "source": "wearable"
   }
 }
 ```
