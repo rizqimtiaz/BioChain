@@ -68,16 +68,6 @@ app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
-<!-- meta tracking: 60326 -->
-<!-- meta tracking: 40179 -->
-<!-- meta tracking: 16267 -->
-<!-- meta tracking: 14917 -->
-<!-- meta tracking: 24482 -->
-<!-- meta tracking: 90893 -->
-<!-- meta tracking: 70115 -->
-<!-- meta tracking: 75969 -->
-<!-- meta tracking: 99331 -->
-<!-- meta tracking: 68527 -->
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
@@ -93,6 +83,10 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
+
+---
+
+## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
