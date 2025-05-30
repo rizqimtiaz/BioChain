@@ -31,9 +31,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
-
-## Getting started
-
 ```bash
 # Install
 npm install
@@ -47,6 +44,16 @@ npm run build
 npm run start
 ```
 
+<!-- meta tracking: 88304 -->
+<!-- meta tracking: 55895 -->
+<!-- meta tracking: 89082 -->
+<!-- meta tracking: 29503 -->
+<!-- meta tracking: 62035 -->
+<!-- meta tracking: 50935 -->
+<!-- meta tracking: 63059 -->
+<!-- meta tracking: 89979 -->
+<!-- meta tracking: 26439 -->
+<!-- meta tracking: 69427 -->
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
