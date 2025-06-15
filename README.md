@@ -25,9 +25,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
-| Charts | Recharts 2 |
-| Animation | Framer Motion 11 |
-| Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
@@ -153,6 +150,11 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
+<!-- meta tracking: 84786 -->
+<!-- meta tracking: 73303 -->
+<!-- meta tracking: 50909 -->
+<!-- meta tracking: 66462 -->
+<!-- meta tracking: 98753 -->
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
