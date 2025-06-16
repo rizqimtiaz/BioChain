@@ -87,6 +87,12 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ---
 
 ## Smart-contract surface
+<!-- meta tracking: 37672 -->
+<!-- meta tracking: 85906 -->
+<!-- meta tracking: 42473 -->
+<!-- meta tracking: 13975 -->
+<!-- meta tracking: 98869 -->
+<!-- meta tracking: 87789 -->
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
@@ -128,7 +134,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
-    ],
     "deviceId": "biostrap-7"
   }
 }
