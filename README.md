@@ -59,8 +59,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ---
 
 ## Repository layout
-<!-- meta tracking: 92075 -->
-<!-- meta tracking: 65420 -->
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
@@ -132,6 +130,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
     "deviceId": "biostrap-7"
+  }
+}
+```
+
 ```jsonc
 // 200 OK
 {
