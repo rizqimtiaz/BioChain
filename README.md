@@ -150,12 +150,11 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": 2,
     "source": "wearable"
   }
-<!-- meta tracking: 18651 -->
-<!-- meta tracking: 99168 -->
-<!-- meta tracking: 69739 -->
 }
 ```
 
+Raw clinical data is **never persisted** by the route — only the hash exits
+the request scope.
 
 ---
 
