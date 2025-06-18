@@ -32,10 +32,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
-## Getting started
-
-```bash
-# Install
 npm install
 
 # Dev server
@@ -79,6 +75,9 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
+<!-- meta tracking: 89995 -->
+<!-- meta tracking: 69297 -->
+<!-- meta tracking: 79808 -->
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
