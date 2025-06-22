@@ -10,6 +10,8 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
+  building a decentralized peer-review trust score.
+- **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
 ---
@@ -51,11 +53,6 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
-<!-- meta tracking: 84333 -->
-<!-- meta tracking: 45906 -->
-<!-- meta tracking: 44546 -->
-<!-- meta tracking: 86749 -->
-<!-- meta tracking: 32666 -->
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
