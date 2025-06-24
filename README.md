@@ -12,12 +12,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
-<!-- meta tracking: 55007 -->
-<!-- meta tracking: 24036 -->
-<!-- meta tracking: 73611 -->
-<!-- meta tracking: 48814 -->
-<!-- meta tracking: 73124 -->
-<!-- meta tracking: 20030 -->
   producing an immutable audit trail for regulators.
 
 ---
@@ -123,6 +117,7 @@ SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
+// Request
 {
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
