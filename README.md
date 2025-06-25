@@ -39,6 +39,9 @@ clinical research as on-chain Intellectual Property NFTs.
 npm install
 
 # Dev server
+npm run dev
+# → http://localhost:3000
+
 # Production build
 npm run build
 npm run start
@@ -68,13 +71,6 @@ app/
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
-<!-- meta tracking: 98962 -->
-<!-- meta tracking: 82650 -->
-<!-- meta tracking: 77391 -->
-<!-- meta tracking: 15293 -->
-<!-- meta tracking: 22554 -->
-<!-- meta tracking: 82259 -->
-<!-- meta tracking: 21571 -->
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
