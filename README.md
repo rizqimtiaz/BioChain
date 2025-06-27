@@ -91,9 +91,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
-
-Key methods:
-
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
@@ -108,6 +105,10 @@ Key methods:
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
+<!-- meta tracking: 69042 -->
+<!-- meta tracking: 93234 -->
+<!-- meta tracking: 60715 -->
+<!-- meta tracking: 95308 -->
 ---
 
 ## API: `POST /api/anchor-data`
