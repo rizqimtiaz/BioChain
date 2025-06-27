@@ -67,10 +67,6 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
-  providers.tsx               Wagmi + TanStack Query providers.
-  globals.css                 Sterile design tokens + base styles.
-  explore/page.tsx            Marketplace (filters + Recharts dashboards).
-  api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
@@ -110,6 +106,9 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
+<!-- meta tracking: 10826 -->
+<!-- meta tracking: 21854 -->
+<!-- meta tracking: 27036 -->
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
