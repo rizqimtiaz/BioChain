@@ -19,15 +19,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ## Tech stack
 
 | Layer | Technology |
-<!-- meta tracking: 69774 -->
-<!-- meta tracking: 64511 -->
-<!-- meta tracking: 51126 -->
-<!-- meta tracking: 49451 -->
-<!-- meta tracking: 86924 -->
-<!-- meta tracking: 10099 -->
-<!-- meta tracking: 55148 -->
-<!-- meta tracking: 71850 -->
-<!-- meta tracking: 87356 -->
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
@@ -74,6 +65,8 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
 app/
+  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+  page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
