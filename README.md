@@ -14,13 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
-<!-- meta tracking: 81121 -->
-<!-- meta tracking: 59813 -->
-<!-- meta tracking: 52710 -->
-<!-- meta tracking: 37641 -->
-<!-- meta tracking: 92487 -->
-<!-- meta tracking: 72931 -->
-<!-- meta tracking: 34819 -->
 ---
 
 ## Tech stack
@@ -36,6 +29,10 @@ clinical research as on-chain Intellectual Property NFTs.
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
+
+---
+
+## Getting started
 
 ```bash
 # Install
