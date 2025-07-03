@@ -22,6 +22,11 @@ clinical research as on-chain Intellectual Property NFTs.
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
+<!-- meta tracking: 55758 -->
+<!-- meta tracking: 30999 -->
+<!-- meta tracking: 93044 -->
+<!-- meta tracking: 23166 -->
+<!-- meta tracking: 14550 -->
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
@@ -72,8 +77,6 @@ app/
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
-components/
-  TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
