@@ -56,6 +56,8 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
+---
+
 ## Repository layout
 
 ```
@@ -113,11 +115,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
-<!-- meta tracking: 22169 -->
-<!-- meta tracking: 61196 -->
-<!-- meta tracking: 51269 -->
-<!-- meta tracking: 78595 -->
-<!-- meta tracking: 45872 -->
 
 ```jsonc
 // Request
