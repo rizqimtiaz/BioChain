@@ -8,7 +8,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
-<!-- meta tracking: 77782 -->
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
@@ -42,6 +41,10 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
+
+# Production build
+npm run build
+npm run start
 ```
 
 ### Environment variables
