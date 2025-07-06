@@ -143,6 +143,10 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
+    "recordedAt": "2026-05-03T...Z",
+    "algorithm":  "SHA-256",
+    "encoding":   "hex",
+    "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
   }
@@ -161,15 +165,6 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
-<!-- meta tracking: 26055 -->
-<!-- meta tracking: 39155 -->
-<!-- meta tracking: 40514 -->
-<!-- meta tracking: 39631 -->
-<!-- meta tracking: 77250 -->
-<!-- meta tracking: 17481 -->
-<!-- meta tracking: 75941 -->
-<!-- meta tracking: 79904 -->
-<!-- meta tracking: 25792 -->
 ---
 
 ## License
