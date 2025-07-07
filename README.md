@@ -77,6 +77,10 @@ components/
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
+<!-- meta tracking: 61267 -->
+<!-- meta tracking: 34794 -->
+<!-- meta tracking: 56586 -->
+<!-- meta tracking: 45275 -->
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
@@ -145,8 +149,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
-    "encoding":   "hex",
-    "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
   }
