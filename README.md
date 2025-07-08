@@ -54,6 +54,9 @@ Optional — falls back to viem public RPC if not set.
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
+```
+
+---
 
 ## Repository layout
 
@@ -88,9 +91,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
-<!-- meta tracking: 29946 -->
-<!-- meta tracking: 58849 -->
-<!-- meta tracking: 13048 -->
 
 Key methods:
 
