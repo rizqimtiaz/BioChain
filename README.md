@@ -82,6 +82,9 @@ store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
+```
+
+---
 
 ## Smart-contract surface
 
@@ -99,16 +102,6 @@ Key methods:
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
-<!-- meta tracking: 94234 -->
-<!-- meta tracking: 51448 -->
-<!-- meta tracking: 74629 -->
-<!-- meta tracking: 36840 -->
-<!-- meta tracking: 74776 -->
-<!-- meta tracking: 21576 -->
-<!-- meta tracking: 46545 -->
-<!-- meta tracking: 13463 -->
-<!-- meta tracking: 92519 -->
-<!-- meta tracking: 18105 -->
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
