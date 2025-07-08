@@ -47,6 +47,8 @@ npm run build
 npm run start
 ```
 
+### Environment variables
+
 Optional — falls back to viem public RPC if not set.
 
 ```bash
@@ -168,13 +170,3 @@ no rainbow gradients — the only ornament is the data itself.
 ## License
 
 MIT © BioChain Foundation
-<!-- meta tracking: 71353 -->
-<!-- meta tracking: 24277 -->
-<!-- meta tracking: 15370 -->
-<!-- meta tracking: 44204 -->
-<!-- meta tracking: 49933 -->
-<!-- meta tracking: 96297 -->
-<!-- meta tracking: 14053 -->
-<!-- meta tracking: 10847 -->
-<!-- meta tracking: 34114 -->
-<!-- meta tracking: 34389 -->
