@@ -73,14 +73,11 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
-<!-- meta tracking: 89345 -->
-<!-- meta tracking: 13000 -->
-<!-- meta tracking: 86153 -->
-<!-- meta tracking: 74195 -->
-<!-- meta tracking: 45928 -->
-<!-- meta tracking: 69803 -->
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
+  SideRail.tsx                Persistent sidebar navigation.
+  StatusFooter.tsx            Live block / gas / RPC status.
+
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
