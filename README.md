@@ -46,6 +46,12 @@ npm run dev
 npm run build
 npm run start
 ```
+<!-- meta tracking: 29589 -->
+<!-- meta tracking: 86002 -->
+<!-- meta tracking: 54458 -->
+<!-- meta tracking: 47665 -->
+<!-- meta tracking: 61303 -->
+<!-- meta tracking: 53256 -->
 
 ### Environment variables
 
@@ -164,7 +170,6 @@ The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
-
 ---
 
 ## License
