@@ -56,6 +56,10 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
+---
+
+## Repository layout
+
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
@@ -158,14 +162,6 @@ the request scope.
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
-<!-- meta tracking: 36361 -->
-<!-- meta tracking: 77662 -->
-<!-- meta tracking: 43020 -->
-<!-- meta tracking: 44314 -->
-<!-- meta tracking: 53440 -->
-<!-- meta tracking: 35135 -->
-<!-- meta tracking: 92326 -->
-<!-- meta tracking: 88879 -->
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
