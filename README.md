@@ -34,10 +34,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Getting started
 
-<!-- meta tracking: 12084 -->
-<!-- meta tracking: 87235 -->
-<!-- meta tracking: 84950 -->
-<!-- meta tracking: 30859 -->
 ```bash
 # Install
 npm install
@@ -70,6 +66,7 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+  page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
