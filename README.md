@@ -33,6 +33,16 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Getting started
+<!-- meta tracking: 39709 -->
+<!-- meta tracking: 42192 -->
+<!-- meta tracking: 67522 -->
+<!-- meta tracking: 89919 -->
+<!-- meta tracking: 20594 -->
+<!-- meta tracking: 69099 -->
+<!-- meta tracking: 46204 -->
+<!-- meta tracking: 94440 -->
+<!-- meta tracking: 94145 -->
+<!-- meta tracking: 91889 -->
 
 ```bash
 # Install
@@ -163,10 +173,6 @@ the request scope.
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
-no rainbow gradients — the only ornament is the data itself.
-
----
-
 ## License
 
 MIT © BioChain Foundation
