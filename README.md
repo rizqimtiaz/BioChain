@@ -67,8 +67,6 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
-<!-- meta tracking: 39095 -->
-<!-- meta tracking: 89870 -->
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
@@ -130,6 +128,9 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
+    ],
+    "deviceId": "biostrap-7"
+  }
 }
 ```
 
