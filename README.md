@@ -15,6 +15,10 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
+<!-- meta tracking: 22814 -->
+<!-- meta tracking: 27497 -->
+<!-- meta tracking: 28506 -->
+<!-- meta tracking: 99207 -->
 
 ## Tech stack
 
@@ -29,8 +33,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
-
----
 
 ## Getting started
 
