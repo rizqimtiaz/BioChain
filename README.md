@@ -55,14 +55,6 @@ Optional — falls back to viem public RPC if not set.
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
-<!-- meta tracking: 25364 -->
-<!-- meta tracking: 25130 -->
-<!-- meta tracking: 90284 -->
-<!-- meta tracking: 79542 -->
-<!-- meta tracking: 74133 -->
-<!-- meta tracking: 49064 -->
-<!-- meta tracking: 73332 -->
-<!-- meta tracking: 60542 -->
 
 ---
 
@@ -80,6 +72,7 @@ app/
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
+components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
