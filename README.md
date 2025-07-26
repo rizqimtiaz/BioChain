@@ -84,6 +84,8 @@ lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
+---
+
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -156,12 +158,6 @@ the request scope.
 
 ---
 
-<!-- meta tracking: 11173 -->
-<!-- meta tracking: 51763 -->
-<!-- meta tracking: 18804 -->
-<!-- meta tracking: 31534 -->
-<!-- meta tracking: 31603 -->
-<!-- meta tracking: 33790 -->
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
