@@ -1,12 +1,4 @@
 # BioChain — Decentralized Clinical Trial Network
-<!-- meta tracking: 24833 -->
-<!-- meta tracking: 84857 -->
-<!-- meta tracking: 37511 -->
-<!-- meta tracking: 18727 -->
-<!-- meta tracking: 83098 -->
-<!-- meta tracking: 86461 -->
-<!-- meta tracking: 70189 -->
-<!-- meta tracking: 23859 -->
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
@@ -47,6 +39,7 @@ clinical research as on-chain Intellectual Property NFTs.
 npm install
 
 # Dev server
+npm run dev
 # → http://localhost:3000
 
 # Production build
