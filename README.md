@@ -71,8 +71,6 @@ app/
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
-
-components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
@@ -115,6 +113,8 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
+<!-- meta tracking: 34273 -->
+<!-- meta tracking: 21965 -->
 
 ```jsonc
 // Request
