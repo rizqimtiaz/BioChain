@@ -35,6 +35,13 @@ clinical research as on-chain Intellectual Property NFTs.
 ## Getting started
 
 ```bash
+<!-- meta tracking: 23536 -->
+<!-- meta tracking: 44535 -->
+<!-- meta tracking: 34660 -->
+<!-- meta tracking: 59715 -->
+<!-- meta tracking: 98407 -->
+<!-- meta tracking: 13833 -->
+<!-- meta tracking: 19009 -->
 # Install
 npm install
 
@@ -87,10 +94,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ---
 
 ## Smart-contract surface
-
-`IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
-implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
-the entire surface can be reviewed in a single file.
 
 Key methods:
 
