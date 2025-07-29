@@ -63,6 +63,10 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
+
+app/
+  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+  page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
@@ -78,12 +82,6 @@ store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-<!-- meta tracking: 15856 -->
-<!-- meta tracking: 44324 -->
-<!-- meta tracking: 26091 -->
-<!-- meta tracking: 68318 -->
-<!-- meta tracking: 71433 -->
-<!-- meta tracking: 41088 -->
 ```
 
 ---
