@@ -80,6 +80,11 @@ components/
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
+<!-- meta tracking: 81510 -->
+<!-- meta tracking: 25338 -->
+<!-- meta tracking: 14266 -->
+<!-- meta tracking: 26551 -->
+<!-- meta tracking: 55308 -->
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
@@ -134,8 +139,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
-```jsonc
-// 200 OK
 {
   "ok": true,
   "receipt": {
