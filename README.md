@@ -63,6 +63,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
+<!-- meta tracking: 60243 -->
+<!-- meta tracking: 71267 -->
+<!-- meta tracking: 17941 -->
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
@@ -147,10 +150,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "algorithm":  "SHA-256",
     "encoding":   "hex",
     "byteLength": 32,
-    "measurements": 2,
-    "source": "wearable"
-  }
-}
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
