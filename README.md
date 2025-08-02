@@ -1,11 +1,3 @@
-<!-- meta tracking: 16069 -->
-<!-- meta tracking: 74120 -->
-<!-- meta tracking: 12690 -->
-<!-- meta tracking: 17389 -->
-<!-- meta tracking: 19773 -->
-<!-- meta tracking: 15011 -->
-<!-- meta tracking: 85587 -->
-<!-- meta tracking: 26795 -->
 # BioChain — Decentralized Clinical Trial Network
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
@@ -51,6 +43,8 @@ npm run dev
 # → http://localhost:3000
 
 # Production build
+npm run build
+npm run start
 ```
 
 ### Environment variables
