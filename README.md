@@ -14,11 +14,6 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
 
-<!-- meta tracking: 48298 -->
-<!-- meta tracking: 59994 -->
-<!-- meta tracking: 44513 -->
-<!-- meta tracking: 99070 -->
-<!-- meta tracking: 33547 -->
 ---
 
 ## Tech stack
@@ -78,6 +73,9 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
+  TrialCard.tsx               Trial summary card with invest / sign actions.
+  TopBar.tsx                  Header (brand, role switcher, wallet).
+  SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
