@@ -79,6 +79,8 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
+lib/bio-utils.ts              Hashing, Zod schemas, formatters.
+
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
@@ -157,15 +159,6 @@ the request scope.
 ---
 
 ## Design philosophy
-<!-- meta tracking: 52766 -->
-<!-- meta tracking: 72758 -->
-<!-- meta tracking: 76820 -->
-<!-- meta tracking: 23945 -->
-<!-- meta tracking: 55132 -->
-<!-- meta tracking: 72281 -->
-<!-- meta tracking: 41762 -->
-<!-- meta tracking: 80658 -->
-<!-- meta tracking: 32582 -->
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
