@@ -8,6 +8,7 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
+  to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
@@ -163,12 +164,6 @@ The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
-<!-- meta tracking: 18026 -->
-<!-- meta tracking: 26482 -->
-<!-- meta tracking: 45305 -->
-<!-- meta tracking: 23748 -->
-<!-- meta tracking: 69482 -->
-<!-- meta tracking: 46800 -->
 
 ---
 
