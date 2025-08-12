@@ -144,9 +144,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
-    "algorithm":  "SHA-256",
-    "encoding":   "hex",
-    "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
   }
@@ -155,6 +152,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
+<!-- meta tracking: 62126 -->
+<!-- meta tracking: 70102 -->
+<!-- meta tracking: 70007 -->
+<!-- meta tracking: 51321 -->
+<!-- meta tracking: 69992 -->
+<!-- meta tracking: 76339 -->
+<!-- meta tracking: 68064 -->
 
 ---
 
