@@ -82,10 +82,6 @@ store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
-
----
-
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -155,6 +151,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
+<!-- meta tracking: 25808 -->
 
 ---
 
