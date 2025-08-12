@@ -100,10 +100,6 @@ Key methods:
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
-| `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
-| `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
-| `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
-| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
@@ -125,6 +121,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
+<!-- meta tracking: 60822 -->
+<!-- meta tracking: 13985 -->
+<!-- meta tracking: 53342 -->
+<!-- meta tracking: 68143 -->
+<!-- meta tracking: 30604 -->
+<!-- meta tracking: 15845 -->
+<!-- meta tracking: 14161 -->
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
