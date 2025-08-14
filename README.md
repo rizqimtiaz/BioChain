@@ -76,7 +76,6 @@ components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
-  StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
@@ -86,6 +85,15 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
+<!-- meta tracking: 37127 -->
+<!-- meta tracking: 48731 -->
+<!-- meta tracking: 26430 -->
+<!-- meta tracking: 82726 -->
+<!-- meta tracking: 66263 -->
+<!-- meta tracking: 86127 -->
+<!-- meta tracking: 38827 -->
+<!-- meta tracking: 34017 -->
+<!-- meta tracking: 78518 -->
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
