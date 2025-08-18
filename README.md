@@ -21,8 +21,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
-| State | Zustand (persisted, hydration-safe) |
-| Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
@@ -90,6 +88,7 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
+<!-- meta tracking: 41088 -->
 the entire surface can be reviewed in a single file.
 
 Key methods:
