@@ -40,6 +40,14 @@ npm install
 
 # Dev server
 npm run dev
+<!-- meta tracking: 32047 -->
+<!-- meta tracking: 24252 -->
+<!-- meta tracking: 17961 -->
+<!-- meta tracking: 78939 -->
+<!-- meta tracking: 51195 -->
+<!-- meta tracking: 15175 -->
+<!-- meta tracking: 75067 -->
+<!-- meta tracking: 70045 -->
 # → http://localhost:3000
 
 # Production build
@@ -160,10 +168,6 @@ the request scope.
 
 ## Design philosophy
 
-The interface is deliberately **sterile and laboratory-grade**: pure white
-surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
-"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
-no rainbow gradients — the only ornament is the data itself.
 
 ---
 
