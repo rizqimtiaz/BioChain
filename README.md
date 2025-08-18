@@ -13,12 +13,6 @@ clinical research as on-chain Intellectual Property NFTs.
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
-<!-- meta tracking: 79526 -->
-<!-- meta tracking: 61613 -->
-<!-- meta tracking: 90630 -->
-<!-- meta tracking: 32685 -->
-<!-- meta tracking: 84574 -->
-<!-- meta tracking: 85338 -->
 
 ---
 
@@ -91,6 +85,7 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
 ---
+
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
