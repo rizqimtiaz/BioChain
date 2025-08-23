@@ -71,6 +71,11 @@ app/
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
+<!-- meta tracking: 98774 -->
+<!-- meta tracking: 87827 -->
+<!-- meta tracking: 25154 -->
+<!-- meta tracking: 15708 -->
+<!-- meta tracking: 20675 -->
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
@@ -146,7 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
-    "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
   }
