@@ -22,16 +22,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
-<!-- meta tracking: 17840 -->
-<!-- meta tracking: 17898 -->
-<!-- meta tracking: 94180 -->
-<!-- meta tracking: 29651 -->
-<!-- meta tracking: 65320 -->
-<!-- meta tracking: 83689 -->
-<!-- meta tracking: 29584 -->
-<!-- meta tracking: 99155 -->
-<!-- meta tracking: 38491 -->
-<!-- meta tracking: 70269 -->
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
@@ -72,6 +62,8 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
+                              milestone escrow, data anchoring, peer review.
+
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
