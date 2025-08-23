@@ -139,6 +139,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 {
   "ok": true,
   "receipt": {
+    "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
@@ -166,7 +167,6 @@ no rainbow gradients — the only ornament is the data itself.
 
 ---
 
-<!-- meta tracking: 50450 -->
 ## License
 
 MIT © BioChain Foundation
