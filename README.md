@@ -27,6 +27,16 @@ clinical research as on-chain Intellectual Property NFTs.
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
+<!-- meta tracking: 10642 -->
+<!-- meta tracking: 16939 -->
+<!-- meta tracking: 98451 -->
+<!-- meta tracking: 57699 -->
+<!-- meta tracking: 10884 -->
+<!-- meta tracking: 22072 -->
+<!-- meta tracking: 49348 -->
+<!-- meta tracking: 89954 -->
+<!-- meta tracking: 94940 -->
+<!-- meta tracking: 13795 -->
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
@@ -81,8 +91,6 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
-tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
 
 ---
 
