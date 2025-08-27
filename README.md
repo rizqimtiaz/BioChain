@@ -133,6 +133,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
+<!-- meta tracking: 30814 -->
+<!-- meta tracking: 88393 -->
+<!-- meta tracking: 61017 -->
+<!-- meta tracking: 34713 -->
+<!-- meta tracking: 12562 -->
+<!-- meta tracking: 97559 -->
+<!-- meta tracking: 68193 -->
 
 ```jsonc
 // 200 OK
@@ -164,8 +171,6 @@ The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
-
----
 
 ## License
 
