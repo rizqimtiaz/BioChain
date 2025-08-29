@@ -27,15 +27,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
-<!-- meta tracking: 62569 -->
-<!-- meta tracking: 92054 -->
-<!-- meta tracking: 84510 -->
-<!-- meta tracking: 59101 -->
-<!-- meta tracking: 29495 -->
-<!-- meta tracking: 85309 -->
-<!-- meta tracking: 61498 -->
-<!-- meta tracking: 41513 -->
-<!-- meta tracking: 60780 -->
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
@@ -56,6 +47,7 @@ npm run build
 npm run start
 ```
 
+### Environment variables
 
 Optional — falls back to viem public RPC if not set.
 
