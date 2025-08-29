@@ -4,6 +4,12 @@
 
 BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
+<!-- meta tracking: 41457 -->
+<!-- meta tracking: 11593 -->
+<!-- meta tracking: 82335 -->
+<!-- meta tracking: 86396 -->
+<!-- meta tracking: 87178 -->
+<!-- meta tracking: 39944 -->
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
@@ -145,10 +151,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
-    "encoding":   "hex",
-    "byteLength": 32,
-    "measurements": 2,
-    "source": "wearable"
   }
 }
 ```
