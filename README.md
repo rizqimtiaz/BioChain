@@ -108,6 +108,10 @@ Key methods:
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
+---
+
+## API: `POST /api/anchor-data`
+
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
@@ -148,10 +152,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-<!-- meta tracking: 51158 -->
-<!-- meta tracking: 97299 -->
-<!-- meta tracking: 15357 -->
-<!-- meta tracking: 51466 -->
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
