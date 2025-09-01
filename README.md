@@ -33,12 +33,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Getting started
-<!-- meta tracking: 84925 -->
-<!-- meta tracking: 49070 -->
-<!-- meta tracking: 85919 -->
-<!-- meta tracking: 29725 -->
-<!-- meta tracking: 30287 -->
-<!-- meta tracking: 50993 -->
 
 ```bash
 # Install
@@ -156,6 +150,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": 2,
     "source": "wearable"
   }
+}
 ```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
