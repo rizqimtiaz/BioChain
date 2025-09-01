@@ -24,6 +24,15 @@ clinical research as on-chain Intellectual Property NFTs.
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
+<!-- meta tracking: 16851 -->
+<!-- meta tracking: 20696 -->
+<!-- meta tracking: 72064 -->
+<!-- meta tracking: 85018 -->
+<!-- meta tracking: 79706 -->
+<!-- meta tracking: 93007 -->
+<!-- meta tracking: 83256 -->
+<!-- meta tracking: 33866 -->
+<!-- meta tracking: 89095 -->
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
@@ -64,8 +73,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
-app/
-  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
