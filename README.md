@@ -2,6 +2,14 @@
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
+<!-- meta tracking: 41449 -->
+<!-- meta tracking: 61482 -->
+<!-- meta tracking: 38459 -->
+<!-- meta tracking: 82407 -->
+<!-- meta tracking: 53193 -->
+<!-- meta tracking: 86377 -->
+<!-- meta tracking: 28400 -->
+<!-- meta tracking: 17093 -->
 BioChain is a production-ready Next.js 14 dApp for funding and managing
 clinical research as on-chain Intellectual Property NFTs.
 
@@ -54,10 +62,6 @@ Optional — falls back to viem public RPC if not set.
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
-```
-
----
-
 ## Repository layout
 
 ```
