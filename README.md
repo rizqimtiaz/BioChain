@@ -130,6 +130,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
     "deviceId": "biostrap-7"
+  }
+}
 ```
 
 ```jsonc
@@ -166,9 +168,5 @@ no rainbow gradients — the only ornament is the data itself.
 ---
 
 ## License
-<!-- meta tracking: 34067 -->
-<!-- meta tracking: 76013 -->
-<!-- meta tracking: 29948 -->
-<!-- meta tracking: 57543 -->
 
 MIT © BioChain Foundation
