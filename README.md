@@ -33,15 +33,15 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Getting started
+<!-- meta tracking: 39187 -->
+<!-- meta tracking: 11993 -->
+<!-- meta tracking: 68019 -->
 
 ```bash
 # Install
 npm install
 
 # Dev server
-npm run dev
-# → http://localhost:3000
-
 # Production build
 npm run build
 npm run start
