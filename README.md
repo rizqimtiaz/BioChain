@@ -42,9 +42,6 @@ npm install
 npm run dev
 # → http://localhost:3000
 
-<!-- meta tracking: 10976 -->
-<!-- meta tracking: 16149 -->
-<!-- meta tracking: 46379 -->
 # Production build
 npm run build
 npm run start
@@ -153,6 +150,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "measurements": 2,
     "source": "wearable"
   }
+}
+```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
