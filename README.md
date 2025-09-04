@@ -86,6 +86,10 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
+<!-- meta tracking: 19819 -->
+<!-- meta tracking: 55863 -->
+<!-- meta tracking: 34009 -->
+<!-- meta tracking: 27401 -->
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -159,9 +163,6 @@ the request scope.
 ---
 
 ## Design philosophy
-
-The interface is deliberately **sterile and laboratory-grade**: pure white
-surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
