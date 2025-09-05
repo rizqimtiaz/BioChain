@@ -19,14 +19,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ## Tech stack
 
 | Layer | Technology |
-<!-- meta tracking: 13398 -->
-<!-- meta tracking: 35148 -->
-<!-- meta tracking: 45147 -->
-<!-- meta tracking: 29096 -->
-<!-- meta tracking: 11887 -->
-<!-- meta tracking: 20548 -->
-<!-- meta tracking: 93243 -->
-<!-- meta tracking: 84283 -->
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
@@ -109,6 +101,7 @@ Key methods:
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
+| `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
