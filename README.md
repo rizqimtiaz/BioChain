@@ -65,6 +65,10 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
 app/
+<!-- meta tracking: 13700 -->
+<!-- meta tracking: 16619 -->
+<!-- meta tracking: 57177 -->
+<!-- meta tracking: 19013 -->
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
@@ -148,10 +152,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
-    "source": "wearable"
-  }
-}
-```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
