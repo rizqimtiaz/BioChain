@@ -88,11 +88,13 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ## Smart-contract surface
 
-`IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
-implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
-the entire surface can be reviewed in a single file.
 
 Key methods:
+<!-- meta tracking: 86741 -->
+<!-- meta tracking: 56325 -->
+<!-- meta tracking: 98577 -->
+<!-- meta tracking: 45581 -->
+<!-- meta tracking: 80101 -->
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
