@@ -56,6 +56,10 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
+---
+
+## Repository layout
+
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
@@ -82,7 +86,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
-<!-- meta tracking: 39072 -->
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
