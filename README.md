@@ -18,9 +18,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Tech stack
 
-| Layer | Technology |
-| ----- | ---------- |
-| Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
@@ -145,6 +142,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
+<!-- meta tracking: 34697 -->
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
