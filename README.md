@@ -86,12 +86,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
-<!-- meta tracking: 95709 -->
-<!-- meta tracking: 18151 -->
-<!-- meta tracking: 76604 -->
-<!-- meta tracking: 34916 -->
-<!-- meta tracking: 18951 -->
-<!-- meta tracking: 76274 -->
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
@@ -114,6 +108,7 @@ Key methods:
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
+---
 
 ## API: `POST /api/anchor-data`
 
