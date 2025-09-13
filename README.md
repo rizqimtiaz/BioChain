@@ -55,9 +55,6 @@ Optional — falls back to viem public RPC if not set.
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
-
----
-
 ## Repository layout
 
 ```
@@ -165,6 +162,14 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
+<!-- meta tracking: 18475 -->
+<!-- meta tracking: 24935 -->
+<!-- meta tracking: 27240 -->
+<!-- meta tracking: 40431 -->
+<!-- meta tracking: 80196 -->
+<!-- meta tracking: 12901 -->
+<!-- meta tracking: 27995 -->
+<!-- meta tracking: 71268 -->
 ---
 
 ## License
