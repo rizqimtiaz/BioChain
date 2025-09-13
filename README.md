@@ -93,6 +93,8 @@ implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
+<!-- meta tracking: 35737 -->
+<!-- meta tracking: 59695 -->
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
@@ -120,9 +122,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // Request
 {
   "tokenId": "1",
-  "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
-  "payload": {
-    "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
