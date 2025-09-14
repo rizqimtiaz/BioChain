@@ -73,6 +73,8 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
+  TrialCard.tsx               Trial summary card with invest / sign actions.
+  TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
@@ -129,10 +131,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     ],
     "deviceId": "biostrap-7"
   }
-<!-- meta tracking: 85211 -->
-<!-- meta tracking: 28769 -->
-<!-- meta tracking: 49516 -->
-<!-- meta tracking: 14266 -->
 }
 ```
 
