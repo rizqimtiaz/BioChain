@@ -52,6 +52,16 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
+<!-- meta tracking: 14157 -->
+<!-- meta tracking: 84608 -->
+<!-- meta tracking: 54075 -->
+<!-- meta tracking: 65182 -->
+<!-- meta tracking: 70856 -->
+<!-- meta tracking: 80141 -->
+<!-- meta tracking: 86290 -->
+<!-- meta tracking: 57276 -->
+<!-- meta tracking: 12689 -->
+<!-- meta tracking: 17373 -->
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
@@ -75,8 +85,6 @@ app/
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
-  SideRail.tsx                Persistent sidebar navigation.
-  StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
