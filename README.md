@@ -102,6 +102,9 @@ Key methods:
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
+| `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
+| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
+
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
@@ -116,11 +119,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```jsonc
 // Request
 {
-<!-- meta tracking: 63797 -->
-<!-- meta tracking: 95471 -->
-<!-- meta tracking: 81135 -->
-<!-- meta tracking: 39194 -->
-<!-- meta tracking: 92743 -->
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
