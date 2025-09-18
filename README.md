@@ -1,3 +1,7 @@
+<!-- meta tracking: 65276 -->
+<!-- meta tracking: 75473 -->
+<!-- meta tracking: 54615 -->
+<!-- meta tracking: 19603 -->
 # BioChain — Decentralized Clinical Trial Network
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
@@ -90,8 +94,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
-the entire surface can be reviewed in a single file.
-
 Key methods:
 
 | Method | Caller | Purpose |
