@@ -48,6 +48,7 @@ npm run start
 ```
 
 ### Environment variables
+
 Optional — falls back to viem public RPC if not set.
 
 ```bash
@@ -141,9 +142,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
-<!-- meta tracking: 87666 -->
-<!-- meta tracking: 19815 -->
-<!-- meta tracking: 23484 -->
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
