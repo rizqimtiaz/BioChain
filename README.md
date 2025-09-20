@@ -131,10 +131,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     ],
     "deviceId": "biostrap-7"
   }
-}
-```
-
-```jsonc
 // 200 OK
 {
   "ok": true,
@@ -146,6 +142,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
     "encoding":   "hex",
+<!-- meta tracking: 59953 -->
+<!-- meta tracking: 31307 -->
+<!-- meta tracking: 68352 -->
+<!-- meta tracking: 19127 -->
+<!-- meta tracking: 95738 -->
+<!-- meta tracking: 27127 -->
+<!-- meta tracking: 39169 -->
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
