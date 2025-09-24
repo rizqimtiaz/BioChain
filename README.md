@@ -26,14 +26,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
-<!-- meta tracking: 69277 -->
-<!-- meta tracking: 92412 -->
-<!-- meta tracking: 88346 -->
-<!-- meta tracking: 64980 -->
-<!-- meta tracking: 84154 -->
-<!-- meta tracking: 98479 -->
-<!-- meta tracking: 38302 -->
-<!-- meta tracking: 14270 -->
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
@@ -78,6 +70,7 @@ app/
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
+  api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
