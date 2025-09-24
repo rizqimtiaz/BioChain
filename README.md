@@ -56,6 +56,13 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
+<!-- meta tracking: 90456 -->
+<!-- meta tracking: 12245 -->
+<!-- meta tracking: 30802 -->
+<!-- meta tracking: 18289 -->
+<!-- meta tracking: 41288 -->
+<!-- meta tracking: 75566 -->
+<!-- meta tracking: 70908 -->
 ---
 
 ## Repository layout
@@ -163,8 +170,6 @@ the request scope.
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
-no rainbow gradients — the only ornament is the data itself.
-
 ---
 
 ## License
