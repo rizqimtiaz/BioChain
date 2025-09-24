@@ -26,6 +26,8 @@ clinical research as on-chain Intellectual Property NFTs.
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
+<!-- meta tracking: 79191 -->
+<!-- meta tracking: 51294 -->
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
@@ -62,9 +64,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
-                              milestone escrow, data anchoring, peer review.
-
-app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
