@@ -97,6 +97,8 @@ Key methods:
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
+| `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
+| `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
@@ -156,12 +158,6 @@ the request scope.
 
 ---
 
-<!-- meta tracking: 81021 -->
-<!-- meta tracking: 99693 -->
-<!-- meta tracking: 71550 -->
-<!-- meta tracking: 99653 -->
-<!-- meta tracking: 84299 -->
-<!-- meta tracking: 31439 -->
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
