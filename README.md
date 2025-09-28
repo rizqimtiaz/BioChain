@@ -17,7 +17,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ---
 
 ## Tech stack
-
 | Layer | Technology |
 | ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
@@ -89,6 +88,12 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
+<!-- meta tracking: 52441 -->
+<!-- meta tracking: 56121 -->
+<!-- meta tracking: 78813 -->
+<!-- meta tracking: 61847 -->
+<!-- meta tracking: 68803 -->
+<!-- meta tracking: 20745 -->
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
