@@ -61,10 +61,15 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ## Repository layout
 
 ```
+<!-- meta tracking: 15732 -->
+<!-- meta tracking: 81970 -->
+<!-- meta tracking: 39619 -->
+<!-- meta tracking: 70507 -->
+<!-- meta tracking: 26528 -->
+<!-- meta tracking: 49431 -->
+<!-- meta tracking: 17981 -->
+<!-- meta tracking: 65552 -->
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
-                              milestone escrow, data anchoring, peer review.
-
-app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
