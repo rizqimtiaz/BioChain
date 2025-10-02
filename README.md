@@ -7,13 +7,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
-<!-- meta tracking: 72828 -->
-<!-- meta tracking: 92481 -->
-<!-- meta tracking: 44486 -->
-<!-- meta tracking: 39779 -->
-<!-- meta tracking: 23057 -->
-<!-- meta tracking: 58842 -->
-<!-- meta tracking: 41216 -->
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
@@ -159,6 +152,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
+
+Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
