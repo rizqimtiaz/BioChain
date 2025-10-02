@@ -13,9 +13,6 @@ clinical research as on-chain Intellectual Property NFTs.
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
   producing an immutable audit trail for regulators.
-
----
-
 ## Tech stack
 
 | Layer | Technology |
@@ -60,6 +57,15 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ## Repository layout
 
+<!-- meta tracking: 17836 -->
+<!-- meta tracking: 39188 -->
+<!-- meta tracking: 42377 -->
+<!-- meta tracking: 13531 -->
+<!-- meta tracking: 80519 -->
+<!-- meta tracking: 37203 -->
+<!-- meta tracking: 25070 -->
+<!-- meta tracking: 68354 -->
+<!-- meta tracking: 98056 -->
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
