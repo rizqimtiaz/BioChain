@@ -134,6 +134,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
+```jsonc
+// 200 OK
 {
   "ok": true,
   "receipt": {
@@ -147,13 +149,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
-<!-- meta tracking: 73924 -->
-<!-- meta tracking: 90542 -->
-<!-- meta tracking: 35928 -->
-<!-- meta tracking: 98705 -->
-<!-- meta tracking: 44041 -->
-<!-- meta tracking: 11211 -->
-<!-- meta tracking: 70332 -->
   }
 }
 ```
