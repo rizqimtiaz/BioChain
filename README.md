@@ -30,6 +30,8 @@ clinical research as on-chain Intellectual Property NFTs.
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
+---
+
 ## Getting started
 
 ```bash
@@ -49,12 +51,6 @@ npm run start
 
 Optional — falls back to viem public RPC if not set.
 
-<!-- meta tracking: 60018 -->
-<!-- meta tracking: 58605 -->
-<!-- meta tracking: 41028 -->
-<!-- meta tracking: 63125 -->
-<!-- meta tracking: 90524 -->
-<!-- meta tracking: 53466 -->
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
