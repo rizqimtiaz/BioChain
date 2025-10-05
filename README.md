@@ -30,6 +30,10 @@ clinical research as on-chain Intellectual Property NFTs.
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
+---
+
+## Getting started
+
 ```bash
 # Install
 npm install
@@ -161,10 +165,6 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
-<!-- meta tracking: 19086 -->
-<!-- meta tracking: 38551 -->
-<!-- meta tracking: 96925 -->
-<!-- meta tracking: 84806 -->
 ---
 
 ## License
