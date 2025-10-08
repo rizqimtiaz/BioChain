@@ -87,6 +87,10 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ---
 
 ## Smart-contract surface
+<!-- meta tracking: 77574 -->
+<!-- meta tracking: 54804 -->
+<!-- meta tracking: 68532 -->
+<!-- meta tracking: 31513 -->
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
@@ -103,8 +107,6 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
-| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
-
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
