@@ -134,14 +134,14 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 }
 ```
 
-```jsonc
-// 200 OK
-{
-  "ok": true,
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
+<!-- meta tracking: 80853 -->
+<!-- meta tracking: 88060 -->
+<!-- meta tracking: 96536 -->
+<!-- meta tracking: 90366 -->
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
