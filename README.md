@@ -44,6 +44,13 @@ npm run dev
 
 # Production build
 npm run build
+<!-- meta tracking: 61186 -->
+<!-- meta tracking: 80443 -->
+<!-- meta tracking: 79955 -->
+<!-- meta tracking: 49343 -->
+<!-- meta tracking: 56015 -->
+<!-- meta tracking: 33319 -->
+<!-- meta tracking: 95270 -->
 npm run start
 ```
 
@@ -141,7 +148,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
-    "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
