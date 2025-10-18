@@ -45,6 +45,9 @@ npm run dev
 # Production build
 npm run build
 npm run start
+```
+
+### Environment variables
 
 Optional — falls back to viem public RPC if not set.
 
@@ -112,11 +115,6 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
-<!-- meta tracking: 31730 -->
-<!-- meta tracking: 56449 -->
-<!-- meta tracking: 18787 -->
-<!-- meta tracking: 23282 -->
-<!-- meta tracking: 71197 -->
 
 ```jsonc
 // Request
