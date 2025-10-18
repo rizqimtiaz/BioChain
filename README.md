@@ -45,6 +45,8 @@ npm run dev
 # Production build
 npm run build
 npm run start
+<!-- meta tracking: 58465 -->
+<!-- meta tracking: 47697 -->
 ```
 
 ### Environment variables
@@ -140,7 +142,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "ok": true,
   "receipt": {
     "tokenId": "1",
-    "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
