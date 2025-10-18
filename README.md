@@ -66,6 +66,10 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
+  page.tsx                    Overview KPIs, featured trials, activity rail.
+  providers.tsx               Wagmi + TanStack Query providers.
+  globals.css                 Sterile design tokens + base styles.
+  explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
@@ -116,13 +120,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 // Request
 {
   "tokenId": "1",
-<!-- meta tracking: 56877 -->
-<!-- meta tracking: 49636 -->
-<!-- meta tracking: 75450 -->
-<!-- meta tracking: 76243 -->
-<!-- meta tracking: 85675 -->
-<!-- meta tracking: 96859 -->
-<!-- meta tracking: 12071 -->
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
