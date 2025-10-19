@@ -32,6 +32,8 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+## Getting started
+
 ```bash
 # Install
 npm install
@@ -163,7 +165,6 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
-<!-- meta tracking: 64906 -->
 ---
 
 ## License
