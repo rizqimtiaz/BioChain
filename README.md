@@ -16,14 +16,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
-<!-- meta tracking: 21060 -->
-<!-- meta tracking: 91599 -->
-<!-- meta tracking: 74794 -->
-<!-- meta tracking: 16588 -->
-<!-- meta tracking: 71982 -->
-<!-- meta tracking: 52818 -->
-<!-- meta tracking: 50925 -->
-<!-- meta tracking: 64948 -->
 ## Tech stack
 
 | Layer | Technology |
@@ -77,6 +69,9 @@ app/
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
+  explore/page.tsx            Marketplace (filters + Recharts dashboards).
+  api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
+
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
