@@ -122,8 +122,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
-    "participantPseudoId": "p-9b4c2e3a1d",
-    "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
@@ -168,5 +166,11 @@ no rainbow gradients — the only ornament is the data itself.
 ---
 
 ## License
+<!-- meta tracking: 49947 -->
+<!-- meta tracking: 95240 -->
+<!-- meta tracking: 17257 -->
+<!-- meta tracking: 62368 -->
+<!-- meta tracking: 20393 -->
+<!-- meta tracking: 51371 -->
 
 MIT © BioChain Foundation
