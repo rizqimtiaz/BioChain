@@ -104,6 +104,10 @@ Key methods:
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
+
+Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
+
 ---
 
 ## API: `POST /api/anchor-data`
@@ -148,13 +152,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   }
 }
 ```
-<!-- meta tracking: 86425 -->
-<!-- meta tracking: 63000 -->
-<!-- meta tracking: 21913 -->
-<!-- meta tracking: 60897 -->
-<!-- meta tracking: 35207 -->
-<!-- meta tracking: 78006 -->
-<!-- meta tracking: 33087 -->
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
