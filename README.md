@@ -106,6 +106,10 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+<!-- meta tracking: 41195 -->
+<!-- meta tracking: 85008 -->
+<!-- meta tracking: 57382 -->
+<!-- meta tracking: 99258 -->
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
@@ -130,9 +134,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
     "deviceId": "biostrap-7"
-  }
-}
-```
 
 ```jsonc
 // 200 OK
