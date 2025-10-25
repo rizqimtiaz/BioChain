@@ -16,10 +16,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
-## Tech stack
-
-| Layer | Technology |
-| ----- | ---------- |
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
@@ -105,6 +101,11 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
+<!-- meta tracking: 71299 -->
+<!-- meta tracking: 87887 -->
+<!-- meta tracking: 36557 -->
+<!-- meta tracking: 90318 -->
+<!-- meta tracking: 45262 -->
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
