@@ -44,7 +44,6 @@ npm run dev
 
 # Production build
 npm run build
-<!-- meta tracking: 53337 -->
 npm run start
 ```
 
@@ -107,6 +106,7 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
