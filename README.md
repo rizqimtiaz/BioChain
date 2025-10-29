@@ -100,6 +100,7 @@ Key methods:
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
 | `releaseMilestone(id, idx, hash)` | Researcher | Anchor evidence and unlock the milestone's tranche of escrow. |
 | `anchorClinicalData(id, hash)` | Researcher | Append a SHA-256 hash to the trial's audit trail. |
+| `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
@@ -169,13 +170,3 @@ no rainbow gradients — the only ornament is the data itself.
 ## License
 
 MIT © BioChain Foundation
-<!-- meta tracking: 27725 -->
-<!-- meta tracking: 29750 -->
-<!-- meta tracking: 89314 -->
-<!-- meta tracking: 47000 -->
-<!-- meta tracking: 72855 -->
-<!-- meta tracking: 23520 -->
-<!-- meta tracking: 35553 -->
-<!-- meta tracking: 39684 -->
-<!-- meta tracking: 13719 -->
-<!-- meta tracking: 35256 -->
