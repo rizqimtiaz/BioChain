@@ -38,12 +38,6 @@ clinical research as on-chain Intellectual Property NFTs.
 # Install
 npm install
 
-<!-- meta tracking: 22445 -->
-<!-- meta tracking: 96479 -->
-<!-- meta tracking: 99093 -->
-<!-- meta tracking: 17713 -->
-<!-- meta tracking: 91738 -->
-<!-- meta tracking: 46031 -->
 # Dev server
 npm run dev
 # → http://localhost:3000
@@ -66,6 +60,7 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ## Repository layout
 
+```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
