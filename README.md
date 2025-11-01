@@ -105,6 +105,9 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
+Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
+
 ---
 
 ## API: `POST /api/anchor-data`
@@ -118,16 +121,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 {
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
-<!-- meta tracking: 80759 -->
-<!-- meta tracking: 51347 -->
-<!-- meta tracking: 86693 -->
-<!-- meta tracking: 55341 -->
-<!-- meta tracking: 31047 -->
-<!-- meta tracking: 25216 -->
-<!-- meta tracking: 32004 -->
-<!-- meta tracking: 11566 -->
-<!-- meta tracking: 83236 -->
-<!-- meta tracking: 52260 -->
   "payload": {
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
