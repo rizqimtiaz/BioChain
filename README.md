@@ -59,6 +59,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ---
 
 ## Repository layout
+
+```
+contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
 app/
@@ -82,15 +85,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
 
 ---
-<!-- meta tracking: 16073 -->
-<!-- meta tracking: 69861 -->
-<!-- meta tracking: 83375 -->
-<!-- meta tracking: 31498 -->
-<!-- meta tracking: 99086 -->
-<!-- meta tracking: 13310 -->
-<!-- meta tracking: 23766 -->
-<!-- meta tracking: 86607 -->
-<!-- meta tracking: 15812 -->
 
 ## Smart-contract surface
 
