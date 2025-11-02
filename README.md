@@ -73,6 +73,9 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
+<!-- meta tracking: 21723 -->
+<!-- meta tracking: 10209 -->
+<!-- meta tracking: 68516 -->
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
@@ -103,9 +106,6 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
-| `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
-
-Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
