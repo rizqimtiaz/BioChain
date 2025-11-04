@@ -32,6 +32,8 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+## Getting started
+
 ```bash
 # Install
 npm install
@@ -92,8 +94,6 @@ the entire surface can be reviewed in a single file.
 
 Key methods:
 
-<!-- meta tracking: 40130 -->
-<!-- meta tracking: 78155 -->
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
