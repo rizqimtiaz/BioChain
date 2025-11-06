@@ -108,9 +108,11 @@ Key methods:
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
+<!-- meta tracking: 29214 -->
+<!-- meta tracking: 26735 -->
+<!-- meta tracking: 19505 -->
+<!-- meta tracking: 40792 -->
 ---
-
-## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
