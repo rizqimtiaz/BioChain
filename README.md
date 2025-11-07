@@ -32,6 +32,14 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+<!-- meta tracking: 66316 -->
+<!-- meta tracking: 51579 -->
+<!-- meta tracking: 68941 -->
+<!-- meta tracking: 64776 -->
+<!-- meta tracking: 58592 -->
+<!-- meta tracking: 32651 -->
+<!-- meta tracking: 66207 -->
+<!-- meta tracking: 16011 -->
 ## Getting started
 
 ```bash
@@ -135,10 +143,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 ```
 
 ```jsonc
-// 200 OK
-{
-  "ok": true,
-  "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
