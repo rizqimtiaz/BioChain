@@ -24,7 +24,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
-| Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
@@ -139,6 +138,13 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 {
   "ok": true,
   "receipt": {
+<!-- meta tracking: 25815 -->
+<!-- meta tracking: 47506 -->
+<!-- meta tracking: 65293 -->
+<!-- meta tracking: 39010 -->
+<!-- meta tracking: 76552 -->
+<!-- meta tracking: 79752 -->
+<!-- meta tracking: 92589 -->
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
     "dataHash":   "0x9c1d3a5e...",
