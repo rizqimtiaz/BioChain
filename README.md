@@ -57,6 +57,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
 ---
+
+## Repository layout
+
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
@@ -100,11 +103,6 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
-<!-- meta tracking: 25279 -->
-<!-- meta tracking: 63290 -->
-<!-- meta tracking: 43922 -->
-<!-- meta tracking: 75342 -->
-<!-- meta tracking: 15765 -->
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
