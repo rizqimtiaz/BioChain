@@ -79,6 +79,13 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
+<!-- meta tracking: 56156 -->
+<!-- meta tracking: 84596 -->
+<!-- meta tracking: 39303 -->
+<!-- meta tracking: 19362 -->
+<!-- meta tracking: 23852 -->
+<!-- meta tracking: 87785 -->
+<!-- meta tracking: 28057 -->
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
@@ -118,7 +125,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
 // Request
-{
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
