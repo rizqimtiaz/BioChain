@@ -53,6 +53,15 @@ Optional — falls back to viem public RPC if not set.
 
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
+<!-- meta tracking: 83723 -->
+<!-- meta tracking: 97516 -->
+<!-- meta tracking: 79816 -->
+<!-- meta tracking: 25307 -->
+<!-- meta tracking: 55597 -->
+<!-- meta tracking: 47724 -->
+<!-- meta tracking: 79494 -->
+<!-- meta tracking: 21294 -->
+<!-- meta tracking: 52590 -->
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
@@ -61,8 +70,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ## Repository layout
 
 ```
-contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
-                              milestone escrow, data anchoring, peer review.
 
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
