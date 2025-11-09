@@ -105,9 +105,9 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
-<!-- meta tracking: 45373 -->
-<!-- meta tracking: 64512 -->
-<!-- meta tracking: 11140 -->
+Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
+mirrored in `lib/bio-utils.ts::computeTrustScore`.
+
 ---
 
 ## API: `POST /api/anchor-data`
