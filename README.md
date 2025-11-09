@@ -44,9 +44,6 @@ npm run dev
 
 # Production build
 npm run build
-npm run start
-```
-
 ### Environment variables
 
 Optional — falls back to viem public RPC if not set.
@@ -166,6 +163,9 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 no rainbow gradients — the only ornament is the data itself.
 
 ---
+<!-- meta tracking: 37100 -->
+<!-- meta tracking: 58054 -->
+<!-- meta tracking: 34778 -->
 
 ## License
 
