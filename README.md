@@ -31,6 +31,10 @@ clinical research as on-chain Intellectual Property NFTs.
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
 ---
+<!-- meta tracking: 91183 -->
+<!-- meta tracking: 30792 -->
+<!-- meta tracking: 46733 -->
+<!-- meta tracking: 36429 -->
 
 ## Getting started
 
@@ -82,10 +86,6 @@ store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
-
----
-
 ## Smart-contract surface
 
 `IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
