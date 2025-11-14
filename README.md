@@ -56,9 +56,6 @@ NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 
----
-
-## Repository layout
 
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
@@ -159,6 +156,12 @@ the request scope.
 ---
 
 ## Design philosophy
+<!-- meta tracking: 96958 -->
+<!-- meta tracking: 84664 -->
+<!-- meta tracking: 67038 -->
+<!-- meta tracking: 26802 -->
+<!-- meta tracking: 52058 -->
+<!-- meta tracking: 96852 -->
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
