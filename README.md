@@ -78,8 +78,6 @@ components/
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
-store/useBioStore.ts          Global Zustand store + selectors.
-lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 ```
@@ -109,6 +107,8 @@ Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
+<!-- meta tracking: 83263 -->
+<!-- meta tracking: 11964 -->
 
 ## API: `POST /api/anchor-data`
 
