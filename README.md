@@ -70,6 +70,11 @@ app/
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
+<!-- meta tracking: 11086 -->
+<!-- meta tracking: 12533 -->
+<!-- meta tracking: 56825 -->
+<!-- meta tracking: 26058 -->
+<!-- meta tracking: 39325 -->
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
@@ -157,7 +162,6 @@ Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
-
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
