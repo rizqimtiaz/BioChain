@@ -26,6 +26,16 @@ clinical research as on-chain Intellectual Property NFTs.
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
+<!-- meta tracking: 35514 -->
+<!-- meta tracking: 38702 -->
+<!-- meta tracking: 82579 -->
+<!-- meta tracking: 64689 -->
+<!-- meta tracking: 53450 -->
+<!-- meta tracking: 32990 -->
+<!-- meta tracking: 95904 -->
+<!-- meta tracking: 30024 -->
+<!-- meta tracking: 45693 -->
+<!-- meta tracking: 87208 -->
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
@@ -93,7 +103,6 @@ implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
-
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
