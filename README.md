@@ -16,6 +16,15 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+<!-- meta tracking: 84708 -->
+<!-- meta tracking: 17373 -->
+<!-- meta tracking: 48646 -->
+<!-- meta tracking: 78616 -->
+<!-- meta tracking: 26604 -->
+<!-- meta tracking: 18571 -->
+<!-- meta tracking: 28633 -->
+<!-- meta tracking: 27468 -->
+<!-- meta tracking: 21691 -->
 ## Tech stack
 
 | Layer | Technology |
@@ -79,10 +88,6 @@ components/
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
-lib/bio-utils.ts              Hashing, Zod schemas, formatters.
-
-tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
 
 ---
 
