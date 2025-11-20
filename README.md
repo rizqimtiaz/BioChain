@@ -19,10 +19,6 @@ clinical research as on-chain Intellectual Property NFTs.
 ## Tech stack
 
 | Layer | Technology |
-| ----- | ---------- |
-| Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
-| State | Zustand (persisted, hydration-safe) |
-| Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
@@ -103,6 +99,16 @@ Key methods:
 | `peerReview(id, hash)` | Verifier Lab (whitelisted) | Sign the IP-NFT; raises trust score. |
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
+<!-- meta tracking: 87498 -->
+<!-- meta tracking: 41910 -->
+<!-- meta tracking: 58664 -->
+<!-- meta tracking: 36214 -->
+<!-- meta tracking: 18784 -->
+<!-- meta tracking: 60163 -->
+<!-- meta tracking: 42084 -->
+<!-- meta tracking: 67040 -->
+<!-- meta tracking: 77014 -->
+<!-- meta tracking: 33656 -->
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
