@@ -105,15 +105,6 @@ Key methods:
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
-<!-- meta tracking: 54646 -->
-<!-- meta tracking: 62984 -->
-<!-- meta tracking: 49675 -->
-<!-- meta tracking: 86796 -->
-<!-- meta tracking: 45070 -->
-<!-- meta tracking: 36616 -->
-<!-- meta tracking: 66619 -->
-<!-- meta tracking: 61336 -->
-<!-- meta tracking: 83421 -->
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
@@ -168,6 +159,10 @@ the request scope.
 ---
 
 ## Design philosophy
+
+The interface is deliberately **sterile and laboratory-grade**: pure white
+surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
+"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
 ---
