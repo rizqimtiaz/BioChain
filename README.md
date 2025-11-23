@@ -63,6 +63,7 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
+
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
@@ -158,16 +159,6 @@ the request scope.
 ---
 
 ## Design philosophy
-<!-- meta tracking: 12143 -->
-<!-- meta tracking: 68200 -->
-<!-- meta tracking: 80540 -->
-<!-- meta tracking: 52187 -->
-<!-- meta tracking: 18406 -->
-<!-- meta tracking: 20125 -->
-<!-- meta tracking: 23361 -->
-<!-- meta tracking: 68945 -->
-<!-- meta tracking: 35054 -->
-<!-- meta tracking: 68593 -->
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
