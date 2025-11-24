@@ -46,15 +46,6 @@ npm run dev
 npm run build
 npm run start
 ```
-<!-- meta tracking: 39716 -->
-<!-- meta tracking: 44051 -->
-<!-- meta tracking: 61814 -->
-<!-- meta tracking: 57433 -->
-<!-- meta tracking: 81996 -->
-<!-- meta tracking: 38101 -->
-<!-- meta tracking: 97635 -->
-<!-- meta tracking: 58507 -->
-<!-- meta tracking: 24415 -->
 
 ### Environment variables
 
@@ -87,6 +78,7 @@ components/
   SideRail.tsx                Persistent sidebar navigation.
   StatusFooter.tsx            Live block / gas / RPC status.
 
+store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
