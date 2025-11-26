@@ -52,6 +52,10 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
+NEXT_PUBLIC_MAINNET_RPC=https://...
+NEXT_PUBLIC_SEPOLIA_RPC=https://...
+```
+
 ---
 
 ## Repository layout
@@ -102,9 +106,6 @@ Key methods:
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
-<!-- meta tracking: 20955 -->
-<!-- meta tracking: 82017 -->
-<!-- meta tracking: 74611 -->
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
