@@ -35,6 +35,13 @@ clinical research as on-chain Intellectual Property NFTs.
 ## Getting started
 
 ```bash
+<!-- meta tracking: 45877 -->
+<!-- meta tracking: 56609 -->
+<!-- meta tracking: 10472 -->
+<!-- meta tracking: 76003 -->
+<!-- meta tracking: 61683 -->
+<!-- meta tracking: 49699 -->
+<!-- meta tracking: 92117 -->
 # Install
 npm install
 
@@ -54,7 +61,6 @@ Optional — falls back to viem public RPC if not set.
 ```bash
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
-```
 
 ---
 
