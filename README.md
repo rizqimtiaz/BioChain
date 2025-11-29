@@ -149,12 +149,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "byteLength": 32,
     "measurements": 2,
     "source": "wearable"
-<!-- meta tracking: 61076 -->
-<!-- meta tracking: 13760 -->
-<!-- meta tracking: 40873 -->
-<!-- meta tracking: 22746 -->
-<!-- meta tracking: 52859 -->
-<!-- meta tracking: 94757 -->
   }
 }
 ```
@@ -162,6 +156,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
+---
 
 ## Design philosophy
 
