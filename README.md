@@ -81,9 +81,6 @@ components/
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
-tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
-```
-
 ---
 
 ## Smart-contract surface
@@ -113,6 +110,7 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
+<!-- meta tracking: 93463 -->
 SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
