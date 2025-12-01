@@ -30,7 +30,6 @@ clinical research as on-chain Intellectual Property NFTs.
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
 
-<!-- meta tracking: 13601 -->
 ---
 
 ## Getting started
@@ -59,6 +58,9 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 
 ---
 
+## Repository layout
+
+```
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
