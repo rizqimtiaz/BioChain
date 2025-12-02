@@ -8,6 +8,7 @@ clinical research as on-chain Intellectual Property NFTs.
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
+  to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
   building a decentralized peer-review trust score.
 - **Wearable + lab data** is hashed (SHA-256) and anchored to the trial,
@@ -91,9 +92,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
-<!-- meta tracking: 75999 -->
-<!-- meta tracking: 33956 -->
-<!-- meta tracking: 99706 -->
 Key methods:
 
 | Method | Caller | Purpose |
