@@ -76,16 +76,6 @@ components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
   SideRail.tsx                Persistent sidebar navigation.
-<!-- meta tracking: 22422 -->
-<!-- meta tracking: 68594 -->
-<!-- meta tracking: 22342 -->
-<!-- meta tracking: 19467 -->
-<!-- meta tracking: 20975 -->
-<!-- meta tracking: 65253 -->
-<!-- meta tracking: 10429 -->
-<!-- meta tracking: 24370 -->
-<!-- meta tracking: 75601 -->
-<!-- meta tracking: 57441 -->
   StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
@@ -123,6 +113,7 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 ## API: `POST /api/anchor-data`
 
 Takes a clinical-data payload, validates it with Zod, computes a deterministic
+SHA-256 over the canonicalized form, and returns an anchor receipt suitable
 for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
