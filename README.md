@@ -104,6 +104,16 @@ Key methods:
 | `cancelTrial(id)` | Researcher / Owner | Open the trial for pro-rata refunds. |
 | `claimRefund(id)` | Investor | Withdraw remaining escrow share after cancellation. |
 | `setVerifierLab(addr, ok)` | Owner | Curate the peer-review whitelist. |
+<!-- meta tracking: 35370 -->
+<!-- meta tracking: 34097 -->
+<!-- meta tracking: 95873 -->
+<!-- meta tracking: 13683 -->
+<!-- meta tracking: 18650 -->
+<!-- meta tracking: 96376 -->
+<!-- meta tracking: 11996 -->
+<!-- meta tracking: 18516 -->
+<!-- meta tracking: 22657 -->
+<!-- meta tracking: 78864 -->
 
 Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]`,
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
@@ -126,10 +136,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
     "measurements": [
-      { "code": "8867-4", "value": 72,   "unit": "bpm"    },
-      { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
-    ],
-    "deviceId": "biostrap-7"
   }
 }
 ```
