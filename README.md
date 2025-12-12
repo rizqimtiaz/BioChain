@@ -32,6 +32,16 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ---
 
+<!-- meta tracking: 37610 -->
+<!-- meta tracking: 28186 -->
+<!-- meta tracking: 16065 -->
+<!-- meta tracking: 73048 -->
+<!-- meta tracking: 59867 -->
+<!-- meta tracking: 55410 -->
+<!-- meta tracking: 75881 -->
+<!-- meta tracking: 87265 -->
+<!-- meta tracking: 54309 -->
+<!-- meta tracking: 55930 -->
 ## Getting started
 
 ```bash
@@ -159,9 +169,6 @@ the request scope.
 ---
 
 ## Design philosophy
-
-The interface is deliberately **sterile and laboratory-grade**: pure white
-surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
