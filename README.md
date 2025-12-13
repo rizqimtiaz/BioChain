@@ -141,6 +141,14 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "receipt": {
     "tokenId": "1",
     "submittedBy": "0xa11c...cdef",
+<!-- meta tracking: 31063 -->
+<!-- meta tracking: 73740 -->
+<!-- meta tracking: 50027 -->
+<!-- meta tracking: 70423 -->
+<!-- meta tracking: 15644 -->
+<!-- meta tracking: 65020 -->
+<!-- meta tracking: 16457 -->
+<!-- meta tracking: 39897 -->
     "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
@@ -157,8 +165,6 @@ Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
 ---
-
-## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
