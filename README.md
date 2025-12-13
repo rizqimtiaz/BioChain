@@ -48,8 +48,6 @@ npm run start
 ```
 
 ### Environment variables
-<!-- meta tracking: 90501 -->
-<!-- meta tracking: 10291 -->
 
 Optional — falls back to viem public RPC if not set.
 
@@ -131,6 +129,7 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
       { "code": "8867-4", "value": 72,   "unit": "bpm"    },
       { "code": "8480-6", "value": 119,  "unit": "mmHg"   }
     ],
+    "deviceId": "biostrap-7"
   }
 }
 ```
