@@ -36,6 +36,12 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ```bash
 # Install
+<!-- meta tracking: 35192 -->
+<!-- meta tracking: 94215 -->
+<!-- meta tracking: 32258 -->
+<!-- meta tracking: 39589 -->
+<!-- meta tracking: 52692 -->
+<!-- meta tracking: 57849 -->
 npm install
 
 # Dev server
@@ -73,10 +79,6 @@ app/
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
 components/
-  TrialCard.tsx               Trial summary card with invest / sign actions.
-  TopBar.tsx                  Header (brand, role switcher, wallet).
-  SideRail.tsx                Persistent sidebar navigation.
-  StatusFooter.tsx            Live block / gas / RPC status.
 
 store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
