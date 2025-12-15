@@ -110,8 +110,11 @@ mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
 
-<!-- meta tracking: 50208 -->
 ## API: `POST /api/anchor-data`
+
+Takes a clinical-data payload, validates it with Zod, computes a deterministic
+SHA-256 over the canonicalized form, and returns an anchor receipt suitable
+for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
 
 ```jsonc
 // Request
