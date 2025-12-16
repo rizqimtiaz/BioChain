@@ -15,6 +15,10 @@ clinical research as on-chain Intellectual Property NFTs.
   producing an immutable audit trail for regulators.
 
 ---
+<!-- meta tracking: 57567 -->
+<!-- meta tracking: 10565 -->
+<!-- meta tracking: 33557 -->
+<!-- meta tracking: 93049 -->
 
 ## Tech stack
 
@@ -64,8 +68,6 @@ NEXT_PUBLIC_SEPOLIA_RPC=https://...
 contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
                               milestone escrow, data anchoring, peer review.
 
-app/
-  layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
