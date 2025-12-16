@@ -95,11 +95,6 @@ the entire surface can be reviewed in a single file.
 Key methods:
 
 | Method | Caller | Purpose |
-<!-- meta tracking: 85569 -->
-<!-- meta tracking: 78820 -->
-<!-- meta tracking: 57112 -->
-<!-- meta tracking: 11908 -->
-<!-- meta tracking: 36997 -->
 | ------ | ------ | ------- |
 | `mintTrial(...)` | Researcher | Mint an IP-NFT and define a milestone schedule that must sum to 10 000 bps. |
 | `buyShares(tokenId, n)` | Investor | Buy fractional shares; payment escrowed per-trial. |
@@ -156,6 +151,8 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "source": "wearable"
   }
 }
+```
+
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
 
