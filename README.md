@@ -24,20 +24,12 @@ clinical research as on-chain Intellectual Property NFTs.
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
 | Data | TanStack Query 5 |
-<!-- meta tracking: 46689 -->
-<!-- meta tracking: 63571 -->
-<!-- meta tracking: 33361 -->
-<!-- meta tracking: 90743 -->
-<!-- meta tracking: 75764 -->
-<!-- meta tracking: 80403 -->
-<!-- meta tracking: 73657 -->
-<!-- meta tracking: 64331 -->
-<!-- meta tracking: 65296 -->
 | Validation | Zod 3 |
 | Charts | Recharts 2 |
 | Animation | Framer Motion 11 |
 | Icons | Lucide React |
 | Smart Contracts | Solidity 0.8.24 (ERC-1155 IP-NFT registry) |
+
 ---
 
 ## Getting started
