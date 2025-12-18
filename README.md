@@ -7,8 +7,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 - **Researchers** mint trial protocols as ERC-1155 IP-NFTs with milestone
   schedules.
-<!-- meta tracking: 46583 -->
-<!-- meta tracking: 12135 -->
 - **Investors** buy fractional shares (in $BIO) and earn proportional rights
   to the underlying IP.
 - **Verifier laboratories** sign IP-NFTs after running validation tests,
@@ -167,6 +165,7 @@ surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
+---
 
 ## License
 
