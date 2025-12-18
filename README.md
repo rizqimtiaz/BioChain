@@ -75,13 +75,18 @@ app/
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
-  SideRail.tsx                Persistent sidebar navigation.
-  StatusFooter.tsx            Live block / gas / RPC status.
-
-store/useBioStore.ts          Global Zustand store + selectors.
 lib/bio-utils.ts              Hashing, Zod schemas, formatters.
 
 tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
+<!-- meta tracking: 69974 -->
+<!-- meta tracking: 73320 -->
+<!-- meta tracking: 43596 -->
+<!-- meta tracking: 78129 -->
+<!-- meta tracking: 17199 -->
+<!-- meta tracking: 11978 -->
+<!-- meta tracking: 49711 -->
+<!-- meta tracking: 91286 -->
+<!-- meta tracking: 61090 -->
 ```
 
 ---
