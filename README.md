@@ -52,10 +52,6 @@ npm run start
 Optional — falls back to viem public RPC if not set.
 
 ```bash
-NEXT_PUBLIC_MAINNET_RPC=https://...
-NEXT_PUBLIC_SEPOLIA_RPC=https://...
-```
-
 ---
 
 ## Repository layout
@@ -159,6 +155,11 @@ the request scope.
 ---
 
 ## Design philosophy
+<!-- meta tracking: 14455 -->
+<!-- meta tracking: 67079 -->
+<!-- meta tracking: 76508 -->
+<!-- meta tracking: 20320 -->
+<!-- meta tracking: 69857 -->
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
