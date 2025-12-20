@@ -20,6 +20,12 @@ clinical research as on-chain Intellectual Property NFTs.
 
 | Layer | Technology |
 | ----- | ---------- |
+<!-- meta tracking: 32882 -->
+<!-- meta tracking: 30642 -->
+<!-- meta tracking: 13491 -->
+<!-- meta tracking: 48845 -->
+<!-- meta tracking: 44062 -->
+<!-- meta tracking: 54507 -->
 | Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | State | Zustand (persisted, hydration-safe) |
 | Wallet | wagmi 2 + viem 2 |
@@ -160,9 +166,6 @@ the request scope.
 
 ## Design philosophy
 
-The interface is deliberately **sterile and laboratory-grade**: pure white
-surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
-"Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
 
 ---
