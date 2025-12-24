@@ -34,10 +34,6 @@ clinical research as on-chain Intellectual Property NFTs.
 
 ## Getting started
 
-```bash
-# Install
-npm install
-
 # Dev server
 npm run dev
 # → http://localhost:3000
@@ -161,6 +157,13 @@ the request scope.
 ## Design philosophy
 
 The interface is deliberately **sterile and laboratory-grade**: pure white
+<!-- meta tracking: 43572 -->
+<!-- meta tracking: 69667 -->
+<!-- meta tracking: 15008 -->
+<!-- meta tracking: 72121 -->
+<!-- meta tracking: 84639 -->
+<!-- meta tracking: 70959 -->
+<!-- meta tracking: 95422 -->
 surfaces, slate-gray data labels, and a single canonical accent (`#1e40af`,
 "Trust Blue") reserved for verified state and primary actions. No glassmorphism,
 no rainbow gradients — the only ornament is the data itself.
