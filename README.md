@@ -41,6 +41,16 @@ npm install
 # Dev server
 npm run dev
 # → http://localhost:3000
+<!-- meta tracking: 43694 -->
+<!-- meta tracking: 87331 -->
+<!-- meta tracking: 90862 -->
+<!-- meta tracking: 62908 -->
+<!-- meta tracking: 87744 -->
+<!-- meta tracking: 44645 -->
+<!-- meta tracking: 25288 -->
+<!-- meta tracking: 66670 -->
+<!-- meta tracking: 42432 -->
+<!-- meta tracking: 15296 -->
 
 # Production build
 npm run build
@@ -55,8 +65,6 @@ Optional — falls back to viem public RPC if not set.
 NEXT_PUBLIC_MAINNET_RPC=https://...
 NEXT_PUBLIC_SEPOLIA_RPC=https://...
 ```
-
----
 
 ## Repository layout
 
