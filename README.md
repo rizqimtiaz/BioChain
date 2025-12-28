@@ -69,6 +69,9 @@ app/
   page.tsx                    Overview KPIs, featured trials, activity rail.
   providers.tsx               Wagmi + TanStack Query providers.
   globals.css                 Sterile design tokens + base styles.
+  explore/page.tsx            Marketplace (filters + Recharts dashboards).
+  api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
+
 components/
   TrialCard.tsx               Trial summary card with invest / sign actions.
   TopBar.tsx                  Header (brand, role switcher, wallet).
@@ -119,15 +122,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "tokenId": "1",
   "submittedBy": "0xA11CE0DE1234567890abcDEF0123456789AbCdEf",
   "payload": {
-<!-- meta tracking: 94475 -->
-<!-- meta tracking: 79608 -->
-<!-- meta tracking: 97708 -->
-<!-- meta tracking: 33428 -->
-<!-- meta tracking: 27249 -->
-<!-- meta tracking: 90270 -->
-<!-- meta tracking: 83716 -->
-<!-- meta tracking: 98442 -->
-<!-- meta tracking: 19708 -->
     "participantPseudoId": "p-9b4c2e3a1d",
     "recordedAt": "2026-05-03T15:00:00.000Z",
     "source": "wearable",
