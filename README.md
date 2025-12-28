@@ -67,6 +67,8 @@ contracts/IPNFTRegistry.sol   ERC-1155 registry: mint, fractionalize,
 app/
   layout.tsx                  Root dashboard chrome (TopBar, SideRail, Footer).
   page.tsx                    Overview KPIs, featured trials, activity rail.
+  providers.tsx               Wagmi + TanStack Query providers.
+  globals.css                 Sterile design tokens + base styles.
   explore/page.tsx            Marketplace (filters + Recharts dashboards).
   api/anchor-data/route.ts    POST: validate + SHA-256 hash clinical data.
 
@@ -107,10 +109,6 @@ Trust score is the saturating function `min(signatures, 10) × 10` ∈ `[0, 100]
 mirrored in `lib/bio-utils.ts::computeTrustScore`.
 
 ---
-<!-- meta tracking: 52832 -->
-<!-- meta tracking: 20944 -->
-<!-- meta tracking: 16160 -->
-<!-- meta tracking: 49126 -->
 
 ## API: `POST /api/anchor-data`
 
