@@ -1,3 +1,10 @@
+<!-- meta tracking: 56059 -->
+<!-- meta tracking: 40798 -->
+<!-- meta tracking: 27474 -->
+<!-- meta tracking: 42391 -->
+<!-- meta tracking: 60028 -->
+<!-- meta tracking: 75219 -->
+<!-- meta tracking: 72945 -->
 # BioChain — Decentralized Clinical Trial Network
 
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
@@ -140,8 +147,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
   "ok": true,
   "receipt": {
     "tokenId": "1",
-    "submittedBy": "0xa11c...cdef",
-    "dataHash":   "0x9c1d3a5e...",
     "receiptHash":"0x...",
     "recordedAt": "2026-05-03T...Z",
     "algorithm":  "SHA-256",
