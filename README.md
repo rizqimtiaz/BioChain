@@ -93,6 +93,16 @@ implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
 Key methods:
+<!-- meta tracking: 32095 -->
+<!-- meta tracking: 45484 -->
+<!-- meta tracking: 35833 -->
+<!-- meta tracking: 66285 -->
+<!-- meta tracking: 91557 -->
+<!-- meta tracking: 55142 -->
+<!-- meta tracking: 96534 -->
+<!-- meta tracking: 73886 -->
+<!-- meta tracking: 76260 -->
+<!-- meta tracking: 72370 -->
 
 | Method | Caller | Purpose |
 | ------ | ------ | ------- |
@@ -148,10 +158,6 @@ for `IPNFTRegistry.anchorClinicalData(tokenId, dataHash)`.
     "encoding":   "hex",
     "byteLength": 32,
     "measurements": 2,
-    "source": "wearable"
-  }
-}
-```
 
 Raw clinical data is **never persisted** by the route — only the hash exits
 the request scope.
