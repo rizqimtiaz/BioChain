@@ -1,5 +1,13 @@
 # BioChain — Decentralized Clinical Trial Network
 
+<!-- meta tracking: 46977 -->
+<!-- meta tracking: 82704 -->
+<!-- meta tracking: 29023 -->
+<!-- meta tracking: 42347 -->
+<!-- meta tracking: 74584 -->
+<!-- meta tracking: 29181 -->
+<!-- meta tracking: 97075 -->
+<!-- meta tracking: 92299 -->
 > **DeSci · IP-NFTs · Verifiable Trial Data · Trustless Peer Review**
 
 BioChain is a production-ready Next.js 14 dApp for funding and managing
@@ -86,9 +94,6 @@ tailwind.config.ts            Sterile palette (white, slate, Trust Blue).
 
 ---
 
-## Smart-contract surface
-
-`IPNFTRegistry` (Solidity ^0.8.24) is intentionally self-contained — it
 implements minimal ERC-1155, Ownable, and ReentrancyGuard primitives inline so
 the entire surface can be reviewed in a single file.
 
